@@ -9,10 +9,10 @@ const [menuOpen, setMenuOpen] = useState(false);
 
 // Replace these later
 const logo =
-"https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?w=300";
+"https://lookuptrendz.com/wp-content/uploads/2026/07/IMG-20260610-WA01197.jpg";
 
 const heroImage =
-"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1920&q=80";
+"https://lookuptrendz.com/wp-content/uploads/2026/07/file_000000001804723085d86eb19bcdca03.png";
 
 return (
 <main className="w-full">
