@@ -200,102 +200,136 @@ return (
     </div>  
 
   </section>  
-{/* ================= ABOUT ================= */}
+  {/* ================= ABOUT ================= */}
 
-<section
-  id="about"
-    className="bg-white py-20 px-6"
-    >
-      <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-14 items-center">
+<section id="about" className="bg-white py-20 px-6">
 
-          {/* Left Content */}
+  <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
 
-              <div>
+    {/* Left Content */}
 
-                    <span className="text-red-600 font-semibold uppercase tracking-wider">
-                            — About Company
-                                  </span>
+    <div>
 
-                                        <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mt-4 leading-tight">
-                                                Building Digital Brands
-                                                        <br />
-                                                                Since <span className="text-red-600">2019</span>
-                                                                      </h2>
+      <p className="text-red-600 font-semibold uppercase tracking-widest">
+        — About Company
+      </p>
 
-                                                                            <p className="text-gray-600 text-lg leading-8 mt-6">
-                                                                                    Lookuptrendz Advertising & Marketing Agency has been
-                                                                                            delivering innovative branding, website development,
-                                                                                                    digital marketing, social media management and creative
-                                                                                                            design solutions since 2019.
+      <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mt-4 leading-tight">
+        Building Beautiful
+        <br />
+        Spaces Since <span className="text-red-600">2019</span>
+      </h2>
 
-                                                                                                                    <br />
-                                                                                                                            <br />
+      <p className="mt-6 text-lg text-gray-600 leading-8">
+        Sai Lalit Interior & Exterior has been delivering premium
+        interior and exterior solutions since 2019. We specialize in
+        creating elegant residential and commercial spaces through
+        innovative designs, quality materials, and expert craftsmanship.
 
-                                                                                                                                    We help businesses build a strong online presence through
-                                                                                                                                            strategic marketing, creative branding and result-driven
-                                                                                                                                                    digital solutions that generate long-term business growth.
-                                                                                                                                                          </p>
+        <br /><br />
 
-                                                                                                                                                                {/* Points */}
+        From modular interiors and false ceilings to aluminium systems,
+        ACP cladding, railings, glass works, and exterior elevations,
+        we transform every space into a perfect blend of beauty,
+        comfort, and functionality.
+      </p>
 
-                                                                                                                                                                      <div className="grid sm:grid-cols-2 gap-4 mt-8">
+      {/* Features */}
 
-                                                                                                                                                                              <div className="flex items-center gap-3">
-                                                                                                                                                                                        <span className="text-red-600 text-xl">✔</span>
-                                                                                                                                                                                                  <span className="font-medium">
-                                                                                                                                                                                                              Since 2019 Industry Experience
-                                                                                                                                                                                                                        </span>
-                                                                                                                                                                                                                                </div>
+      <div className="grid grid-cols-2 gap-5 mt-8">
 
-                                                                                                                                                                                                                                        <div className="flex items-center gap-3">
-                                                                                                                                                                                                                                                  <span className="text-red-600 text-xl">✔</span>
-                                                                                                                                                                                                                                                            <span className="font-medium">
-                                                                                                                                                                                                                                                                        300+ Successful Projects
-                                                                                                                                                                                                                                                                                  </span>
-                                                                                                                                                                                                                                                                                          </div>
+        <div className="flex items-center gap-3">
+          <span className="text-red-600 text-xl">✔</span>
+          <span className="font-medium">
+            Since 2019 Experience
+          </span>
+        </div>
 
-                                                                                                                                                                                                                                                                                                  <div className="flex items-center gap-3">
-                                                                                                                                                                                                                                                                                                            <span className="text-red-600 text-xl">✔</span>
-                                                                                                                                                                                                                                                                                                                      <span className="font-medium">
-                                                                                                                                                                                                                                                                                                                                  Complete Marketing Solutions
-                                                                                                                                                                                                                                                                                                                                            </span>
-                                                                                                                                                                                                                                                                                                                                                    </div>
+        <div className="flex items-center gap-3">
+          <span className="text-red-600 text-xl">✔</span>
+          <span className="font-medium">
+            Premium Interior Solutions
+          </span>
+        </div>
 
-                                                                                                                                                                                                                                                                                                                                                            <div className="flex items-center gap-3">
-                                                                                                                                                                                                                                                                                                                                                                      <span className="text-red-600 text-xl">✔</span>
-                                                                                                                                                                                                                                                                                                                                                                                <span className="font-medium">
-                                                                                                                                                                                                                                                                                                                                                                                            Creative & Professional Team
-                                                                                                                                                                                                                                                                                                                                                                                                      </span>
-                                                                                                                                                                                                                                                                                                                                                                                                              </div>
+        <div className="flex items-center gap-3">
+          <span className="text-red-600 text-xl">✔</span>
+          <span className="font-medium">
+            100+ Projects Completed
+          </span>
+        </div>
 
-                                                                                                                                                                                                                                                                                                                                                                                                                    </div>
+        <div className="flex items-center gap-3">
+          <span className="text-red-600 text-xl">✔</span>
+          <span className="font-medium">
+            Quality Materials & Finishing
+          </span>
+        </div>
 
-                                                                                                                                                                                                                                                                                                                                                                                                                          {/* Button */}
+      </div>
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                <button className="mt-10 bg-red-600 hover:bg-red-700 transition text-white px-8 py-4 rounded-md font-semibold flex items-center gap-2">
+      {/* Button */}
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                        Explore More About Us
+      <button className="mt-10 bg-red-600 hover:bg-red-700 transition duration-300 text-white px-8 py-4 rounded-xl font-semibold shadow-lg">
+        Explore More About Us →
+      </button>
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                <ArrowRight size={20} />
+    </div>
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                      </button>
+    {/* Right Image */}
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                          </div>
+    <div>
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                              {/* Right Image */}
+      <img
+        src="https://your-about-image-link.jpg"
+        alt="Sai Lalit Interior"
+        className="w-full h-[520px] object-cover rounded-3xl shadow-2xl"
+      />
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                  <div>
+    </div>
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <img
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                src="https://images.unsplash.com/photo-1484154218962-a197022b5858?w=1200&q=80"
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        alt="About Lookuptrendz"
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                className="w-full h-[500px] object-cover rounded-3xl shadow-2xl"
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      />
+  </div>
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          </div>
+</section>                                                                                                                                                                                                                      
+                                                                                                                                    
+                                                                                                                                            
+                                                                                                                                                      
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            </div>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            </section>
+                                                                                                                                                          
+
+                                                                                                                                                            
+
+                                                                                                                                                                      
+                                                                                                                                                                                
+                                                                                                                                                                                            
+                                                                                                                                                                                                    
+                                                                                                                                                                                                  
+                                                                                                                                                                                                  
+
+                                                                                                                                                                                                                                
+                                                                                                                                                                                                                                          
+                                                                                                                                                                                                                                                      
+                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                          
+                                                                                                                                                                                                                                                                                     
+
+                                                                                                                                                                                                                                                                                           
+                                                                                                                                                                                                                                                                                                     
+                                                                                                                                                                                                                                                                                                                
+                                                                                                                                                                                                                                                                                                                 
+                                                                                                                                                                                                                                                                                                                           
+                                                                                                                                                                                                                                                                                                                                          
+
+                                                                                                                                                                                                                                                                                                                                                  
+                                                                                                                                                                                                                                                                                                                                                            
+                                                                                                                                                                                                                                                                                                                                                                               
+                                                                                                                                                                                                                                                                                                                                                                                            
+                                                                                                                                                                                                                                                                                                                                                                                                   
+                                                                                                                                                                                                                                                                                                                                                                                                            
+
+                                                                                                                                                                                                                                                                                                                                                                                                                   
+
+                                                                                                                                                                                                                                                                                                             
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  {/* ================= WHAT WE DO ================= */}
 
 <section id="services" className="bg-[#faf8f5] py-20 px-6">
