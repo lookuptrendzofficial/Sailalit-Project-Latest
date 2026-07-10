@@ -161,7 +161,7 @@ return (
           Building Dream Homes & Commercial Spaces  
 
           <span className="text-red-500">  
-            {" "}Since 2006  
+            {" "}Since 2019  
           </span>  
 
         </h2>  
@@ -200,49 +200,98 @@ return (
     </div>  
 
   </section>  
-{/* ================= ABOUT ================= */}
-
-<section
-  id="about"
-    className="bg-white py-20 px-6"
-    >
-      <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-14 items-center">
-
-          {/* Left Content */}
-
-              <div>
-
-                    <span className="text-red-600 font-semibold uppercase tracking-wider">
-                            — About Company
-                                  </span>
-
-                                        <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mt-4 leading-tight">
-                                                Building Digital Brands
-                                                        <br />
-                                                                Since <span className="text-red-600">2019</span>
-                                                                      </h2>
-
-                                                                            <p className="text-gray-600 text-lg leading-8 mt-6">
-                                                                                    Lookuptrendz Advertising & Marketing Agency has been
-                                                                                            delivering innovative branding, website development,
-                                                                                                    digital marketing, social media management and creative
-                                                                                                            design solutions since 2019.
-
-                                                                                                                    <br />
-                                                                                                                            <br />
-
-                                                                                                                                    We help businesses build a strong online presence through
-                                                                                                                                            strategic marketing, creative branding and result-driven
-                                                                                                                                                    digital solutions that generate long-term business growth.
-                                                                                                                                                          </p>
-
-                                                                                                                                                                {/* Points */}
-
-                                                                                                                                                                      <div className="grid sm:grid-cols-2 gap-4 mt-8">
-
-                                                                                                                                                                              <div className="flex items-center gap-3">
                                                                                                                                                                                         <span className="text-red-600 text-xl">✔</span>
-                                                                                                                                                                                                  <span className="font-medium">
+   {/* ================= ABOUT ================= */}
+
+<section id="about" className="bg-white py-20 px-6">
+
+  <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
+
+    {/* Left Content */}
+
+    <div>
+
+      <p className="text-red-600 font-semibold uppercase tracking-widest">
+        — About Company
+      </p>
+
+      <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mt-4 leading-tight">
+        Building Beautiful
+        <br />
+        Spaces Since <span className="text-red-600">2019</span>
+      </h2>
+
+      <p className="mt-6 text-lg text-gray-600 leading-8">
+        Sai Lalit Interior & Exterior has been delivering premium
+        interior and exterior solutions since 2019. We specialize in
+        creating elegant residential and commercial spaces through
+        innovative designs, quality materials, and expert craftsmanship.
+
+        <br /><br />
+
+        From modular interiors and false ceilings to aluminium systems,
+        ACP cladding, railings, glass works, and exterior elevations,
+        we transform every space into a perfect blend of beauty,
+        comfort, and functionality.
+      </p>
+
+      {/* Features */}
+
+      <div className="grid grid-cols-2 gap-5 mt-8">
+
+        <div className="flex items-center gap-3">
+          <span className="text-red-600 text-xl">✔</span>
+          <span className="font-medium">
+            Since 2019 Experience
+          </span>
+        </div>
+
+        <div className="flex items-center gap-3">
+          <span className="text-red-600 text-xl">✔</span>
+          <span className="font-medium">
+            Premium Interior Solutions
+          </span>
+        </div>
+
+        <div className="flex items-center gap-3">
+          <span className="text-red-600 text-xl">✔</span>
+          <span className="font-medium">
+            100+ Projects Completed
+          </span>
+        </div>
+
+        <div className="flex items-center gap-3">
+          <span className="text-red-600 text-xl">✔</span>
+          <span className="font-medium">
+            Quality Materials & Finishing
+          </span>
+        </div>
+
+      </div>
+
+      {/* Button */}
+
+      <button className="mt-10 bg-red-600 hover:bg-red-700 transition duration-300 text-white px-8 py-4 rounded-xl font-semibold shadow-lg">
+        Explore More About Us →
+      </button>
+
+    </div>
+
+    {/* Right Image */}
+
+    <div>
+
+      <img
+        src="https://your-about-image-link.jpg"
+        alt="Sai Lalit Interior"
+        className="w-full h-[520px] object-cover rounded-3xl shadow-2xl"
+      />
+
+    </div>
+
+  </div>
+
+</section>                                                                                                                                                                                               <span className="font-medium">
                                                                                                                                                                                                               Since 2019 Industry Experience
                                                                                                                                                                                                                         </span>
                                                                                                                                                                                                                                 </div>
