@@ -291,7 +291,9 @@ return (
 
   </div>
 
-</section>                                                                                                                                                                                               <span className="font-medium">
+</section>                                                                                                                                                                                               
+
+<section id="services" className="bg-[#faf8f5] py-20 px-6">
                                                                                                                                                                                                               Since 2019 Industry Experience
                                                                                                                                                                                                                         </span>
                                                                                                                                                                                                                                 </div>
