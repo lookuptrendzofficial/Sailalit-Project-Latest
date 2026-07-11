@@ -200,7 +200,7 @@ return (
     </div>  
 
   </section>  
-                                                                                                                                                                                      span>
+                                                                                                                                                                                      
    {/* ================= ABOUT ================= */}
 
 <section id="about" className="bg-white py-20 px-6">
