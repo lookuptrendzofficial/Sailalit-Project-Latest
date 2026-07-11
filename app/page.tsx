@@ -605,6 +605,74 @@ return (
   </div>
 
 </section>
+  {/* ================= WHY CHOOSE US ================= */}
+
+<section className="py-20 bg-white">
+
+  <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
+
+    {/* Left Image */}
+
+    <div>
+      <img
+        src="/images/why-choose-us.png"
+        alt="Why Choose Us"
+        className="w-full"
+      />
+    </div>
+
+    {/* Right Content */}
+
+    <div>
+
+      <p className="uppercase tracking-[4px] text-blue-600 font-semibold">
+        WHY CHOOSE US
+      </p>
+
+      <h2 className="text-4xl lg:text-5xl font-bold mt-3 text-gray-900">
+        Trusted Interior &
+        <span className="text-blue-600"> Exterior Experts</span>
+      </h2>
+
+      <p className="mt-6 text-gray-600 leading-8">
+        We combine innovative design, premium materials, and skilled
+        craftsmanship to create elegant living and commercial spaces.
+      </p>
+
+      <div className="mt-10 space-y-6">
+
+        <div className="flex items-center gap-5 group">
+          <img src="/icons/experience.png" className="w-14 h-14 group-hover:scale-110 transition duration-300" />
+          <span className="text-lg font-semibold">20+ Years of Industry Experience</span>
+        </div>
+
+        <div className="flex items-center gap-5 group">
+          <img src="/icons/quality.png" className="w-14 h-14 group-hover:scale-110 transition duration-300" />
+          <span className="text-lg font-semibold">Premium Quality Materials</span>
+        </div>
+
+        <div className="flex items-center gap-5 group">
+          <img src="/icons/delivery.png" className="w-14 h-14 group-hover:scale-110 transition duration-300" />
+          <span className="text-lg font-semibold">On-Time Project Delivery</span>
+        </div>
+
+        <div className="flex items-center gap-5 group">
+          <img src="/icons/support.png" className="w-14 h-14 group-hover:scale-110 transition duration-300" />
+          <span className="text-lg font-semibold">Dedicated Customer Support</span>
+        </div>
+
+        <div className="flex items-center gap-5 group">
+          <img src="/icons/design.png" className="w-14 h-14 group-hover:scale-110 transition duration-300" />
+          <span className="text-lg font-semibold">Customized Design Solutions</span>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
 {/* ================= TESTIMONIALS ================= */}
 
 <section id="testimonials" className="py-20 bg-[#faf8f5] overflow-hidden">
@@ -748,6 +816,109 @@ return (
       >
         View Google Reviews →
       </a>
+
+    </div>
+
+  </div>
+
+</section>
+  {/* ================= FAQ ================= */}
+
+<section id="faq" className="bg-[#faf8f5] py-20 px-6">
+
+  <div className="max-w-5xl mx-auto">
+
+    <div className="text-center mb-14">
+
+      <p className="text-red-600 font-semibold uppercase tracking-widest">
+        — Frequently Asked Questions —
+      </p>
+
+      <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mt-3">
+        Got Questions?
+        <span className="text-red-600"> We've Got Answers.</span>
+      </h2>
+
+      <p className="mt-5 text-lg text-gray-600 leading-8 max-w-3xl mx-auto">
+        Find answers to the most common questions about our interior
+        and exterior services, project timelines, materials, and more.
+      </p>
+
+    </div>
+
+    <div className="space-y-5">
+
+      <details className="group bg-white rounded-2xl shadow-md p-6">
+
+        <summary className="flex justify-between items-center cursor-pointer font-semibold text-lg text-gray-900 list-none">
+          Do you undertake both residential and commercial projects?
+          <span className="text-red-600 text-2xl group-open:rotate-45 transition">+</span>
+        </summary>
+
+        <p className="mt-4 text-gray-600 leading-7">
+          Yes. We provide complete interior and exterior solutions for
+          homes, apartments, villas, offices, retail stores, and
+          commercial buildings.
+        </p>
+
+      </details>
+
+      <details className="group bg-white rounded-2xl shadow-md p-6">
+
+        <summary className="flex justify-between items-center cursor-pointer font-semibold text-lg text-gray-900 list-none">
+          Do you provide free site visits and quotations?
+          <span className="text-red-600 text-2xl group-open:rotate-45 transition">+</span>
+        </summary>
+
+        <p className="mt-4 text-gray-600 leading-7">
+          Yes. Our team can visit your site, understand your
+          requirements, and provide a detailed quotation.
+        </p>
+
+      </details>
+
+      <details className="group bg-white rounded-2xl shadow-md p-6">
+
+        <summary className="flex justify-between items-center cursor-pointer font-semibold text-lg text-gray-900 list-none">
+          What services do you offer?
+          <span className="text-red-600 text-2xl group-open:rotate-45 transition">+</span>
+        </summary>
+
+        <p className="mt-4 text-gray-600 leading-7">
+          We specialize in modular interiors, imported aluminium,
+          false ceilings, ACP cladding, glass works, railings,
+          wallpapers, painting, and complete exterior solutions.
+        </p>
+
+      </details>
+
+      <details className="group bg-white rounded-2xl shadow-md p-6">
+
+        <summary className="flex justify-between items-center cursor-pointer font-semibold text-lg text-gray-900 list-none">
+          How long does a typical project take?
+          <span className="text-red-600 text-2xl group-open:rotate-45 transition">+</span>
+        </summary>
+
+        <p className="mt-4 text-gray-600 leading-7">
+          Project duration depends on the size and scope. We always
+          provide a clear timeline before work begins.
+        </p>
+
+      </details>
+
+      <details className="group bg-white rounded-2xl shadow-md p-6">
+
+        <summary className="flex justify-between items-center cursor-pointer font-semibold text-lg text-gray-900 list-none">
+          Which locations do you serve?
+          <span className="text-red-600 text-2xl group-open:rotate-45 transition">+</span>
+        </summary>
+
+        <p className="mt-4 text-gray-600 leading-7">
+          We proudly serve Visakhapatnam, Vizianagaram, Hyderabad,
+          and nearby locations.
+        </p>
+
+      </details>
 
     </div>
 
