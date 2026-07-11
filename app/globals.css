@@ -108,3 +108,52 @@ button {
 .card-hover:hover {
   transform: translateY(-8px);
 }
+/* ================= IMPORTED ALUMINIUM MARQUEE ================= */
+
+.marquee {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+}
+
+.marquee-content {
+  display: inline-flex;
+  align-items: center;
+  gap: 40px;
+  padding-left: 100%;
+  animation: marqueeMove 28s linear infinite;
+}
+
+.marquee-content span {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  display: flex;
+  align-items: center;
+}
+
+.marquee:hover .marquee-content {
+  animation-play-state: paused;
+}
+
+@keyframes marqueeMove {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* ================= SMOOTH ICON HOVER ================= */
+
+.icon-hover {
+  transition: transform 0.35s ease;
+}
+
+.icon-hover:hover {
+  transform: scale(1.08);
+}
