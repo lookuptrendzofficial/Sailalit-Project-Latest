@@ -486,7 +486,51 @@ return (
 
 </div>
 
-</section>                           {/* ================= OUR PROJECTS ================= */}
+</section>                    
+  {/* ================= IMPORTED ALUMINIUM STRIP ================= */}
+
+<section className="bg-red-600 overflow-hidden py-4">
+
+  <div className="marquee">
+
+    <div className="marquee-content">
+
+      <span>✨ Specialists in Imported Aluminium Systems</span>
+
+      <span>•</span>
+
+      <span>Premium Sliding Windows</span>
+
+      <span>•</span>
+
+      <span>Sliding Doors</span>
+
+      <span>•</span>
+
+      <span>Casement Windows</span>
+
+      <span>•</span>
+
+      <span>Folding Doors</span>
+
+      <span>•</span>
+
+      <span>Office Partitions</span>
+
+      <span>•</span>
+
+      <span>Modern Glass Solutions</span>
+
+      <span>•</span>
+
+      <span>Premium Quality • Professional Installation</span>
+
+    </div>
+
+  </div>
+
+</section>
+  {/* ================= OUR PROJECTS ================= */}
 
 <section id="projects" className="bg-white py-20 px-6">
 
