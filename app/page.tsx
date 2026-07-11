@@ -200,7 +200,7 @@ return (
     </div>  
 
   </section>  
-                                                                                                                                                                                        <span className="text-red-600 text-xl">✔</span>
+                                                                                                                                                                                      span>
    {/* ================= ABOUT ================= */}
 
 <section id="about" className="bg-white py-20 px-6">
