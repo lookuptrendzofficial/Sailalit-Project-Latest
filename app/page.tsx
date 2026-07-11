@@ -489,7 +489,7 @@ return (
 </section>                    
   {/* ================= IMPORTED ALUMINIUM STRIP ================= */}
 
-<section className="bg-red-600 overflow-hidden py-4">
+<section className="bg-[#1D4ED8] overflow-hidden py-4">
 
   <div className="marquee">
 
@@ -503,23 +503,7 @@ return (
 
       <span>•</span>
 
-      <span>Sliding Doors</span>
-
-      <span>•</span>
-
-      <span>Casement Windows</span>
-
-      <span>•</span>
-
       <span>Folding Doors</span>
-
-      <span>•</span>
-
-      <span>Office Partitions</span>
-
-      <span>•</span>
-
-      <span>Modern Glass Solutions</span>
 
       <span>•</span>
 
