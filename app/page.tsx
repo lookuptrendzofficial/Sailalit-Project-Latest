@@ -366,24 +366,28 @@ return (
 
   <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
 
-    {/* Card 1 */}
+{/* Card 1 */}
 
-    <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-6 text-center">
+<div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-6 text-center">
 
-      {/* Replace with Icon */}
+  <div className="flex justify-center mb-5">
+    <img
+      src="/Icons/modular.png.png"
+      alt="Modular Interiors"
+      className="w-20 h-20 object-contain"
+    />
+  </div>
 
-      <div className="h-16 w-16 mx-auto mb-5 rounded-xl border-2 border-dashed border-red-300"></div>
+  <h3 className="font-bold text-lg text-gray-900">
+    Modular Interiors
+  </h3>
 
-      <h3 className="font-bold text-lg text-gray-900">
-        Modular Interiors
-      </h3>
+  <p className="text-sm text-gray-600 mt-3 leading-6">
+    Modular Kitchens, Wardrobes, TV Units &
+    Kids' Bedroom Designs.
+  </p>
 
-      <p className="text-sm text-gray-600 mt-3 leading-6">
-        Modular Kitchens, Wardrobes, TV Units &
-        Kids' Bedroom Designs.
-      </p>
-
-    </div>
+</div>
 
     {/* Card 2 */}
 
