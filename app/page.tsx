@@ -374,7 +374,7 @@ return (
     <img
       src="/modular.png"
       alt="Modular Interiors"
-      className="w-20 h-20 object-contain"
+      className="w-20 h-20 object-contain mx-auto"
     />
   </div>
 
