@@ -372,7 +372,7 @@ return (
 
   <div className="flex justify-center mb-5">
     <img
-      src="/Icons/modular.png.png"
+      src="/modular.png"
       alt="Modular Interiors"
       className="w-20 h-20 object-contain"
     />
