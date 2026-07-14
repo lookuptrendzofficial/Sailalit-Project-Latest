@@ -373,11 +373,10 @@ return (
   {/* Icon */}
   <div className="flex items-center justify-center h-20 mb-5">
     <img
-      src="https://lookuptrendz.com/wp-content/uploads/2026/07/file_000000009fe072088dd3f6700a00e3de.png"
-      alt="Modular Interiors"
-      className="w-16 h-16 object-contain"
-      loading="lazy"
-    />
+  src="https://lookuptrendz.com/wp-content/uploads/2026/07/file_000000009fe072088dd3f6700a00e3de.png"
+  alt="Modular Interiors"
+  className="w-16 h-16 object-contain mx-auto"
+/>
   </div>
 
   {/* Title */}
