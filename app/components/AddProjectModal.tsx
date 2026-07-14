@@ -377,8 +377,6 @@ export default function AddProjectModal({
     </div>
 
   </div>
-
-</div>
 {/* ================= Footer ================= */}
 
 <div className="border-t mt-10 p-8 flex flex-col md:flex-row justify-between items-center gap-4 bg-gray-50 rounded-b-3xl">
