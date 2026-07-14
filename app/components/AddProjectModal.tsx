@@ -44,46 +44,7 @@ export default function AddProjectModal({
         <div className="p-8 space-y-8">
 
           {/* Project Details */}
-
-          {/* Cover Image */}
-
-          {/* Gallery */}
-
-          {/* Video */}
-
-          {/* Visibility */}
-
-        </div>
-
-        {/* Footer */}
-        <div className="border-t p-8 flex justify-between items-center">
-
-          <button
-            onClick={onClose}
-            className="px-8 py-3 border rounded-xl"
-          >
-            Cancel
-          </button>
-
-          <div className="flex gap-4">
-
-            <button className="px-8 py-3 bg-gray-700 text-white rounded-xl">
-              Save as Draft
-            </button>
-
-            <button className="px-8 py-3 bg-blue-600 text-white rounded-xl">
-              Publish Project
-            </button>
-
-          </div>
-
-        </div>
-
-      </div>
-    </div>
-  );
-}
-{/* ================= Project Details ================= */}
+          {/* ================= Project Details ================= */}
 
 <div>
 
@@ -170,7 +131,9 @@ export default function AddProjectModal({
   </div>
 
 </div>
-{/* ================= Project Cover Image ================= */}
+
+          {/* Cover Image */}
+          {/* ================= Project Cover Image ================= */}
 
 <div>
 
@@ -272,8 +235,10 @@ export default function AddProjectModal({
 
   </div>
 
-</div>
-{/* ================= Project Video ================= */}
+</div>   
+
+        </div>
+        {/* ================= Project Video ================= */}
 
 <div>
 
@@ -377,6 +342,9 @@ export default function AddProjectModal({
     </div>
 
   </div>
+
+
+
 {/* ================= Footer ================= */}
 
 <div className="border-t mt-10 p-8 flex flex-col md:flex-row justify-between items-center gap-4 bg-gray-50 rounded-b-3xl">
