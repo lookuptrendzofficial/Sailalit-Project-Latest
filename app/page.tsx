@@ -370,27 +370,22 @@ return (
 
 <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-6 text-center">
 
-  {/* Icon */}
-  <div className="flex items-center justify-center h-20 mb-5">
+  <div className="flex justify-center mb-5">
     <img
-  src="https://lookuptrendz.com/wp-content/uploads/2026/07/file_000000009fe072088dd3f6700a00e3de.png"
-  alt="Modular Interiors"
-  className="w-16 h-16 object-contain mx-auto"
-/>
+      src="/modular.png"
+      alt="Modular Interiors"
+      className="w-20 h-20 object-contain mx-auto"
+    />
   </div>
 
-  {/* Title */}
   <h3 className="font-bold text-lg text-gray-900">
     Modular Interiors
   </h3>
 
-  {/* Description */}
   <p className="text-sm text-gray-600 mt-3 leading-6">
     Modular Kitchens, Wardrobes, TV Units &
     Kids' Bedroom Designs.
   </p>
-
-</div>
 
 </div>
 
