@@ -1,23 +1,19 @@
 "use client";
 
-import { useState } from "react";
-import Link from "next/link";
-import { Menu, X, Phone, ArrowRight } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import Header from "../components/Header";
 
-
 export default function Home() {
-const [menuOpen, setMenuOpen] = useState(false);
 
-// Replace these later
-const logo =
-"https://lookuptrendz.com/wp-content/uploads/2026/07/IMG-20260610-WA01197.jpg";
+  const heroImage =
+    "https://lookuptrendz.com/wp-content/uploads/2026/07/file_000000001804723085d86eb19bcdca03.png";
 
-const heroImage =
-"https://lookuptrendz.com/wp-content/uploads/2026/07/file_000000001804723085d86eb19bcdca03.png";
+  return (
+    <main className="w-full">
 
-return (
-<main className="w-full">
+      <Header />
+
+      {/* ================= HERO ================= */}
   
 
   {/* ================= HERO ================= */}  
