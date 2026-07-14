@@ -238,10 +238,11 @@ export default function AddProjectModal({
     >
 
       <div
-        className={`w-7 h-7 bg-white rounded-full mt-0.5 transition ${
-          showProject ? "ml-8" : "ml-0.5"
-        }`}
-      />
+  className={`w-7 h-7 bg-white rounded-full mt-0.5 transition ${
+    showProject ? "ml-8" : "ml-0.5"
+  }`}
+>
+</div>
 
     </button>
 
