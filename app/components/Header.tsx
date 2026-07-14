@@ -33,23 +33,19 @@ export default function Header() {
             Home
           </Link>
 
-          <Link href="/about" className="hover:text-red-600">
+          <Link href="/About" className="hover:text-red-600">
             About Us
           </Link>
 
-          <Link href="/services" className="hover:text-red-600">
+          <Link href="/Services" className="hover:text-red-600">
             Services
           </Link>
 
-          <Link href="/projects" className="hover:text-red-600">
+          <Link href="/Projects" className="hover:text-red-600">
             Projects
           </Link>
 
-          <Link href="/clients" className="hover:text-red-600">
-            Our Clients
-          </Link>
-
-          <Link href="/contact" className="hover:text-red-600">
+          <Link href="/Contact Us" className="hover:text-red-600">
             Contact Us
           </Link>
 
@@ -84,23 +80,19 @@ export default function Header() {
               Home
             </Link>
 
-            <Link href="/about" onClick={() => setMenuOpen(false)}>
+            <Link href="/About" onClick={() => setMenuOpen(false)}>
               About Us
             </Link>
 
-            <Link href="/services" onClick={() => setMenuOpen(false)}>
+            <Link href="/Services" onClick={() => setMenuOpen(false)}>
               Services
             </Link>
 
-            <Link href="/projects" onClick={() => setMenuOpen(false)}>
+            <Link href="/Projects" onClick={() => setMenuOpen(false)}>
               Projects
             </Link>
 
-            <Link href="/clients" onClick={() => setMenuOpen(false)}>
-              Our Clients
-            </Link>
-
-            <Link href="/contact" onClick={() => setMenuOpen(false)}>
+            <Link href="/Contact Us" onClick={() => setMenuOpen(false)}>
               Contact Us
             </Link>
 
