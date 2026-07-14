@@ -971,6 +971,120 @@ export default function Home() {
 </section>
 {/* ================= FOOTER ================= */}
 
+<footer className="bg-[#111111] text-gray-300">
+
+  <div className="max-w-7xl mx-auto px-6 py-16 grid lg:grid-cols-4 gap-12">
+
+    {/* Company */}
+
+    <div>
+
+      <img
+        src="https://your-logo-link.png"
+        alt="Sai Lalit"
+        className="h-16 mb-6"
+      />
+
+      <p className="leading-8">
+        Sai Lalit Interior & Exterior specializes in premium
+        residential and commercial interior & exterior solutions,
+        delivering quality craftsmanship, innovative designs,
+        and exceptional customer satisfaction.
+      </p>
+
+    </div>
+
+    {/* Quick Links */}
+
+    <div>
+
+      <h3 className="text-white font-bold text-xl mb-6">
+        Quick Links
+      </h3>
+
+      <ul className="space-y-4">
+
+        <li><a href="#about">About Us</a></li>
+
+        <li><a href="#services">Services</a></li>
+
+        <li><a href="#projects">Projects</a></li>
+
+        <li><a href="#contact">Contact</a></li>
+
+      </ul>
+
+    </div>
+
+    {/* Services */}
+
+    <div>
+
+      <h3 className="text-white font-bold text-xl mb-6">
+        Our Services
+      </h3>
+
+      <ul className="space-y-4">
+
+        <li>Modular Interiors</li>
+
+        <li>Exterior Solutions</li>
+
+        <li>False Ceiling</li>
+
+        <li>Glass & Railings</li>
+
+        <li>ACP Cladding</li>
+
+      </ul>
+
+    </div>
+
+    {/* Contact */}
+
+    <div>
+
+      <h3 className="text-white font-bold text-xl mb-6">
+        Contact Us
+      </h3>
+
+      <p>📞 +91 81064 06999</p>
+
+      <p className="mt-4">
+        📧 info@sailalitinteriors.com
+      </p>
+
+      <p className="mt-4 leading-7">
+        Visakhapatnam,
+        Andhra Pradesh,
+        India
+      </p>
+
+    </div>
+
+  </div>
+
+  {/* Bottom */}
+
+  <div className="border-t border-gray-800 py-6">
+
+    <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
+
+      <p>
+        © 2026 Sai Lalit Interior & Exterior. All Rights Reserved.
+      </p>
+
+      <p className="mt-3 md:mt-0">
+        Powered by
+        <span className="text-red-500 font-semibold">
+          {" "}Lookuptrendz
+        </span>
+      </p>
+
+    </div>
+
+  </div>
+
 </footer>
 </main>
 
