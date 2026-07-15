@@ -447,7 +447,7 @@ export default function Home() {
 
       {[
         {
-          image:"https://your-image-link-1.jpg",
+          image:"https://lookuptrendz.com/wp-content/uploads/2026/07/file_00000000523c72078cc3b58a91847ae3.png",
           title:"Luxury Modular Kitchen",
           location:"Visakhapatnam",
           desc:"Modern modular kitchen with premium finishes and elegant storage solutions."
