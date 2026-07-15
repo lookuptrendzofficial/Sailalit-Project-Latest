@@ -639,64 +639,155 @@ export default function Home() {
     </div>
 
     {/* Review Slider */}
+<section id="testimonials" className="py-20 bg-[#faf8f5] overflow-hidden">
+  <div className="max-w-7xl mx-auto px-6">
 
+    {/* Heading */}
+    <div className="text-center mb-12">
+      <p className="text-red-600 font-semibold uppercase tracking-widest">
+        — Testimonials —
+      </p>
+
+      <h2 className="mt-3 text-4xl lg:text-5xl font-bold text-gray-900">
+        What Our <span className="text-red-600">Clients Say</span>
+      </h2>
+
+      <p className="mt-5 text-lg text-gray-600 max-w-3xl mx-auto">
+        Trusted by homeowners and businesses for quality workmanship,
+        timely project delivery and customer satisfaction.
+      </p>
+
+      <div className="flex justify-center items-center gap-3 mt-6">
+        <span className="text-yellow-500 text-2xl">★★★★★</span>
+
+        <span className="font-semibold text-gray-700">
+          5.0 Google Rating
+        </span>
+      </div>
+    </div>
+
+    {/* Review Slider */}
     <div className="overflow-hidden">
-
       <div className="review-scroll gap-6">
 
         {[
           {
-            name: "Ramesh Kumar",
-            review:
-              "Excellent workmanship and timely delivery. Highly recommended for premium interior solutions."
+            name: "Lalith Chandra Yeddu",
+            rating: "★★★★★",
+            review: "Best interior well trained labours and friendly workers and the work is excellent and this is best interior person who mad this throughout and the material is imported and top class material and the quality and texture of the interior will ne topnotch"
           },
           {
-            name: "Sowjanya Devi",
-            review:
-              "Very professional team. The modular kitchen exceeded our expectations."
+            name: "BYLAPOODI GOWRI",
+            rating: "★★★★★",
+            review: "Excellent quality"
           },
           {
-            name: "Praveen Reddy",
-            review:
-              "Quality materials, elegant designs and excellent finishing. Worth every rupee."
+            name: "Mahesh Vadada",
+            rating: "★★★★★",
+            review: "Great work."
           },
           {
-            name: "Anil Kumar",
-            review:
-              "Fantastic experience from planning to execution. Great customer support."
+            name: "prasad katta",
+            rating: "★★★★★",
+            review: "I am very Satisfied and very reasonable price also."
           },
           {
-            name: "Lakshmi Priya",
-            review:
-              "Beautiful interiors with premium quality. We are extremely happy with the outcome."
+            name: "Pindi sunil Kumar",
+            rating: "★★★★★",
+            review: "Good work srinivas garu"
+          },
+          {
+            name: "Sajeeshmadhavan Pkd",
+            rating: "★★★★★",
+            review: "Excellent quality and good sarvees"
+          },
+          {
+            name: "Nanaji dadi",
+            rating: "★★★★★",
+            review: "Vert good quality work at a reasonable price."
+          },
+          {
+            name: "bhassckar bobbhile",
+            rating: "★★★★★",
+            review: "I was completely impressed with their professionalism and work."
+          },
+          {
+            name: "NAVEEN KUMAR",
+            rating: "★★★★★",
+            review: "It's simply ossum. Had a pleasant and innovative work output with this firm. Thnx to SLIEC."
+          },
+          {
+            name: "Santanu Bhutia",
+            rating: "★★★★★",
+            review: "Good experience and polite work man of word srinivas garu"
+          },
+          {
+            name: "Rohit padavanil",
+            rating: "★★★★★",
+            review: "Seamless experience from start to finish—an amazing team, great attention to detail, and truly beautiful results. Would highly recommend for anyone looking for quality interiors."
+          },
+          {
+            name: "vamsi badireddi",
+            rating: "★★★★★",
+            review: "Great service and most knowledge in interior designing and Aluminium cupboard works, thank you for the service."
+          },
+          {
+            name: "Sai Kumar Mutyala",
+            rating: "★★★★★",
+            review: "Excellent work very much satisfied with low cost showing very good ambious"
+          },
+          {
+            name: "avinash Chinna",
+            rating: "★★★★★",
+            review: "Had a very pleasant experience working with Srinivas garu. They did a really good work and the final output exceeded our expectations. He helped a lot with the color selection and interiors."
+          },
+          {
+            name: "krishna reddy",
+            rating: "★★★★★",
+            review: "Quality, on time delivery and availability"
+          },
+          {
+            name: "srinivasa reddy",
+            rating: "★★★★★",
+            review: "I have did a cupboard with the Sai Lalith team the best quality and good looking."
+          },
+          {
+            name: "Mummana Bharat",
+            rating: "★★★★★",
+            review: "They have done a very great work by giving a best result, thank you 😊"
+          },
+          {
+            name: "dons group",
+            rating: "★★★★★",
+            review: "he is a gentleman...good behaviour,,,its nice to deal with him ( aalia aluminium)"
           },
 
-          /* Duplicate for infinite scroll */
+          /* Duplicate for Infinite Scroll */
 
           {
-            name: "Ramesh Kumar",
-            review:
-              "Excellent workmanship and timely delivery. Highly recommended for premium interior solutions."
+            name: "Lalith Chandra Yeddu",
+            rating: "★★★★★",
+            review: "Best interior well trained labours and friendly workers and the work is excellent and this is best interior person who mad this throughout and the material is imported and top class material and the quality and texture of the interior will ne topnotch"
           },
           {
-            name: "Sowjanya Devi",
-            review:
-              "Very professional team. The modular kitchen exceeded our expectations."
+            name: "Rohit padavanil",
+            rating: "★★★★★",
+            review: "Seamless experience from start to finish—an amazing team, great attention to detail, and truly beautiful results. Would highly recommend for anyone looking for quality interiors."
           },
           {
-            name: "Praveen Reddy",
-            review:
-              "Quality materials, elegant designs and excellent finishing. Worth every rupee."
+            name: "avinash Chinna",
+            rating: "★★★★★",
+            review: "Had a very pleasant experience working with Srinivas garu. They did a really good work and the final output exceeded our expectations. He helped a lot with the color selection and interiors."
           },
           {
-            name: "Anil Kumar",
-            review:
-              "Fantastic experience from planning to execution. Great customer support."
+            name: "vamsi badireddi",
+            rating: "★★★★★",
+            review: "Great service and most knowledge in interior designing and Aluminium cupboard works, thank you for the service."
           },
           {
-            name: "Lakshmi Priya",
-            review:
-              "Beautiful interiors with premium quality. We are extremely happy with the outcome."
+            name: "Mummana Bharat",
+            rating: "★★★★★",
+            review: "They have done a very great work by giving a best result, thank you 😊"
           }
 
         ].map((item, index) => (
@@ -707,7 +798,7 @@ export default function Home() {
           >
 
             <div className="text-yellow-500 text-xl mb-4">
-              ★★★★★
+              {item.rating}
             </div>
 
             <p className="text-gray-600 leading-7 italic">
@@ -715,15 +806,13 @@ export default function Home() {
             </p>
 
             <div className="mt-8">
-
               <h4 className="font-bold text-lg text-gray-900">
                 {item.name}
               </h4>
 
               <p className="text-red-600 text-sm mt-1">
-                Verified Customer
+                Verified Google Customer
               </p>
-
             </div>
 
           </div>
@@ -731,8 +820,10 @@ export default function Home() {
         ))}
 
       </div>
-
     </div>
+
+  </div>
+</section>
 
     {/* Button */}
 
