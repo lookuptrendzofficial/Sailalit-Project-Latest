@@ -178,7 +178,7 @@ export default function Home() {
     <div>
 
       <img
-        src="https://your-about-image-link.jpg"
+        src="https://lookuptrendz.com/wp-content/uploads/2026/07/file_00000000540c720b949f1eb61e91e36b.png"
         alt="Sai Lalit Interior"
         className="w-full h-[520px] object-cover rounded-3xl shadow-2xl"
       />
@@ -267,7 +267,7 @@ export default function Home() {
 
     <div className="flex justify-center mb-5">
       <img
-        src="https://YOUR-IMAGE-LINK/modular-interiors.png"
+        src="https://lookuptrendz.com/wp-content/uploads/2026/07/file_000000009fe072088dd3f6700a00e3de.png"
         alt="Modular Interiors"
         className="w-20 h-20 object-contain mx-auto"
       />
@@ -288,7 +288,7 @@ export default function Home() {
 
     <div className="flex justify-center mb-5">
       <img
-        src="https://YOUR-IMAGE-LINK/imported-aluminium.png"
+        src="https://lookuptrendz.com/wp-content/uploads/2026/07/file_0000000054d071fab01b4282367d3683.png"
         alt="Imported Aluminium"
         className="w-20 h-20 object-contain mx-auto"
       />
@@ -309,7 +309,7 @@ export default function Home() {
 
     <div className="flex justify-center mb-5">
       <img
-        src="https://YOUR-IMAGE-LINK/exterior-solutions.png"
+        src="https://lookuptrendz.com/wp-content/uploads/2026/07/file_00000000a52871fabb53414fc5d919c5.png"
         alt="Exterior Solutions"
         className="w-20 h-20 object-contain mx-auto"
       />
@@ -330,7 +330,7 @@ export default function Home() {
 
     <div className="flex justify-center mb-5">
       <img
-        src="https://YOUR-IMAGE-LINK/false-ceiling.png"
+        src="https://lookuptrendz.com/wp-content/uploads/2026/07/file_00000000eca0720797666fa17604a48d.png"
         alt="False Ceiling"
         className="w-20 h-20 object-contain mx-auto"
       />
@@ -351,7 +351,7 @@ export default function Home() {
 
     <div className="flex justify-center mb-5">
       <img
-        src="https://YOUR-IMAGE-LINK/painting-wallpapers.png"
+        src="https://lookuptrendz.com/wp-content/uploads/2026/07/file_00000000ec0871fa865d0df7f503ded1.png"
         alt="Painting & Wallpapers"
         className="w-20 h-20 object-contain mx-auto"
       />
@@ -372,7 +372,7 @@ export default function Home() {
 
     <div className="flex justify-center mb-5">
       <img
-        src="https://YOUR-IMAGE-LINK/railings-glass.png"
+        src="https://lookuptrendz.com/wp-content/uploads/2026/07/file_00000000523c72078cc3b58a91847ae3.png"
         alt="Railings & Glass Works"
         className="w-20 h-20 object-contain mx-auto"
       />
