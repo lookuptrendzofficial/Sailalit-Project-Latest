@@ -260,119 +260,135 @@ export default function Home() {
 
   {/* Services */}
 
-  <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
+  <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
 
-{/* Card 1 */}
+  {/* Card 1 */}
+  <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-6 text-center">
 
-<div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-6 text-center">
+    <div className="flex justify-center mb-5">
+      <img
+        src="https://YOUR-IMAGE-LINK/modular-interiors.png"
+        alt="Modular Interiors"
+        className="w-20 h-20 object-contain mx-auto"
+      />
+    </div>
 
-  <div className="flex justify-center mb-5">
-    <img
-      src="/modular.png"
-      alt="Modular Interiors"
-      className="w-20 h-20 object-contain mx-auto"
-    />
+    <h3 className="font-bold text-lg text-gray-900">
+      Modular Interiors
+    </h3>
+
+    <p className="text-sm text-gray-600 mt-3 leading-6">
+      Modular Kitchens, Wardrobes, TV Units & Kids' Bedroom Designs.
+    </p>
+
   </div>
 
-  <h3 className="font-bold text-lg text-gray-900">
-    Modular Interiors
-  </h3>
+  {/* Card 2 */}
+  <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-6 text-center">
 
-  <p className="text-sm text-gray-600 mt-3 leading-6">
-    Modular Kitchens, Wardrobes, TV Units &
-    Kids' Bedroom Designs.
-  </p>
+    <div className="flex justify-center mb-5">
+      <img
+        src="https://YOUR-IMAGE-LINK/imported-aluminium.png"
+        alt="Imported Aluminium"
+        className="w-20 h-20 object-contain mx-auto"
+      />
+    </div>
+
+    <h3 className="font-bold text-lg text-gray-900">
+      Imported Aluminium
+    </h3>
+
+    <p className="text-sm text-gray-600 mt-3 leading-6">
+      Premium Aluminium Windows, Sliding Systems & Mesh Doors.
+    </p>
+
+  </div>
+
+  {/* Card 3 */}
+  <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-6 text-center">
+
+    <div className="flex justify-center mb-5">
+      <img
+        src="https://YOUR-IMAGE-LINK/exterior-solutions.png"
+        alt="Exterior Solutions"
+        className="w-20 h-20 object-contain mx-auto"
+      />
+    </div>
+
+    <h3 className="font-bold text-lg text-gray-900">
+      Exterior Solutions
+    </h3>
+
+    <p className="text-sm text-gray-600 mt-3 leading-6">
+      Building Elevations, ACP Cladding & Modern Facade Works.
+    </p>
+
+  </div>
+
+  {/* Card 4 */}
+  <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-6 text-center">
+
+    <div className="flex justify-center mb-5">
+      <img
+        src="https://YOUR-IMAGE-LINK/false-ceiling.png"
+        alt="False Ceiling"
+        className="w-20 h-20 object-contain mx-auto"
+      />
+    </div>
+
+    <h3 className="font-bold text-lg text-gray-900">
+      False Ceiling
+    </h3>
+
+    <p className="text-sm text-gray-600 mt-3 leading-6">
+      PVC & Gypsum False Ceiling with Modern Lighting Concepts.
+    </p>
+
+  </div>
+
+  {/* Card 5 */}
+  <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-6 text-center">
+
+    <div className="flex justify-center mb-5">
+      <img
+        src="https://YOUR-IMAGE-LINK/painting-wallpapers.png"
+        alt="Painting & Wallpapers"
+        className="w-20 h-20 object-contain mx-auto"
+      />
+    </div>
+
+    <h3 className="font-bold text-lg text-gray-900">
+      Painting & Wallpapers
+    </h3>
+
+    <p className="text-sm text-gray-600 mt-3 leading-6">
+      Interior Painting, Designer Wallpapers & Decorative Finishes.
+    </p>
+
+  </div>
+
+  {/* Card 6 */}
+  <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-6 text-center">
+
+    <div className="flex justify-center mb-5">
+      <img
+        src="https://YOUR-IMAGE-LINK/railings-glass.png"
+        alt="Railings & Glass Works"
+        className="w-20 h-20 object-contain mx-auto"
+      />
+    </div>
+
+    <h3 className="font-bold text-lg text-gray-900">
+      Railings & Glass Works
+    </h3>
+
+    <p className="text-sm text-gray-600 mt-3 leading-6">
+      SS Railings, Glass Railings & Custom Architectural Installations.
+    </p>
+
+  </div>
 
 </div>
-
-    {/* Card 2 */}
-
-    <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-6 text-center">
-
-      <div className="h-16 w-16 mx-auto mb-5 rounded-xl border-2 border-dashed border-red-300"></div>
-
-      <h3 className="font-bold text-lg text-gray-900">
-        Imported Aluminium
-      </h3>
-
-      <p className="text-sm text-gray-600 mt-3 leading-6">
-        Premium Aluminium Windows,
-        Sliding Systems & Mesh Doors.
-      </p>
-
-    </div>
-
-    {/* Card 3 */}
-
-    <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-6 text-center">
-
-      <div className="h-16 w-16 mx-auto mb-5 rounded-xl border-2 border-dashed border-red-300"></div>
-
-      <h3 className="font-bold text-lg text-gray-900">
-        Exterior Solutions
-      </h3>
-
-      <p className="text-sm text-gray-600 mt-3 leading-6">
-        Building Elevations,
-        ACP Cladding &
-        Facade Works.
-      </p>
-
-    </div>
-
-    {/* Card 4 */}
-
-    <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-6 text-center">
-
-      <div className="h-16 w-16 mx-auto mb-5 rounded-xl border-2 border-dashed border-red-300"></div>
-
-      <h3 className="font-bold text-lg text-gray-900">
-        False Ceiling
-      </h3>
-
-      <p className="text-sm text-gray-600 mt-3 leading-6">
-        PVC & Gypsum False Ceiling
-        with Modern Lighting Concepts.
-      </p>
-
-    </div>
-
-    {/* Card 5 */}
-
-    <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-6 text-center">
-
-      <div className="h-16 w-16 mx-auto mb-5 rounded-xl border-2 border-dashed border-red-300"></div>
-
-      <h3 className="font-bold text-lg text-gray-900">
-        Painting & Wallpapers
-      </h3>
-
-      <p className="text-sm text-gray-600 mt-3 leading-6">
-        Interior Painting,
-        Designer Wallpapers &
-        Decorative Finishes.
-      </p>
-
-    </div>
-
-    {/* Card 6 */}
-
-    <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-6 text-center">
-
-      <div className="h-16 w-16 mx-auto mb-5 rounded-xl border-2 border-dashed border-red-300"></div>
-
-      <h3 className="font-bold text-lg text-gray-900">
-        Railings & Glass Works
-      </h3>
-
-      <p className="text-sm text-gray-600 mt-3 leading-6">
-        SS Railings, Glass Railings &
-        Custom Architectural Installations.
-      </p>
-
-    </div>
-
-  </div>
 
   {/* Button */}
 
