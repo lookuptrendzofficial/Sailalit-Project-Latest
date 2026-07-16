@@ -90,9 +90,11 @@ export default function Footer() {
           </p>
 
           <p className="mt-4 leading-7">
-            Visakhapatnam,
+            P6RV+439, Old Karasa, Marripalem, Visakhapatnam, Andhra Pradesh 530009Visakhapatnam,
             Andhra Pradesh,
-            India
+            Branches: Vijayawada, AndhraPradesh
+                      Hyderabad, Telangana
+        
           </p>
 
         </div>
