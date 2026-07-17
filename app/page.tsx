@@ -257,122 +257,135 @@ export default function Home() {
     </p>
 
   </div>
+{/* Services */}
 
-  {/* Services */}
+<div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
 
-  <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
+  {/* Card 1 */}
+  <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-6 text-center">
+    <div className="flex justify-center mb-5">
+      <img
+        src="https://YOUR-DOMAIN.COM/modular.png"
+        alt="Modular Interiors"
+        className="w-20 h-20 object-contain"
+      />
+    </div>
 
-{/* Card 1 */}
+    <h3 className="font-bold text-lg text-gray-900">
+      Modular Interiors
+    </h3>
 
-<div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-6 text-center">
-
-  <div className="flex justify-center mb-5">
-    <img
-      src="/modular.png"
-      alt="Modular Interiors"
-      className="w-20 h-20 object-contain mx-auto"
-    />
+    <p className="text-sm text-gray-600 mt-3 leading-6">
+      Modular Kitchens, Wardrobes, TV Units &
+      Kids' Bedroom Designs.
+    </p>
   </div>
 
-  <h3 className="font-bold text-lg text-gray-900">
-    Modular Interiors
-  </h3>
+  {/* Card 2 */}
+  <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-6 text-center">
+    <div className="flex justify-center mb-5">
+      <img
+        src="https://YOUR-DOMAIN.COM/aluminium.png"
+        alt="Imported Aluminium"
+        className="w-20 h-20 object-contain"
+      />
+    </div>
 
-  <p className="text-sm text-gray-600 mt-3 leading-6">
-    Modular Kitchens, Wardrobes, TV Units &
-    Kids' Bedroom Designs.
-  </p>
+    <h3 className="font-bold text-lg text-gray-900">
+      Imported Aluminium
+    </h3>
+
+    <p className="text-sm text-gray-600 mt-3 leading-6">
+      Premium Aluminium Windows,
+      Sliding Systems &
+      Mesh Doors.
+    </p>
+  </div>
+
+  {/* Card 3 */}
+  <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-6 text-center">
+    <div className="flex justify-center mb-5">
+      <img
+        src="https://YOUR-DOMAIN.COM/exterior.png"
+        alt="Exterior Solutions"
+        className="w-20 h-20 object-contain"
+      />
+    </div>
+
+    <h3 className="font-bold text-lg text-gray-900">
+      Exterior Solutions
+    </h3>
+
+    <p className="text-sm text-gray-600 mt-3 leading-6">
+      Building Elevations,
+      ACP Cladding &
+      Facade Works.
+    </p>
+  </div>
+
+  {/* Card 4 */}
+  <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-6 text-center">
+    <div className="flex justify-center mb-5">
+      <img
+        src="https://YOUR-DOMAIN.COM/ceiling.png"
+        alt="False Ceiling"
+        className="w-20 h-20 object-contain"
+      />
+    </div>
+
+    <h3 className="font-bold text-lg text-gray-900">
+      False Ceiling
+    </h3>
+
+    <p className="text-sm text-gray-600 mt-3 leading-6">
+      PVC & Gypsum False Ceiling
+      with Modern Lighting Concepts.
+    </p>
+  </div>
+
+  {/* Card 5 */}
+  <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-6 text-center">
+    <div className="flex justify-center mb-5">
+      <img
+        src="https://YOUR-DOMAIN.COM/painting.png"
+        alt="Painting & Wallpapers"
+        className="w-20 h-20 object-contain"
+      />
+    </div>
+
+    <h3 className="font-bold text-lg text-gray-900">
+      Painting & Wallpapers
+    </h3>
+
+    <p className="text-sm text-gray-600 mt-3 leading-6">
+      Interior Painting,
+      Designer Wallpapers &
+      Decorative Finishes.
+    </p>
+  </div>
+
+  {/* Card 6 */}
+  <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-6 text-center">
+    <div className="flex justify-center mb-5">
+      <img
+        src="https://YOUR-DOMAIN.COM/railings.png"
+        alt="Railings & Glass Works"
+        className="w-20 h-20 object-contain"
+      />
+    </div>
+
+    <h3 className="font-bold text-lg text-gray-900">
+      Railings & Glass Works
+    </h3>
+
+    <p className="text-sm text-gray-600 mt-3 leading-6">
+      SS Railings, Glass Railings &
+      Custom Architectural Installations.
+    </p>
+  </div>
 
 </div>
-
-    {/* Card 2 */}
-
-    <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-6 text-center">
-
-      <div className="h-16 w-16 mx-auto mb-5 rounded-xl border-2 border-dashed border-red-300"></div>
-
-      <h3 className="font-bold text-lg text-gray-900">
-        Imported Aluminium
-      </h3>
-
-      <p className="text-sm text-gray-600 mt-3 leading-6">
-        Premium Aluminium Windows,
-        Sliding Systems & Mesh Doors.
-      </p>
-
-    </div>
-
-    {/* Card 3 */}
-
-    <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-6 text-center">
-
-      <div className="h-16 w-16 mx-auto mb-5 rounded-xl border-2 border-dashed border-red-300"></div>
-
-      <h3 className="font-bold text-lg text-gray-900">
-        Exterior Solutions
-      </h3>
-
-      <p className="text-sm text-gray-600 mt-3 leading-6">
-        Building Elevations,
-        ACP Cladding &
-        Facade Works.
-      </p>
-
-    </div>
-
-    {/* Card 4 */}
-
-    <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-6 text-center">
-
-      <div className="h-16 w-16 mx-auto mb-5 rounded-xl border-2 border-dashed border-red-300"></div>
-
-      <h3 className="font-bold text-lg text-gray-900">
-        False Ceiling
-      </h3>
-
-      <p className="text-sm text-gray-600 mt-3 leading-6">
-        PVC & Gypsum False Ceiling
-        with Modern Lighting Concepts.
-      </p>
-
-    </div>
-
-    {/* Card 5 */}
-
-    <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-6 text-center">
-
-      <div className="h-16 w-16 mx-auto mb-5 rounded-xl border-2 border-dashed border-red-300"></div>
-
-      <h3 className="font-bold text-lg text-gray-900">
-        Painting & Wallpapers
-      </h3>
-
-      <p className="text-sm text-gray-600 mt-3 leading-6">
-        Interior Painting,
-        Designer Wallpapers &
-        Decorative Finishes.
-      </p>
-
-    </div>
-
-    {/* Card 6 */}
-
-    <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-6 text-center">
-
-      <div className="h-16 w-16 mx-auto mb-5 rounded-xl border-2 border-dashed border-red-300"></div>
-
-      <h3 className="font-bold text-lg text-gray-900">
-        Railings & Glass Works
-      </h3>
-
-      <p className="text-sm text-gray-600 mt-3 leading-6">
-        SS Railings, Glass Railings &
-        Custom Architectural Installations.
-      </p>
-
-    </div>
-
-  </div>
+  
 
   {/* Button */}
 
@@ -533,24 +546,21 @@ export default function Home() {
   </div>
 
 </section>
-  {/* ================= WHY CHOOSE US ================= */}
+{/* ================= WHY CHOOSE US ================= */}
 
 <section className="py-20 bg-white">
-
   <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
 
     {/* Left Image */}
-
     <div>
       <img
-        src="/images/why-choose-us.png"
+        src="https://lookuptrendz.com/wp-content/uploads/2026/07/why-choose-us.png"
         alt="Why Choose Us"
-        className="w-full"
+        className="w-full rounded-xl"
       />
     </div>
 
     {/* Right Content */}
-
     <div>
 
       <p className="uppercase tracking-[4px] text-blue-600 font-semibold">
@@ -563,35 +573,69 @@ export default function Home() {
       </h2>
 
       <p className="mt-6 text-gray-600 leading-8">
-        We combine innovative design, premium materials, and skilled
-        craftsmanship to create elegant living and commercial spaces.
+        We combine innovative design, premium materials, and skilled craftsmanship to create elegant residential and commercial spaces with unmatched quality and customer satisfaction.
       </p>
 
       <div className="mt-10 space-y-6">
 
+        {/* Experience */}
         <div className="flex items-center gap-5 group">
-          <img src="/icons/1_20260717_060343_0000.png" className="w-14 h-14 group-hover:scale-110 transition duration-300" />
-          <span className="text-lg font-semibold">20+ Years of Industry Experience</span>
+          <img
+            src="https://YOUR-DOMAIN.COM/experience.png"
+            alt="Experience"
+            className="w-14 h-14 object-contain group-hover:scale-110 transition duration-300"
+          />
+          <span className="text-lg font-semibold text-gray-800">
+            20+ Years of Industry Experience
+          </span>
         </div>
 
+        {/* Quality */}
         <div className="flex items-center gap-5 group">
-          <img src="/icons/quality.png" className="w-14 h-14 group-hover:scale-110 transition duration-300" />
-          <span className="text-lg font-semibold">Premium Quality Materials</span>
+          <img
+            src="https://YOUR-DOMAIN.COM/quality.png"
+            alt="Quality"
+            className="w-14 h-14 object-contain group-hover:scale-110 transition duration-300"
+          />
+          <span className="text-lg font-semibold text-gray-800">
+            Premium Quality Materials
+          </span>
         </div>
 
+        {/* Delivery */}
         <div className="flex items-center gap-5 group">
-          <img src="/icons/delivery.png" className="w-14 h-14 group-hover:scale-110 transition duration-300" />
-          <span className="text-lg font-semibold">On-Time Project Delivery</span>
+          <img
+            src="https://YOUR-DOMAIN.COM/delivery.png"
+            alt="Delivery"
+            className="w-14 h-14 object-contain group-hover:scale-110 transition duration-300"
+          />
+          <span className="text-lg font-semibold text-gray-800">
+            On-Time Project Delivery
+          </span>
         </div>
 
+        {/* Support */}
         <div className="flex items-center gap-5 group">
-          <img src="/icons/support.png" className="w-14 h-14 group-hover:scale-110 transition duration-300" />
-          <span className="text-lg font-semibold">Dedicated Customer Support</span>
+          <img
+            src="https://YOUR-DOMAIN.COM/support.png"
+            alt="Support"
+            className="w-14 h-14 object-contain group-hover:scale-110 transition duration-300"
+          />
+          <span className="text-lg font-semibold text-gray-800">
+            Dedicated Customer Support
+          </span>
         </div>
 
+        {/* Design */}
         <div className="flex items-center gap-5 group">
-          <img src="/icons/design.png" className="w-14 h-14 group-hover:scale-110 transition duration-300" />
-          <span className="text-lg font-semibold">Customized Design Solutions</span>
+          <img
+            src="https://YOUR-DOMAIN.COM/design.png"
+            alt="Design"
+            className="w-14 h-14 object-contain group-hover:scale-110 transition duration-300"
+          />
+          <span className="text-lg font-semibold text-gray-800">
+            Customized Design Solutions
+          </span>
         </div>
 
       </div>
@@ -599,7 +643,6 @@ export default function Home() {
     </div>
 
   </div>
-
 </section>
 {/* ================= TESTIMONIALS ================= */}
 
