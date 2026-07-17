@@ -178,7 +178,7 @@ export default function Home() {
     <div>
 
       <img
-        src="https://lookuptrendz.com/wp-content/uploads/2026/07/file_00000000540c720b949f1eb61e91e36b.png"
+        src="https://your-about-image-link.jpg"
         alt="Sai Lalit Interior"
         className="w-full h-[520px] object-cover rounded-3xl shadow-2xl"
       />
@@ -260,135 +260,119 @@ export default function Home() {
 
   {/* Services */}
 
-  <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+  <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
 
-  {/* Card 1 */}
-  <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-6 text-center">
+{/* Card 1 */}
 
-    <div className="flex justify-center mb-5">
-      <img
-        src="https://lookuptrendz.com/wp-content/uploads/2026/07/file_000000009fe072088dd3f6700a00e3de.png"
-        alt="Modular Interiors"
-        className="w-20 h-20 object-contain mx-auto"
-      />
-    </div>
+<div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-6 text-center">
 
-    <h3 className="font-bold text-lg text-gray-900">
-      Modular Interiors
-    </h3>
-
-    <p className="text-sm text-gray-600 mt-3 leading-6">
-      Modular Kitchens, Wardrobes, TV Units & Kids' Bedroom Designs.
-    </p>
-
+  <div className="flex justify-center mb-5">
+    <img
+      src="/modular.png"
+      alt="Modular Interiors"
+      className="w-20 h-20 object-contain mx-auto"
+    />
   </div>
 
-  {/* Card 2 */}
-  <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-6 text-center">
+  <h3 className="font-bold text-lg text-gray-900">
+    Modular Interiors
+  </h3>
 
-    <div className="flex justify-center mb-5">
-      <img
-        src="https://lookuptrendz.com/wp-content/uploads/2026/07/file_0000000054d071fab01b4282367d3683.png"
-        alt="Imported Aluminium"
-        className="w-20 h-20 object-contain mx-auto"
-      />
-    </div>
-
-    <h3 className="font-bold text-lg text-gray-900">
-      Imported Aluminium
-    </h3>
-
-    <p className="text-sm text-gray-600 mt-3 leading-6">
-      Premium Aluminium Windows, Sliding Systems & Mesh Doors.
-    </p>
-
-  </div>
-
-  {/* Card 3 */}
-  <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-6 text-center">
-
-    <div className="flex justify-center mb-5">
-      <img
-        src="https://lookuptrendz.com/wp-content/uploads/2026/07/file_00000000a52871fabb53414fc5d919c5.png"
-        alt="Exterior Solutions"
-        className="w-20 h-20 object-contain mx-auto"
-      />
-    </div>
-
-    <h3 className="font-bold text-lg text-gray-900">
-      Exterior Solutions
-    </h3>
-
-    <p className="text-sm text-gray-600 mt-3 leading-6">
-      Building Elevations, ACP Cladding & Modern Facade Works.
-    </p>
-
-  </div>
-
-  {/* Card 4 */}
-  <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-6 text-center">
-
-    <div className="flex justify-center mb-5">
-      <img
-        src="https://lookuptrendz.com/wp-content/uploads/2026/07/file_00000000eca0720797666fa17604a48d.png"
-        alt="False Ceiling"
-        className="w-20 h-20 object-contain mx-auto"
-      />
-    </div>
-
-    <h3 className="font-bold text-lg text-gray-900">
-      False Ceiling
-    </h3>
-
-    <p className="text-sm text-gray-600 mt-3 leading-6">
-      PVC & Gypsum False Ceiling with Modern Lighting Concepts.
-    </p>
-
-  </div>
-
-  {/* Card 5 */}
-  <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-6 text-center">
-
-    <div className="flex justify-center mb-5">
-      <img
-        src="https://lookuptrendz.com/wp-content/uploads/2026/07/file_00000000ec0871fa865d0df7f503ded1.png"
-        alt="Painting & Wallpapers"
-        className="w-20 h-20 object-contain mx-auto"
-      />
-    </div>
-
-    <h3 className="font-bold text-lg text-gray-900">
-      Painting & Wallpapers
-    </h3>
-
-    <p className="text-sm text-gray-600 mt-3 leading-6">
-      Interior Painting, Designer Wallpapers & Decorative Finishes.
-    </p>
-
-  </div>
-
-  {/* Card 6 */}
-  <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-6 text-center">
-
-    <div className="flex justify-center mb-5">
-      <img
-        src="https://lookuptrendz.com/wp-content/uploads/2026/07/file_00000000523c72078cc3b58a91847ae3.png"
-        alt="Railings & Glass Works"
-        className="w-20 h-20 object-contain mx-auto"
-      />
-    </div>
-
-    <h3 className="font-bold text-lg text-gray-900">
-      Railings & Glass Works
-    </h3>
-
-    <p className="text-sm text-gray-600 mt-3 leading-6">
-      SS Railings, Glass Railings & Custom Architectural Installations.
-    </p>
-
-  </div>
+  <p className="text-sm text-gray-600 mt-3 leading-6">
+    Modular Kitchens, Wardrobes, TV Units &
+    Kids' Bedroom Designs.
+  </p>
 
 </div>
+
+    {/* Card 2 */}
+
+    <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-6 text-center">
+
+      <div className="h-16 w-16 mx-auto mb-5 rounded-xl border-2 border-dashed border-red-300"></div>
+
+      <h3 className="font-bold text-lg text-gray-900">
+        Imported Aluminium
+      </h3>
+
+      <p className="text-sm text-gray-600 mt-3 leading-6">
+        Premium Aluminium Windows,
+        Sliding Systems & Mesh Doors.
+      </p>
+
+    </div>
+
+    {/* Card 3 */}
+
+    <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-6 text-center">
+
+      <div className="h-16 w-16 mx-auto mb-5 rounded-xl border-2 border-dashed border-red-300"></div>
+
+      <h3 className="font-bold text-lg text-gray-900">
+        Exterior Solutions
+      </h3>
+
+      <p className="text-sm text-gray-600 mt-3 leading-6">
+        Building Elevations,
+        ACP Cladding &
+        Facade Works.
+      </p>
+
+    </div>
+
+    {/* Card 4 */}
+
+    <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-6 text-center">
+
+      <div className="h-16 w-16 mx-auto mb-5 rounded-xl border-2 border-dashed border-red-300"></div>
+
+      <h3 className="font-bold text-lg text-gray-900">
+        False Ceiling
+      </h3>
+
+      <p className="text-sm text-gray-600 mt-3 leading-6">
+        PVC & Gypsum False Ceiling
+        with Modern Lighting Concepts.
+      </p>
+
+    </div>
+
+    {/* Card 5 */}
+
+    <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-6 text-center">
+
+      <div className="h-16 w-16 mx-auto mb-5 rounded-xl border-2 border-dashed border-red-300"></div>
+
+      <h3 className="font-bold text-lg text-gray-900">
+        Painting & Wallpapers
+      </h3>
+
+      <p className="text-sm text-gray-600 mt-3 leading-6">
+        Interior Painting,
+        Designer Wallpapers &
+        Decorative Finishes.
+      </p>
+
+    </div>
+
+    {/* Card 6 */}
+
+    <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-6 text-center">
+
+      <div className="h-16 w-16 mx-auto mb-5 rounded-xl border-2 border-dashed border-red-300"></div>
+
+      <h3 className="font-bold text-lg text-gray-900">
+        Railings & Glass Works
+      </h3>
+
+      <p className="text-sm text-gray-600 mt-3 leading-6">
+        SS Railings, Glass Railings &
+        Custom Architectural Installations.
+      </p>
+
+    </div>
+
+  </div>
 
   {/* Button */}
 
@@ -1076,93 +1060,123 @@ export default function Home() {
   </div>
 
 </section>
-      <footer className="bg-[#111111] text-gray-300">
-        <div className="max-w-7xl mx-auto px-6 py-16 grid lg:grid-cols-4 gap-12">
+{/* ================= FOOTER ================= */}
 
-          {/* Company */}
-          <div>
-            <img
-              src="https://lookuptrendz.com/wp-content/uploads/2026/07/IMG-20260610-WA01197.jpg"
-              alt="Sai Lalit"
-              className="h-16 mb-6"
-            />
-            <p className="leading-8">
-              Sai Lalit Interior & Exterior specializes in premium residential
-              and commercial interior & exterior solutions, delivering quality
-              craftsmanship, innovative designs, and exceptional customer
-              satisfaction.
-            </p>
-          </div>
+<footer className="bg-[#111111] text-gray-300">
 
-          {/* Quick Links */}
-          <div>
-            <h3 className="text-white font-bold text-xl mb-6">
-              Quick Links
-            </h3>
+  <div className="max-w-7xl mx-auto px-6 py-16 grid lg:grid-cols-4 gap-12">
 
-            <ul className="space-y-4">
-              <li><Link href="/about">About Us</Link></li>
-              <li><Link href="/services">Services</Link></li>
-              <li><Link href="/projects">Projects</Link></li>
-              <li><Link href="/contact">Contact Us</Link></li>
-            </ul>
-          </div>
+    {/* Company */}
 
-          {/* Services */}
-          <div>
-            <h3 className="text-white font-bold text-xl mb-6">
-              Our Services
-            </h3>
+    <div>
 
-            <ul className="space-y-4">
-              <li>Modular Interiors</li>
-              <li>Imported Aluminium</li>
-              <li>Exterior Solutions</li>
-              <li>False Ceiling</li>
-              <li>Painting & Wallpapers</li>
-              <li>Railings & Glass Works</li>
-            </ul>
-          </div>
+      <img
+        src="https://your-logo-link.png"
+        alt="Sai Lalit"
+        className="h-16 mb-6"
+      />
 
-          {/* Contact */}
-          <div>
-            <h3 className="text-white font-bold text-xl mb-6">
-              Contact Us
-            </h3>
+      <p className="leading-8">
+        Sai Lalit Interior & Exterior specializes in premium
+        residential and commercial interior & exterior solutions,
+        delivering quality craftsmanship, innovative designs,
+        and exceptional customer satisfaction.
+      </p>
 
-            <p>📞 +91 81064 06999</p>
+    </div>
 
-            <p className="mt-4">
-              📧 info@sailalitinteriors.com
-            </p>
+    {/* Quick Links */}
 
-            <p className="mt-4 leading-7">
-              P6RV+439, Old Karasa, Marripalem, Visakhapatnam,
-              Andhra Pradesh 530009
-              <br />
-              Branches:
-              <br />
-              Vijayawada, Andhra Pradesh
-              <br />
-              Hyderabad, Telangana
-            </p>
-          </div>
+    <div>
 
-        </div>
+      <h3 className="text-white font-bold text-xl mb-6">
+        Quick Links
+      </h3>
 
-        <div className="border-t border-gray-800 py-6">
-          <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
-            <p>© 2026 Sai Lalit Interior & Exterior. All Rights Reserved.</p>
+      <ul className="space-y-4">
 
-            <p className="mt-3 md:mt-0">
-              Powered by{" "}
-              <span className="text-red-500 font-semibold">
-                Lookuptrendz
-              </span>
-            </p>
-          </div>
-        </div>
-      </footer>
+        <li><a href="#about">About Us</a></li>
+
+        <li><a href="#services">Services</a></li>
+
+        <li><a href="#projects">Projects</a></li>
+
+        <li><a href="#contact">Contact</a></li>
+
+      </ul>
+
+    </div>
+
+    {/* Services */}
+
+    <div>
+
+      <h3 className="text-white font-bold text-xl mb-6">
+        Our Services
+      </h3>
+
+      <ul className="space-y-4">
+
+        <li>Modular Interiors</li>
+
+        <li>Exterior Solutions</li>
+
+        <li>False Ceiling</li>
+
+        <li>Glass & Railings</li>
+
+        <li>ACP Cladding</li>
+
+      </ul>
+
+    </div>
+
+    {/* Contact */}
+
+    <div>
+
+      <h3 className="text-white font-bold text-xl mb-6">
+        Contact Us
+      </h3>
+
+      <p>📞 +91 81064 06999</p>
+
+      <p className="mt-4">
+        📧 info@sailalitinteriors.com
+      </p>
+
+      <p className="mt-4 leading-7">
+        P6RV+439, Old Karasa, Marripalem, Visakhapatnam, Andhra Pradesh 530009.
+        Branches: Vijayawada, AndhraPradesh Hyderabad, Telangana
+        India
+      </p>
+
+    </div>
+
+  </div>
+
+  {/* Bottom */}
+
+  <div className="border-t border-gray-800 py-6">
+
+    <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
+
+      <p>
+        © 2026 Sai Lalit Interior & Exterior. All Rights Reserved.
+      </p>
+
+      <p className="mt-3 md:mt-0">
+        Powered by
+        <span className="text-red-500 font-semibold">
+          {" "}Lookuptrendz
+        </span>
+      </p>
+
+    </div>
+
+  </div>
+
+</footer>
 </main>
 
 );
