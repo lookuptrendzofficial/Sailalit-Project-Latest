@@ -427,125 +427,128 @@ export default function Home() {
   </div>
 
 </section>
-  {/* ================= OUR PROJECTS ================= */}
 
-<section id="projects" className="bg-white py-20 px-6">
+      {/* ================= OUR PROJECTS ================= */}
 
-  <div className="max-w-7xl mx-auto">
+<section id="projects" className="py-20 bg-[#faf8f5]">
+  <div className="max-w-7xl mx-auto px-6">
 
     {/* Heading */}
-
     <div className="text-center mb-14">
-
-      <p className="text-red-600 font-semibold uppercase tracking-wider">
+      <p className="text-blue-600 font-semibold uppercase tracking-widest">
         — Our Projects —
       </p>
 
-      <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mt-3">
-        Crafted Spaces. Delivered with
-        <span className="text-red-600"> Excellence.</span>
+      <h2 className="mt-3 text-4xl lg:text-5xl font-bold text-gray-900">
+        Explore Our
+        <span className="text-blue-600"> Project Categories</span>
       </h2>
 
-      <p className="max-w-3xl mx-auto mt-5 text-lg text-gray-600 leading-8">
-        Explore some of our completed interior and exterior projects,
-        thoughtfully designed with premium materials, modern aesthetics,
-        and exceptional craftsmanship for homes and commercial spaces.
+      <p className="mt-5 text-gray-600 max-w-3xl mx-auto leading-8">
+        Browse our completed interior and exterior works. Click any category to
+        explore the complete project gallery.
       </p>
-
     </div>
 
-    {/* Projects Grid */}
+    {/* Categories */}
 
-    <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+    <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
 
       {[
         {
-          image:"https://lookuptrendz.com/wp-content/uploads/2026/07/file_00000000523c72078cc3b58a91847ae3.png",
-          title:"Luxury Modular Kitchen",
-          location:"Visakhapatnam",
-          desc:"Modern modular kitchen with premium finishes and elegant storage solutions."
+          title: "Modular Kitchens",
+          image: "https://lookuptrendz.com/wp-content/uploads/2026/07/file_00000000523c72078cc3b58a91847ae3.png",
+          link: "/projects/modular-kitchens",
         },
         {
-          image:"https://your-image-link-2.jpg",
-          title:"Master Bedroom Interior",
-          location:"Vizianagaram",
-          desc:"Contemporary bedroom featuring custom wardrobes and ambient lighting."
+          title: "Living Rooms",
+          image: "https://YOUR-LIVING-ROOM-IMAGE.jpg",
+          link: "/projects/living-room",
         },
         {
-          image:"https://your-image-link-3.jpg",
-          title:"TV Unit & Living Room",
-          location:"Visakhapatnam",
-          desc:"Custom TV unit with decorative wall panels and luxury interior styling."
+          title: "TV Units",
+          image: "https://YOUR-TV-UNIT-IMAGE.jpg",
+          link: "/projects/tv-unit",
         },
         {
-          image:"https://your-image-link-4.jpg",
-          title:"Modern Exterior Elevation",
-          location:"Hyderabad",
-          desc:"Premium exterior elevation designed with elegant architectural finishes."
+          title: "Bedrooms",
+          image: "https://YOUR-BEDROOM-IMAGE.jpg",
+          link: "/projects/bedrooms",
         },
         {
-          image:"https://your-image-link-5.jpg",
-          title:"False Ceiling Design",
-          location:"Visakhapatnam",
-          desc:"Stylish gypsum false ceiling with concealed LED lighting."
+          title: "Wardrobes",
+          image: "https://YOUR-WARDROBE-IMAGE.jpg",
+          link: "/projects/wardrobes",
         },
         {
-          image:"https://your-image-link-6.jpg",
-          title:"Glass Staircase Railings",
-          location:"Hyderabad",
-          desc:"Toughened glass railings with stainless steel fittings for modern interiors."
+          title: "False Ceiling",
+          image: "https://YOUR-CEILING-IMAGE.jpg",
+          link: "/projects/false-ceiling",
         },
         {
-          image:"https://your-image-link-7.jpg",
-          title:"Office Interior",
-          location:"Visakhapatnam",
-          desc:"Professional office workspace designed for productivity and elegance."
+          title: "Pooja Mandir",
+          image: "https://YOUR-PUJA-IMAGE.jpg",
+          link: "/projects/pooja-mandir",
         },
         {
-          image:"https://your-image-link-8.jpg",
-          title:"ACP Cladding",
-          location:"Vizianagaram",
-          desc:"Durable ACP exterior cladding with contemporary architectural appeal."
-        }
+          title: "Exterior Elevation",
+          image: "https://YOUR-ELEVATION-IMAGE.jpg",
+          link: "/projects/exterior",
+        },
+        {
+          title: "Office Interiors",
+          image: "https://YOUR-OFFICE-IMAGE.jpg",
+          link: "/projects/office",
+        },
+        {
+          title: "Wall Designs",
+          image: "https://YOUR-WALL-IMAGE.jpg",
+          link: "/projects/wall-design",
+        },
+        {
+          title: "Vertical Gardens",
+          image: "https://YOUR-GARDEN-IMAGE.jpg",
+          link: "/projects/vertical-garden",
+        },
+        {
+          title: "Commercial Projects",
+          image: "https://YOUR-COMMERCIAL-IMAGE.jpg",
+          link: "/projects/commercial-projects",
+        },
 
-      ].map((project,index)=>(
+      ].map((item, index) => (
 
-        <div
+        <a
           key={index}
-          className="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-2xl transition duration-300"
+          href={item.link}
+          className="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-2xl transition duration-300"
         >
-
-          <img
-            src={project.image}
-            alt={project.title}
-            className="w-full h-56 object-cover"
-          />
-
-          <div className="p-5">
-
-            <h3 className="font-bold text-xl text-gray-900">
-              {project.title}
-            </h3>
-
-            <p className="text-red-600 text-sm mt-2">
-              📍 {project.location}
-            </p>
-
-            <p className="text-gray-600 text-sm leading-6 mt-3">
-              {project.desc}
-            </p>
-
+          <div className="overflow-hidden">
+            <img
+              src={item.image}
+              alt={item.title}
+              className="w-full h-60 object-cover group-hover:scale-110 transition duration-500"
+            />
           </div>
 
-        </div>
+          <div className="p-6 text-center">
+            <h3 className="text-xl font-bold text-gray-900">
+              {item.title}
+            </h3>
+
+            <p className="mt-3 text-blue-600 font-medium">
+              View Gallery →
+            </p>
+          </div>
+        </a>
 
       ))}
 
     </div>
 
   </div>
-
 </section>
+      
 {/* ================= WHY CHOOSE US ================= */}
 
 <section className="py-20 bg-white">
