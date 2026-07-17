@@ -129,3 +129,100 @@ export default function BedroomsPage() {
           </div>
 
         </section>
+                {/* ================= GALLERY ================= */}
+
+        <section className="py-20 bg-[#faf8f5]">
+
+          <div className="max-w-7xl mx-auto px-6">
+
+            <div className="text-center mb-14">
+
+              <p className="text-blue-600 font-semibold uppercase tracking-widest">
+                — Project Gallery —
+              </p>
+
+              <h2 className="mt-3 text-4xl lg:text-5xl font-bold text-gray-900">
+                Explore Our Bedroom Interiors
+              </h2>
+
+            </div>
+
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+              {gallery.map((image, index) => (
+
+                <div
+                  key={index}
+                  className="group overflow-hidden rounded-3xl bg-white shadow-lg hover:shadow-2xl transition-all duration-500"
+                >
+
+                  <div className="relative overflow-hidden">
+
+                    <img
+                      src={image}
+                      alt={`Bedroom ${index + 1}`}
+                      className="w-full h-80 object-cover group-hover:scale-110 transition duration-700"
+                    />
+
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-500 flex items-end">
+
+                      <div className="p-6 text-white">
+
+                        <h3 className="text-2xl font-bold">
+                          Bedroom Interiors
+                        </h3>
+
+                        <p className="mt-2 text-white/80">
+                          Project {String(index + 1).padStart(2, "0")}
+                        </p>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              ))}
+
+            </div>
+
+          </div>
+
+        </section>
+        
+                {/* ================= CTA ================= */}
+
+        <section className="py-20 bg-gradient-to-r from-[#0A4F9E] to-[#1565C0] text-white">
+
+          <div className="max-w-4xl mx-auto px-6 text-center">
+
+            <h2 className="text-4xl lg:text-5xl font-bold">
+              Ready to Design Your Dream Bedroom?
+            </h2>
+
+            <p className="mt-6 text-lg leading-8 text-blue-100">
+              Let Sai Lalit Interior & Exterior transform your ideas into
+              beautiful, elegant and functional bedroom interiors crafted
+              with premium quality and attention to every detail.
+            </p>
+
+            <Link
+              href="/contact"
+              className="inline-block mt-10 bg-white text-blue-700 px-8 py-4 rounded-full font-semibold hover:bg-blue-700 hover:text-white transition duration-300"
+            >
+              Get Free Consultation
+            </Link>
+
+          </div>
+
+        </section>
+
+      </main>
+
+      <Footer />
+
+    </>
+  );
+}
