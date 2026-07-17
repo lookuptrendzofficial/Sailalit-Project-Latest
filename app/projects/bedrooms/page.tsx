@@ -6,24 +6,16 @@ import Footer from "../../components/Footer";
 import Link from "next/link";
 
 const gallery = [
-  "YOUR_BEDROOM_IMAGE_1",
-  "YOUR_BEDROOM_IMAGE_2",
-  "YOUR_BEDROOM_IMAGE_3",
-  "YOUR_BEDROOM_IMAGE_4",
-  "YOUR_BEDROOM_IMAGE_5",
-  "YOUR_BEDROOM_IMAGE_6",
-  "YOUR_BEDROOM_IMAGE_7",
-  "YOUR_BEDROOM_IMAGE_8",
-  "YOUR_BEDROOM_IMAGE_9",
-  "YOUR_BEDROOM_IMAGE_10",
-  "YOUR_BEDROOM_IMAGE_11",
-  "YOUR_BEDROOM_IMAGE_12",
-  "YOUR_BEDROOM_IMAGE_13",
-  "YOUR_BEDROOM_IMAGE_14",
-  "YOUR_BEDROOM_IMAGE_15",
+  "YOUR_IMAGE_1",
+  "YOUR_IMAGE_2",
+  "YOUR_IMAGE_3",
+  "YOUR_IMAGE_4",
+  "YOUR_IMAGE_5",
+  "YOUR_IMAGE_6",
 ];
 
-export default function BedroomsPage() {
+export default function ModularKitchensPage() {
+
   const [current, setCurrent] = useState(0);
 
   useEffect(() => {
@@ -40,36 +32,36 @@ export default function BedroomsPage() {
 
       <main className="pt-20">
 
-        {/* ================= HERO ================= */}
+        {/* Hero Slideshow */}
 
-        <section className="relative h-[600px] overflow-hidden">
+        <section className="relative h-[550px] overflow-hidden">
 
           <img
             src={gallery[current]}
-            alt="Bedroom Interior"
-            className="absolute inset-0 w-full h-full object-cover transition-all duration-1000"
+            alt="Modular Kitchen"
+            className="absolute inset-0 w-full h-full object-cover transition-all duration-700"
           />
 
-          <div className="absolute inset-0 bg-gradient-to-r from-[#021B3A]/90 via-[#0A4F9E]/65 to-black/60 flex items-center">
+          <div className="absolute inset-0 bg-black/55 flex items-center justify-center">
 
-            <div className="max-w-7xl mx-auto px-6 text-white">
+            <div className="max-w-4xl px-6 text-center text-white">
 
-              <p className="uppercase tracking-[6px] text-blue-200 font-semibold">
+              <p className="uppercase tracking-[5px] text-blue-200 font-semibold">
                 Our Projects
               </p>
 
-              <h1 className="text-5xl lg:text-7xl font-bold mt-6">
-                Bedroom Interiors
+              <h1 className="text-5xl lg:text-6xl font-bold mt-5">
+                Modular Kitchens
               </h1>
 
-              <p className="mt-8 max-w-2xl text-lg lg:text-xl leading-9 text-blue-100">
-                Elegant bedroom interiors crafted with premium materials,
-                modern aesthetics and timeless comfort.
+              <p className="mt-8 text-lg lg:text-xl leading-8 text-blue-100">
+                Discover beautifully crafted modular kitchen designs that
+                combine elegance, functionality, and modern aesthetics.
               </p>
 
               <Link
                 href="/contact"
-                className="inline-flex mt-10 bg-white text-blue-700 px-8 py-4 rounded-full font-semibold hover:bg-blue-700 hover:text-white transition duration-300"
+                className="inline-block mt-10 bg-white text-blue-700 px-8 py-4 rounded-full font-semibold hover:bg-blue-50 transition"
               >
                 Get Free Consultation
               </Link>
@@ -80,56 +72,38 @@ export default function BedroomsPage() {
 
         </section>
 
-        {/* ================= STATS ================= */}
+        {/* Category Description */}
 
-        <section className="bg-white py-10 shadow-md">
+        <section className="py-20 bg-white">
 
-          <div className="max-w-7xl mx-auto px-6">
+          <div className="max-w-5xl mx-auto px-6 text-center">
 
-            <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
+            <p className="text-blue-600 uppercase tracking-[4px] font-semibold">
+              About This Category
+            </p>
 
-              <div className="bg-[#faf8f5] rounded-2xl p-8 text-center hover:shadow-xl transition duration-300">
-                <h2 className="text-5xl font-bold text-blue-700">
-                  170+
-                </h2>
-                <p className="mt-3 text-gray-600">
-                  Projects Completed
-                </p>
-              </div>
+            <h2 className="text-4xl lg:text-5xl font-bold mt-4">
+              Premium Modular Kitchen Designs
+            </h2>
 
-              <div className="bg-[#faf8f5] rounded-2xl p-8 text-center hover:shadow-xl transition duration-300">
-                <h2 className="text-5xl font-bold text-blue-700">
-                  20+
-                </h2>
-                <p className="mt-3 text-gray-600">
-                  Years Experience
-                </p>
-              </div>
+            <p className="mt-8 text-lg text-gray-600 leading-9">
+              Our modular kitchens are designed to maximize space,
+              functionality, and elegance. Every project is carefully
+              customized to suit your lifestyle while maintaining a premium
+              finish and long-lasting quality.
+            </p>
 
-              <div className="bg-[#faf8f5] rounded-2xl p-8 text-center hover:shadow-xl transition duration-300">
-                <h2 className="text-5xl font-bold text-blue-700">
-                  150+
-                </h2>
-                <p className="mt-3 text-gray-600">
-                  Happy Clients
-                </p>
-              </div>
-
-              <div className="bg-[#faf8f5] rounded-2xl p-8 text-center hover:shadow-xl transition duration-300">
-                <h2 className="text-5xl font-bold text-blue-700">
-                  100%
-                </h2>
-                <p className="mt-3 text-gray-600">
-                  Quality Assurance
-                </p>
-              </div>
-
-            </div>
+            <p className="mt-6 text-lg text-gray-600 leading-9">
+              From compact kitchens to luxurious open layouts, our team
+              delivers modern solutions using high-quality materials,
+              innovative storage systems, and exceptional craftsmanship.
+            </p>
 
           </div>
 
         </section>
-                {/* ================= GALLERY ================= */}
+
+        {/* Gallery */}
 
         <section className="py-20 bg-[#faf8f5]">
 
@@ -137,13 +111,18 @@ export default function BedroomsPage() {
 
             <div className="text-center mb-14">
 
-              <p className="text-blue-600 font-semibold uppercase tracking-widest">
-                — Project Gallery —
+              <p className="text-blue-600 uppercase tracking-[4px] font-semibold">
+                Project Gallery
               </p>
 
-              <h2 className="mt-3 text-4xl lg:text-5xl font-bold text-gray-900">
-                Explore Our Bedroom Interiors
+              <h2 className="text-4xl lg:text-5xl font-bold mt-3">
+                Explore Our Work
               </h2>
+
+              <p className="mt-5 text-gray-600 max-w-3xl mx-auto">
+                Browse some of our completed modular kitchen projects that
+                reflect quality craftsmanship and timeless design.
+              </p>
 
             </div>
 
@@ -153,64 +132,47 @@ export default function BedroomsPage() {
 
                 <div
                   key={index}
-                  className="group overflow-hidden rounded-3xl bg-white shadow-lg hover:shadow-2xl transition-all duration-500"
+                  className="group overflow-hidden rounded-3xl bg-white shadow-lg"
                 >
 
-                  <div className="relative overflow-hidden">
-
-                    <img
-                      src={image}
-                      alt={`Bedroom ${index + 1}`}
-                      className="w-full h-80 object-cover group-hover:scale-110 transition duration-700"
-                    />
-
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-500 flex items-end">
-
-                      <div className="p-6 text-white">
-
-                        <h3 className="text-2xl font-bold">
-                          Bedroom Interiors
-                        </h3>
-
-                        <p className="mt-2 text-white/80">
-                          Project {String(index + 1).padStart(2, "0")}
-                        </p>
-
-                      </div>
-
-                    </div>
-
-                  </div>
+                  <img
+                    src={image}
+                    alt={`Kitchen ${index + 1}`}
+                    className="w-full h-80 object-cover group-hover:scale-105 transition duration-500"
+                  />
 
                 </div>
 
               ))}
-
-            </div>
+                          </div>
 
           </div>
 
         </section>
-        
-                {/* ================= CTA ================= */}
+
+        {/* Call To Action */}
 
         <section className="py-20 bg-gradient-to-r from-[#0A4F9E] to-[#1565C0] text-white">
 
-          <div className="max-w-4xl mx-auto px-6 text-center">
+          <div className="max-w-5xl mx-auto px-6 text-center">
 
-            <h2 className="text-4xl lg:text-5xl font-bold">
-              Ready to Design Your Dream Bedroom?
+            <p className="uppercase tracking-[4px] text-blue-200 font-semibold">
+              Let's Create Something Beautiful
+            </p>
+
+            <h2 className="text-4xl lg:text-5xl font-bold mt-4">
+              Ready to Design Your Dream Kitchen?
             </h2>
 
-            <p className="mt-6 text-lg leading-8 text-blue-100">
-              Let Sai Lalit Interior & Exterior transform your ideas into
-              beautiful, elegant and functional bedroom interiors crafted
-              with premium quality and attention to every detail.
+            <p className="mt-6 text-lg leading-8 text-blue-100 max-w-3xl mx-auto">
+              Whether you're building a new home or renovating your existing
+              kitchen, our team is here to transform your ideas into elegant,
+              functional spaces with premium craftsmanship.
             </p>
 
             <Link
               href="/contact"
-              className="inline-block mt-10 bg-white text-blue-700 px-8 py-4 rounded-full font-semibold hover:bg-blue-700 hover:text-white transition duration-300"
+              className="inline-block mt-10 bg-white text-[#0A4F9E] font-semibold px-8 py-4 rounded-full hover:bg-blue-50 transition"
             >
               Get Free Consultation
             </Link>
