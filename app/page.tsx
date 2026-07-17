@@ -265,7 +265,7 @@ export default function Home() {
   <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-6 text-center">
     <div className="flex justify-center mb-5">
       <img
-        src="https://lookuptrendz.com/wp-content/uploads/2026/07/file_000000009fe072088dd3f6700a00e3de.png"
+        src="https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/file_000000009fe072088dd3f6700a00e3de.png"
         alt="Modular Interiors"
         className="w-20 h-20 object-contain"
       />
@@ -285,7 +285,7 @@ export default function Home() {
   <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-6 text-center">
     <div className="flex justify-center mb-5">
       <img
-        src="https://lookuptrendz.com/wp-content/uploads/2026/07/file_0000000054d071fab01b4282367d3683.png"
+        src="https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/file_0000000054d071fab01b4282367d3683.png"
         alt="Imported Aluminium"
         className="w-20 h-20 object-contain"
       />
@@ -306,7 +306,7 @@ export default function Home() {
   <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-6 text-center">
     <div className="flex justify-center mb-5">
       <img
-        src="https://YOUR-DOMAIN.COM/exterior.png"
+        src="https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/file_00000000a52871fabb53414fc5d919c5.png"
         alt="Exterior Solutions"
         className="w-20 h-20 object-contain"
       />
@@ -327,7 +327,7 @@ export default function Home() {
   <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-6 text-center">
     <div className="flex justify-center mb-5">
       <img
-        src="https://lookuptrendz.com/wp-content/uploads/2026/07/file_00000000eca0720797666fa17604a48d.png"
+        src="https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/file_00000000eca0720797666fa17604a48d.png"
         alt="False Ceiling"
         className="w-20 h-20 object-contain"
       />
@@ -347,7 +347,7 @@ export default function Home() {
   <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-6 text-center">
     <div className="flex justify-center mb-5">
       <img
-        src="https://lookuptrendz.com/wp-content/uploads/2026/07/file_00000000ec0871fa865d0df7f503ded1.png"
+        src="https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/file_00000000ec0871fa865d0df7f503ded1-1.png"
         alt="Painting & Wallpapers"
         className="w-20 h-20 object-contain"
       />
@@ -368,7 +368,7 @@ export default function Home() {
   <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-6 text-center">
     <div className="flex justify-center mb-5">
       <img
-        src="https://lookuptrendz.com/wp-content/uploads/2026/07/file_00000000523c72078cc3b58a91847ae3.png"
+        src="https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/file_00000000523c72078cc3b58a91847ae3.png"
         alt="Railings & Glass Works"
         className="w-20 h-20 object-contain"
       />
@@ -584,7 +584,7 @@ export default function Home() {
         {/* Experience */}
         <div className="flex items-center gap-5 group">
           <img
-            src="https://YOUR-DOMAIN.COM/experience.png"
+            src="https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/1_20260717_060343_0000.png"
             alt="Experience"
             className="w-14 h-14 object-contain group-hover:scale-110 transition duration-300"
           />
@@ -596,7 +596,7 @@ export default function Home() {
         {/* Quality */}
         <div className="flex items-center gap-5 group">
           <img
-            src="https://YOUR-DOMAIN.COM/quality.png"
+            src="https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/2_20260717_060343_0001.png"
             alt="Quality"
             className="w-14 h-14 object-contain group-hover:scale-110 transition duration-300"
           />
@@ -608,7 +608,7 @@ export default function Home() {
         {/* Delivery */}
         <div className="flex items-center gap-5 group">
           <img
-            src="https://YOUR-DOMAIN.COM/delivery.png"
+            src="https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/3_20260717_060343_0002.png"
             alt="Delivery"
             className="w-14 h-14 object-contain group-hover:scale-110 transition duration-300"
           />
@@ -620,7 +620,7 @@ export default function Home() {
         {/* Support */}
         <div className="flex items-center gap-5 group">
           <img
-            src="https://YOUR-DOMAIN.COM/support.png"
+            src="https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/4_20260717_060343_0003.png"
             alt="Support"
             className="w-14 h-14 object-contain group-hover:scale-110 transition duration-300"
           />
