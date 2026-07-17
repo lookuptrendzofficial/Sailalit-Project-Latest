@@ -13,6 +13,44 @@ export default function Home() {
     <main className="w-full">
 
       <Header />
+      "use client";
+
+import { useEffect, useState } from "react";
+
+const stats = [
+  "🏆 170+ Projects Completed",
+  "⭐ 20+ Years of Experience",
+  "🤝 150+ Happy Clients",
+  "✅ Quality Assured Work",
+];
+
+export default function HangingBadge() {
+  const [index, setIndex] = useState(0);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setIndex((prev) => (prev + 1) % stats.length);
+    }, 3000);
+
+    return () => clearInterval(timer);
+  }, []);
+
+  return (
+    <div className="fixed top-20 left-1/2 -translate-x-1/2 z-50 pointer-events-none">
+      <div className="flex flex-col items-center">
+        {/* Rope */}
+        <div className="w-[2px] h-10 bg-gradient-to-b from-blue-300 to-blue-600"></div>
+
+        {/* Badge */}
+        <div className="animate-swing bg-gradient-to-r from-[#0A4DA2] via-[#1565C0] to-[#1E88E5] text-white px-8 py-4 rounded-2xl shadow-2xl border border-white/20 backdrop-blur-md">
+          <p className="font-semibold tracking-wide text-sm md:text-base text-center transition-all duration-700">
+            {stats[index]}
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+}
 
       {/* ================= HERO ================= */}
   
