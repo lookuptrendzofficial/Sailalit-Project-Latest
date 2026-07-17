@@ -629,18 +629,6 @@ export default function Home() {
           </span>
         </div>
 
-        {/* Design */}
-        <div className="flex items-center gap-5 group">
-          <img
-            src="https://YOUR-DOMAIN.COM/design.png"
-            alt="Design"
-            className="w-14 h-14 object-contain group-hover:scale-110 transition duration-300"
-          />
-          <span className="text-lg font-semibold text-gray-800">
-            Customized Design Solutions
-          </span>
-        </div>
-
       </div>
 
     </div>
