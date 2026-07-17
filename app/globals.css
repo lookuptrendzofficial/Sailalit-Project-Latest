@@ -157,3 +157,21 @@ button {
 .icon-hover:hover {
   transform: scale(1.08);
 }
+@keyframes swing {
+  0% {
+    transform: rotate(4deg);
+  }
+
+  50% {
+    transform: rotate(-4deg);
+  }
+
+  100% {
+    transform: rotate(4deg);
+  }
+}
+
+.animate-swing {
+  transform-origin: top center;
+  animation: swing 4s ease-in-out infinite;
+}
