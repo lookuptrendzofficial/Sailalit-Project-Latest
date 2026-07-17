@@ -570,7 +570,7 @@ export default function Home() {
       <div className="mt-10 space-y-6">
 
         <div className="flex items-center gap-5 group">
-          <img src="/icons/experience.png" className="w-14 h-14 group-hover:scale-110 transition duration-300" />
+          <img src="/icons/1_20260717_060343_0000.png" className="w-14 h-14 group-hover:scale-110 transition duration-300" />
           <span className="text-lg font-semibold">20+ Years of Industry Experience</span>
         </div>
 
