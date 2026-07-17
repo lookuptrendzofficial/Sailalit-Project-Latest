@@ -265,7 +265,7 @@ export default function Home() {
   <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-6 text-center">
     <div className="flex justify-center mb-5">
       <img
-        src="https://YOUR-DOMAIN.COM/modular.png"
+        src="https://lookuptrendz.com/wp-content/uploads/2026/07/file_000000009fe072088dd3f6700a00e3de.png"
         alt="Modular Interiors"
         className="w-20 h-20 object-contain"
       />
@@ -285,7 +285,7 @@ export default function Home() {
   <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-6 text-center">
     <div className="flex justify-center mb-5">
       <img
-        src="https://YOUR-DOMAIN.COM/aluminium.png"
+        src="https://lookuptrendz.com/wp-content/uploads/2026/07/file_0000000054d071fab01b4282367d3683.png"
         alt="Imported Aluminium"
         className="w-20 h-20 object-contain"
       />
@@ -327,7 +327,7 @@ export default function Home() {
   <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-6 text-center">
     <div className="flex justify-center mb-5">
       <img
-        src="https://YOUR-DOMAIN.COM/ceiling.png"
+        src="https://lookuptrendz.com/wp-content/uploads/2026/07/file_00000000eca0720797666fa17604a48d.png"
         alt="False Ceiling"
         className="w-20 h-20 object-contain"
       />
@@ -347,7 +347,7 @@ export default function Home() {
   <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-6 text-center">
     <div className="flex justify-center mb-5">
       <img
-        src="https://YOUR-DOMAIN.COM/painting.png"
+        src="https://lookuptrendz.com/wp-content/uploads/2026/07/file_00000000ec0871fa865d0df7f503ded1.png"
         alt="Painting & Wallpapers"
         className="w-20 h-20 object-contain"
       />
@@ -368,7 +368,7 @@ export default function Home() {
   <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-6 text-center">
     <div className="flex justify-center mb-5">
       <img
-        src="https://YOUR-DOMAIN.COM/railings.png"
+        src="https://lookuptrendz.com/wp-content/uploads/2026/07/file_00000000523c72078cc3b58a91847ae3.png"
         alt="Railings & Glass Works"
         className="w-20 h-20 object-contain"
       />
