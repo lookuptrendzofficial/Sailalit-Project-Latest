@@ -77,6 +77,50 @@ export default function RajasthanSitePage() {
         </div>
 
       </section>
+      {/* Featured Project Images */}
+
+<section className="py-24 bg-white">
+
+  <div className="max-w-7xl mx-auto px-6">
+
+    <div className="text-center mb-16">
+
+      <p className="uppercase tracking-[0.35em] text-red-600 font-semibold">
+        Rajasthan Project
+      </p>
+
+      <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mt-4">
+        Premium Project Showcase
+      </h2>
+
+      <p className="mt-5 max-w-3xl mx-auto text-lg text-gray-600">
+        Every image showcases the craftsmanship, precision and premium finish
+        delivered at our Rajasthan project.
+      </p>
+
+    </div>
+
+    <div className="space-y-16">
+
+      {gallery.map((img, index) => (
+
+        <div key={index} className="overflow-hidden rounded-3xl shadow-2xl">
+
+          <img
+            src={img}
+            alt={`Rajasthan Project ${index + 1}`}
+            className="w-full h-[650px] object-cover hover:scale-105 transition duration-700"
+          />
+
+        </div>
+
+      ))}
+
+    </div>
+
+  </div>
+
+</section>
             {/* CTA */}
 
       <section className="py-24 bg-red-600 text-white">
