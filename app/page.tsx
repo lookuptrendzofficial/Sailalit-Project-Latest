@@ -1050,29 +1050,21 @@ export default function Home() {
 
 </section>
 {/* ================= FEATURED CLIENTS ================= */}
-<section id="clients" className="bg-[#faf8f5] py-20 px-6">
+<section id="clients" className="bg-[#faf8f5] py-20 overflow-hidden">
 
-  <div className="max-w-7xl mx-auto">
+  <div className="text-center mb-14 px-6">
+    <p className="text-red-600 font-semibold uppercase tracking-widest">
+      — Our Clients —
+    </p>
 
-    <div className="text-center mb-14">
+    <h2 className="text-4xl lg:text-5xl font-bold mt-3">
+      Trusted By Industry Leaders
+    </h2>
+  </div>
 
-      <p className="text-red-600 font-semibold uppercase tracking-widest">
-        — Our Clients —
-      </p>
+  <div className="overflow-hidden">
 
-      <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mt-3">
-        Our Featured <span className="text-red-600">Clients</span>
-      </h2>
-
-      <p className="mt-5 max-w-3xl mx-auto text-lg text-gray-600 leading-8">
-        We are proud to work with homeowners, builders, architects and
-        businesses who trust Sai Lalit Interior & Exterior for quality,
-        reliability and exceptional craftsmanship.
-      </p>
-
-    </div>
-
-    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
+    <div className="flex gap-12 animate-marquee whitespace-nowrap">
 
       {[
         {
@@ -1084,7 +1076,7 @@ export default function Home() {
           logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Pfizer_%282021%29.svg/1280px-Pfizer_%282021%29.svg.png",
         },
         {
-          name: "Sumadhura Group",
+          name: "Sumadhura",
           logo: "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/Sumadhura-Group-Logo-Image-scaled.png",
         },
         {
@@ -1092,24 +1084,40 @@ export default function Home() {
           logo: "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/logo-1.png",
         },
         {
-          name: "Ozone Valley",
+          name: "STBL",
+          logo: "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/website-logo_1.jpg",
+        },
+        {
+          name: "Shapoorji Pallonji",
+          logo: "https://www.shapoorjipallonji.com/assets/vectors/icons/icon_splogo_blue.svg",
+        },
+        {
+          name: "Pfizer",
+          logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Pfizer_%282021%29.svg/1280px-Pfizer_%282021%29.svg.png",
+        },
+        {
+          name: "Sumadhura",
+          logo: "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/Sumadhura-Group-Logo-Image-scaled.png",
+        },
+        {
+          name: "MVV Builders",
+          logo: "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/logo-1.png",
+        },
+        {
+          name: "STBL",
           logo: "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/website-logo_1.jpg",
         },
       ].map((client, index) => (
-
         <div
           key={index}
-          className="bg-white rounded-3xl shadow-md hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 p-8 flex justify-center items-center h-40"
+          className="flex-shrink-0 w-64 h-36 bg-white rounded-2xl shadow-lg flex items-center justify-center p-8"
         >
-
           <img
             src={client.logo}
             alt={client.name}
-            className="max-h-20 max-w-full object-contain"
+            className="max-h-16 w-auto object-contain"
           />
-
         </div>
-
       ))}
 
     </div>
