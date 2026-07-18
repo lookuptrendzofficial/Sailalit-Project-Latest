@@ -41,10 +41,35 @@ const projects = [
     link: "/projects/pooja-mandir",
   },
   {
-    title: "Office Interiors",
-    image: "https://YOUR-OFFICE-IMAGE.jpg",
-    link: "/projects/office-interiors",
-  },
+  title: "Hyderabad Projects",
+  image: "https://YOUR-HYDERABAD-IMAGE.jpg",
+  link: "/projects/hyderabad-projects",
+},
+{
+  title: "Elevations",
+  image: "https://YOUR-ELEVATION-IMAGE.jpg",
+  link: "/projects/elevations",
+},
+{
+  title: "3D Designs",
+  image: "https://YOUR-3D-DESIGN-IMAGE.jpg",
+  link: "/projects/3d-designs",
+},
+{
+  title: "Wall Designs",
+  image: "https://YOUR-WALL-DESIGN-IMAGE.jpg",
+  link: "/projects/wall-designs",
+},
+{
+  title: "Vertical Gardens",
+  image: "https://YOUR-VERTICAL-GARDEN-IMAGE.jpg",
+  link: "/projects/vertical-gardens",
+},
+{
+  title: "Commercial Projects",
+  image: "https://YOUR-COMMERCIAL-IMAGE.jpg",
+  link: "/projects/commercial-projects",
+},
 ];
 
 export default function ProjectsPage() {
