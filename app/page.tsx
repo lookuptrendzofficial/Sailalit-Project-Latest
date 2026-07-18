@@ -430,28 +430,34 @@ export default function Home() {
 </section>
 
       {/* ================= OUR PROJECTS ================= */}
+{/* Our Work */}
 
-<section id="projects" className="py-20 bg-[#faf8f5]">
+<section id="projects" className="py-24 bg-[#faf8f5]">
+
   <div className="max-w-7xl mx-auto px-6">
 
     {/* Heading */}
-    <div className="text-center mb-14">
-      <p className="text-blue-600 font-semibold uppercase tracking-widest">
-        — Our Projects —
+
+    <div className="text-center mb-16">
+
+      <p className="text-red-600 font-semibold uppercase tracking-[6px]">
+        Our Portfolio
       </p>
 
-      <h2 className="mt-3 text-4xl lg:text-5xl font-bold text-gray-900">
-        Explore Our
-        <span className="text-blue-600"> Project Categories</span>
+      <h2 className="mt-4 text-5xl lg:text-6xl font-bold text-gray-900">
+        Explore Our Finest Work
       </h2>
 
-      <p className="mt-5 text-gray-600 max-w-3xl mx-auto leading-8">
-        Browse our completed interior and exterior works. Click any category to
-        explore the complete project gallery.
+      <p className="mt-6 max-w-3xl mx-auto text-lg text-gray-600 leading-8">
+        Every project reflects our passion for craftsmanship,
+        premium materials and timeless interior design.
+        Explore our signature creations across residential
+        and commercial spaces.
       </p>
+
     </div>
 
-    {/* Categories */}
+    {/* Projects */}
 
     <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
 
@@ -463,91 +469,113 @@ export default function Home() {
         },
         {
           title: "Living Rooms",
-          image: "https://YOUR-LIVING-ROOM-IMAGE.jpg",
+          image: "https://YOUR-LIVING-ROOM.jpg",
           link: "/projects/living-room",
         },
         {
           title: "TV Units",
-          image: "https://YOUR-TV-UNIT-IMAGE.jpg",
-          link: "/projects/tv-unit",
+          image: "https://YOUR-TV-UNIT.jpg",
+          link: "/projects/tv-units",
         },
         {
           title: "Bedrooms",
-          image: "https://YOUR-BEDROOM-IMAGE.jpg",
+          image: "https://YOUR-BEDROOM.jpg",
           link: "/projects/bedrooms",
         },
         {
           title: "Wardrobes",
-          image: "https://YOUR-WARDROBE-IMAGE.jpg",
+          image: "https://YOUR-WARDROBE.jpg",
           link: "/projects/wardrobes",
         },
         {
           title: "False Ceiling",
-          image: "https://YOUR-CEILING-IMAGE.jpg",
+          image: "https://YOUR-FALSE-CEILING.jpg",
           link: "/projects/false-ceiling",
         },
         {
           title: "Pooja Mandir",
-          image: "https://YOUR-PUJA-IMAGE.jpg",
+          image: "https://YOUR-POOJA.jpg",
           link: "/projects/pooja-mandir",
         },
         {
-          title: "Exterior Elevation",
-          image: "https://YOUR-ELEVATION-IMAGE.jpg",
-          link: "/projects/exterior",
-        },
-        {
-          title: "Office Interiors",
-          image: "https://YOUR-OFFICE-IMAGE.jpg",
-          link: "/projects/office",
+          title: "Elevations",
+          image: "https://YOUR-ELEVATION.jpg",
+          link: "/projects/elevations",
         },
         {
           title: "Wall Designs",
-          image: "https://YOUR-WALL-IMAGE.jpg",
-          link: "/projects/wall-design",
+          image: "https://YOUR-WALL.jpg",
+          link: "/projects/wall-designs",
         },
         {
           title: "Vertical Gardens",
-          image: "https://YOUR-GARDEN-IMAGE.jpg",
-          link: "/projects/vertical-garden",
+          image: "https://YOUR-GARDEN.jpg",
+          link: "/projects/vertical-gardens",
         },
         {
-          title: "Commercial Projects",
-          image: "https://YOUR-COMMERCIAL-IMAGE.jpg",
-          link: "/projects/commercial-projects",
+          title: "Hyderabad Projects",
+          image: "https://YOUR-HYDERABAD.jpg",
+          link: "/projects/hyderabad-projects",
+        },
+        {
+          title: "3D Designs",
+          image: "https://YOUR-3D.jpg",
+          link: "/projects/3d-designs",
         },
 
       ].map((item, index) => (
 
-        <a
+        <div
           key={index}
-          href={item.link}
-          className="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-2xl transition duration-300"
+          className="group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl hover:-translate-y-3 transition-all duration-500"
         >
+
           <div className="overflow-hidden">
+
             <img
               src={item.image}
               alt={item.title}
-              className="w-full h-60 object-cover group-hover:scale-110 transition duration-500"
+              className="w-full h-64 object-cover group-hover:scale-110 transition duration-700"
             />
+
           </div>
 
-          <div className="p-6 text-center">
-            <h3 className="text-xl font-bold text-gray-900">
+          <div className="p-6">
+
+            <h3 className="text-2xl font-bold text-center text-gray-900">
               {item.title}
             </h3>
 
-            <p className="mt-3 text-blue-600 font-medium">
+            <Link
+              href={item.link}
+              className="mt-6 inline-flex justify-center w-full py-3 rounded-full bg-red-600 text-white font-semibold hover:bg-red-700 transition"
+            >
               View Gallery →
-            </p>
+            </Link>
+
           </div>
-        </a>
+
+        </div>
 
       ))}
 
     </div>
 
+    {/* View All */}
+
+    <div className="text-center mt-20">
+
+      <Link
+        href="/projects"
+        className="inline-flex items-center gap-3 px-12 py-5 rounded-full bg-gray-900 text-white text-lg font-bold hover:bg-red-600 transition duration-300 shadow-xl"
+      >
+        View All Projects →
+      </Link>
+
+    </div>
+
   </div>
+
 </section>
       
 {/* ================= WHY CHOOSE US ================= */}
