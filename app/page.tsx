@@ -11,7 +11,7 @@ export default function Home() {
     "https://lookuptrendz.com/wp-content/uploads/2026/07/file_000000001804723085d86eb19bcdca03.png";
 
   return (
-    <main className="w-full"></main>
+    <main className="w-full">
 
       <Header />
 
