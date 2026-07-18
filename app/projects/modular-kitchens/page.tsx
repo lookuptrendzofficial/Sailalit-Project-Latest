@@ -6,21 +6,21 @@ import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 
 const modularKitchenImages = [
-  "https://lookuptrendz.com/wp-content/uploads/2026/07/modular-kitchen-1.jpg",
-  "https://lookuptrendz.com/wp-content/uploads/2026/07/modular-kitchen-2.jpg",
-  "https://lookuptrendz.com/wp-content/uploads/2026/07/modular-kitchen-3.jpg",
-  "https://lookuptrendz.com/wp-content/uploads/2026/07/modular-kitchen-4.jpg",
-  "https://lookuptrendz.com/wp-content/uploads/2026/07/modular-kitchen-5.jpg",
-  "https://lookuptrendz.com/wp-content/uploads/2026/07/modular-kitchen-6.jpg",
-  "https://lookuptrendz.com/wp-content/uploads/2026/07/modular-kitchen-7.jpg",
-  "https://lookuptrendz.com/wp-content/uploads/2026/07/modular-kitchen-8.jpg",
-  "https://lookuptrendz.com/wp-content/uploads/2026/07/modular-kitchen-9.jpg",
-  "https://lookuptrendz.com/wp-content/uploads/2026/07/modular-kitchen-10.jpg",
-  "https://lookuptrendz.com/wp-content/uploads/2026/07/modular-kitchen-11.jpg",
-  "https://lookuptrendz.com/wp-content/uploads/2026/07/modular-kitchen-12.jpg",
-  "https://lookuptrendz.com/wp-content/uploads/2026/07/modular-kitchen-13.jpg",
-  "https://lookuptrendz.com/wp-content/uploads/2026/07/modular-kitchen-14.jpg",
-  "https://lookuptrendz.com/wp-content/uploads/2026/07/modular-kitchen-15.jpg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.01.39.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.01.28.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.01.11.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.00.50.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.00.09.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-00.52.23-2.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-00.45.54.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG-20220130-WA0035.jpg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG-20220130-WA0036.jpg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG-20210816-WA0062.jpg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG-20210816-WA0039.jpg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG-20210816-WA0021.jpg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG-20210816-WA0007.jpg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG-20210626-WA0056.jpg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-00.52.34.jpeg",
 ];
 
 export default function ModularKitchenPage() {
