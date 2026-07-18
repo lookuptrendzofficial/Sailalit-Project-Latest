@@ -22,82 +22,72 @@ export default function Home() {
   {/* ================= HERO ================= */}  
 
   <section  
-    className="relative min-h-screen bg-cover bg-center flex items-center"  
-    style={{  
-      backgroundImage: `url(${heroImage})`,  
-    }}  
-  >  
-    {/* Overlay */}  
+  className="relative min-h-screen bg-cover bg-center flex items-center"
+  style={{
+    backgroundImage: `url(${heroImage})`,
+  }}
+>
+  {/* Overlay */}
+  <div className="absolute inset-0 bg-black/50"></div>
 
-    <div className="absolute inset-0 bg-black/50"></div>  
+  <div className="relative max-w-7xl mx-auto w-full px-6 pt-24">
 
-    <div className="relative max-w-7xl mx-auto w-full px-6 pt-24">  
+    <div className="max-w-2xl text-white">
 
-      <div className="max-w-2xl text-white">  
+      <h1 className="text-4xl md:text-6xl font-extrabold leading-tight">
+        Transforming Spaces
+        <br />
+        with Premium
+        <br />
+        <span className="text-red-500">
+          Interior & Exterior
+        </span>
+        <br />
+        Solutions
+      </h1>
 
-        <h1 className="text-4xl md:text-6xl font-extrabold leading-tight">  
+      <h2 className="mt-6 text-2xl font-semibold">
+        Building Dream Homes & Commercial Spaces
+        <span className="text-red-500">
+          {" "}Since 2019
+        </span>
+      </h2>
 
-          Transforming Spaces  
-          <br />  
+      <p className="mt-6 text-lg text-gray-200 leading-8">
+        With over 20 years of experience and 170+ completed
+        projects, Sai Lalit Interior & Exterior specializes
+        in imported aluminium systems, modular interiors,
+        false ceilings, ACP cladding, elevations, railings,
+        and customized design solutions across
+        Visakhapatnam, Vizianagaram & Hyderabad.
+      </p>
 
-          with Premium  
+      <div className="mt-10 flex flex-wrap gap-5">
 
-          <br />  
+        <a
+          href="https://wa.me/918106406999"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-red-600 hover:bg-red-700 transition px-8 py-4 rounded-md font-semibold text-white"
+        >
+          Free Consultation
+        </a>
 
-          <span className="text-red-500">  
-            Interior & Exterior  
-          </span>  
+        <Link
+          href="/projects"
+          className="border border-white hover:bg-white hover:text-black transition px-8 py-4 rounded-md flex items-center gap-2 font-semibold"
+        >
+          View Our Projects
+          <ArrowRight size={20} />
+        </Link>
 
-          <br />  
+      </div>
 
-          Solutions  
+    </div>
 
-        </h1>  
+  </div>
 
-        <h2 className="mt-6 text-2xl font-semibold">  
-
-          Building Dream Homes & Commercial Spaces  
-
-          <span className="text-red-500">  
-            {" "}Since 2019  
-          </span>  
-
-        </h2>  
-
-        <p className="mt-6 text-lg text-gray-200 leading-8">  
-
-          With over 20 years of experience and 170+ completed  
-          projects, Sai Lalit Interior & Exterior specializes  
-          in imported aluminium systems, modular interiors,  
-          false ceilings, ACP cladding, elevations, railings,  
-          and customized design solutions across  
-          Visakhapatnam, Vizianagaram & Hyderabad.  
-
-        </p>  
-
-        <div className="mt-10 flex flex-wrap gap-5">  
-
-          <button className="bg-red-600 hover:bg-red-700 transition px-8 py-4 rounded-md font-semibold">  
-
-            Get Free Quote  
-
-          </button>  
-
-          <button className="border border-white hover:bg-white hover:text-black transition px-8 py-4 rounded-md flex items-center gap-2 font-semibold">  
-
-            View Our Projects  
-
-            <ArrowRight size={20} />  
-
-          </button>  
-
-        </div>  
-
-      </div>  
-
-    </div>  
-
-  </section>  
+</section>  
                                                                                                                                                                                       
    {/* ================= ABOUT ================= */}
 
