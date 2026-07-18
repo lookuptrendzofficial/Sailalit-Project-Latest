@@ -1050,7 +1050,6 @@ export default function Home() {
 
 </section>
 {/* ================= FEATURED CLIENTS ================= */}
-
 <section id="clients" className="bg-[#faf8f5] py-20 px-6">
 
   <div className="max-w-7xl mx-auto">
@@ -1073,21 +1072,44 @@ export default function Home() {
 
     </div>
 
-    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
 
-      {[1,2,3,4,5,6,7,8,9,10].map((item)=>(
+      {[
+        {
+          name: "Shapoorji Pallonji",
+          logo: "https://www.shapoorjipallonji.com/assets/vectors/icons/icon_splogo_blue.svg",
+        },
+        {
+          name: "Pfizer",
+          logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Pfizer_%282021%29.svg/1280px-Pfizer_%282021%29.svg.png",
+        },
+        {
+          name: "Sumadhura Group",
+          logo: "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/Sumadhura-Group-Logo-Image-scaled.png",
+        },
+        {
+          name: "MVV Builders",
+          logo: "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/logo-1.png",
+        },
+        {
+          name: "Ozone Valley",
+          logo: "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/website-logo_1.jpg",
+        },
+      ].map((client, index) => (
+
         <div
-          key={item}
-          className="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-8 flex justify-center items-center h-40"
+          key={index}
+          className="bg-white rounded-3xl shadow-md hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 p-8 flex justify-center items-center h-40"
         >
 
           <img
-            src={`https://your-logo-link-${item}.png`}
-            alt="Client Logo"
-            className="max-h-20 object-contain"
+            src={client.logo}
+            alt={client.name}
+            className="max-h-20 max-w-full object-contain"
           />
 
         </div>
+
       ))}
 
     </div>
