@@ -12,42 +12,37 @@ const projects = [
   },
   {
     title: "Living Rooms",
-    image: "https://YOUR-LIVINGROOM-IMAGE.jpg",
+    image: "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-00.42.55.jpeg",
     link: "/projects/living-room",
   },
   {
     title: "TV Units",
-    image: "https://YOUR-TVUNIT-IMAGE.jpg",
+    image: "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-00.45.21-scaled.jpeg",
     link: "/projects/tv-units",
   },
   {
-    title: "Bedrooms",
-    image: "https://YOUR-BEDROOM-IMAGE.jpg",
-    link: "/projects/bedrooms",
-  },
-  {
     title: "Wardrobes",
-    image: "https://YOUR-WARDROBE-IMAGE.jpg",
+    image: "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.01.08-scaled.jpeg",
     link: "/projects/wardrobes",
   },
   {
     title: "False Ceiling",
-    image: "https://YOUR-FALSECEILING-IMAGE.jpg",
+    image: "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.01.22.jpeg",
     link: "/projects/false-ceilings",
   },
   {
     title: "Pooja Mandir",
-    image: "https://YOUR-POOJA-IMAGE.jpg",
+    image: "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-00.52.31-2-scaled.jpeg",
     link: "/projects/pooja-mandir",
   },
   {
   title: "Hyderabad Projects",
-  image: "https://YOUR-HYDERABAD-IMAGE.jpg",
+  image: "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-00.48.44-scaled.jpeg",
   link: "/projects/hyderabad-projects",
 },
 {
   title: "Elevations",
-  image: "https://YOUR-ELEVATION-IMAGE.jpg",
+  image: "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.37.jpeg",
   link: "/projects/elevations",
 },
 {
@@ -62,13 +57,8 @@ const projects = [
 },
 {
   title: "Vertical Gardens",
-  image: "https://YOUR-VERTICAL-GARDEN-IMAGE.jpg",
+  image: "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.48.jpeg",
   link: "/projects/vertical-gardens",
-},
-{
-  title: "Commercial Projects",
-  image: "https://YOUR-COMMERCIAL-IMAGE.jpg",
-  link: "/projects/commercial-projects",
 },
   {
   title: "MSB Area",
@@ -82,22 +72,22 @@ const projects = [
 },
 {
   title: "Wash Basins",
-  image: "https://YOUR-WASH-BASINS-IMAGE.jpg",
+  image: "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.04.54-1.jpeg",
   link: "/projects/wash-basins",
 },
 {
   title: "Pfizer Vizag Projects",
-  image: "https://YOUR-PFIZER-VIZAG-IMAGE.jpg",
+  image: "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.04.50.jpeg",
   link: "/projects/pfizer-vizag-projects",
 },
 {
   title: "SPCL Site",
-  image: "https://YOUR-SPCL-SITE-IMAGE.jpg",
+  image: "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-06-at-02.00.54.jpeg",
   link: "/projects/spcl-site",
 },
 {
   title: "Rajasthan Site",
-  image: "https://YOUR-RAJASTHAN-SITE-IMAGE.jpg",
+  image: "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-06-at-01.55.39-3.jpeg",
   link: "/projects/rajasthan-site",
 },
 ];
