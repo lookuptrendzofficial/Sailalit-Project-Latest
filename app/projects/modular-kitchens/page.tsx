@@ -1,70 +1,103 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Link from "next/link";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
-import Link from "next/link";
 
-const gallery = [
-  "YOUR_IMAGE_1",
-  "YOUR_IMAGE_2",
-  "YOUR_IMAGE_3",
-  "YOUR_IMAGE_4",
-  "YOUR_IMAGE_5",
-  "YOUR_IMAGE_6",
+const modularKitchenImages = [
+  "https://lookuptrendz.com/wp-content/uploads/2026/07/modular-kitchen-1.jpg",
+  "https://lookuptrendz.com/wp-content/uploads/2026/07/modular-kitchen-2.jpg",
+  "https://lookuptrendz.com/wp-content/uploads/2026/07/modular-kitchen-3.jpg",
+  "https://lookuptrendz.com/wp-content/uploads/2026/07/modular-kitchen-4.jpg",
+  "https://lookuptrendz.com/wp-content/uploads/2026/07/modular-kitchen-5.jpg",
+  "https://lookuptrendz.com/wp-content/uploads/2026/07/modular-kitchen-6.jpg",
+  "https://lookuptrendz.com/wp-content/uploads/2026/07/modular-kitchen-7.jpg",
+  "https://lookuptrendz.com/wp-content/uploads/2026/07/modular-kitchen-8.jpg",
+  "https://lookuptrendz.com/wp-content/uploads/2026/07/modular-kitchen-9.jpg",
+  "https://lookuptrendz.com/wp-content/uploads/2026/07/modular-kitchen-10.jpg",
+  "https://lookuptrendz.com/wp-content/uploads/2026/07/modular-kitchen-11.jpg",
+  "https://lookuptrendz.com/wp-content/uploads/2026/07/modular-kitchen-12.jpg",
+  "https://lookuptrendz.com/wp-content/uploads/2026/07/modular-kitchen-13.jpg",
+  "https://lookuptrendz.com/wp-content/uploads/2026/07/modular-kitchen-14.jpg",
+  "https://lookuptrendz.com/wp-content/uploads/2026/07/modular-kitchen-15.jpg",
 ];
 
-export default function ModularKitchensPage() {
-
-  const [current, setCurrent] = useState(0);
+export default function ModularKitchenPage() {
+  const [currentSlide, setCurrentSlide] = useState(0);
 
   useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrent((prev) => (prev + 1) % gallery.length);
+    const timer = setInterval(() => {
+      setCurrentSlide((prev) => (prev + 1) % modularKitchenImages.length);
     }, 3500);
 
-    return () => clearInterval(interval);
+    return () => clearInterval(timer);
   }, []);
 
   return (
     <>
       <Header />
 
-      <main className="pt-20">
+      <main className="bg-white pt-20">
 
         {/* Hero Slideshow */}
 
-        <section className="relative h-[550px] overflow-hidden">
+        <section className="relative h-[90vh] overflow-hidden">
 
-          <img
-            src={gallery[current]}
-            alt="Modular Kitchen"
-            className="absolute inset-0 w-full h-full object-cover transition-all duration-700"
-          />
+          {modularKitchenImages.map((image, index) => (
+            <img
+              key={index}
+              src={image}
+              alt={`Modular Kitchen ${index + 1}`}
+              className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${
+                currentSlide === index ? "opacity-100" : "opacity-0"
+              }`}
+            />
+          ))}
 
-          <div className="absolute inset-0 bg-black/55 flex items-center justify-center">
+          <div className="absolute inset-0 bg-black/55"></div>
 
-            <div className="max-w-4xl px-6 text-center text-white">
+          <div className="relative z-10 h-full flex items-center">
 
-              <p className="uppercase tracking-[5px] text-blue-200 font-semibold">
-                Our Projects
-              </p>
+            <div className="max-w-7xl mx-auto px-6">
 
-              <h1 className="text-5xl lg:text-6xl font-bold mt-5">
-                Modular Kitchens
-              </h1>
+              <div className="max-w-3xl">
 
-              <p className="mt-8 text-lg lg:text-xl leading-8 text-blue-100">
-                Discover beautifully crafted modular kitchen designs that
-                combine elegance, functionality, and modern aesthetics.
-              </p>
+                <p className="uppercase tracking-[8px] text-red-400 font-semibold">
+                  Premium Collection
+                </p>
 
-              <Link
-                href="/contact"
-                className="inline-block mt-10 bg-white text-blue-700 px-8 py-4 rounded-full font-semibold hover:bg-blue-50 transition"
-              >
-                Get Free Consultation
-              </Link>
+                <h1 className="mt-6 text-5xl lg:text-7xl font-bold text-white leading-tight">
+                  Luxury
+                  <br />
+                  Modular Kitchens
+                </h1>
+
+                <p className="mt-8 text-lg text-gray-200 leading-8">
+                  Experience beautifully crafted modular kitchens
+                  designed with premium finishes, intelligent storage
+                  solutions and modern functionality for everyday living.
+                </p>
+
+                <div className="mt-12 flex flex-wrap gap-5">
+
+                  <a
+                    href="#gallery"
+                    className="px-8 py-4 rounded-full bg-red-600 hover:bg-red-700 text-white font-semibold transition duration-300"
+                  >
+                    Explore Gallery
+                  </a>
+
+                  <Link
+                    href="/contact"
+                    className="px-8 py-4 rounded-full border border-white text-white hover:bg-white hover:text-red-600 transition duration-300"
+                  >
+                    Free Consultation
+                  </Link>
+
+                </div>
+
+              </div>
 
             </div>
 
@@ -72,119 +105,220 @@ export default function ModularKitchensPage() {
 
         </section>
 
-        {/* Category Description */}
+        {/* Luxury Auto Scrolling Gallery */}
 
-        <section className="py-20 bg-white">
+        <section id="gallery" className="py-24 bg-[#faf8f5]">
 
-          <div className="max-w-5xl mx-auto px-6 text-center">
+          <div className="text-center mb-14">
 
-            <p className="text-blue-600 uppercase tracking-[4px] font-semibold">
-              About This Category
+            <p className="uppercase tracking-[6px] text-red-600 font-semibold">
+              Featured Modular Kitchens
             </p>
 
-            <h2 className="text-4xl lg:text-5xl font-bold mt-4">
-              Premium Modular Kitchen Designs
+            <h2 className="mt-4 text-5xl font-bold text-gray-900">
+              Luxury Kitchen Showcase
             </h2>
 
-            <p className="mt-8 text-lg text-gray-600 leading-9">
-              Our modular kitchens are designed to maximize space,
-              functionality, and elegance. Every project is carefully
-              customized to suit your lifestyle while maintaining a premium
-              finish and long-lasting quality.
+            <p className="mt-5 text-gray-600 max-w-3xl mx-auto leading-8">
+              Explore our premium modular kitchen collection featuring
+              elegant layouts, smart storage and world-class finishes.
             </p>
 
-            <p className="mt-6 text-lg text-gray-600 leading-9">
-              From compact kitchens to luxurious open layouts, our team
-              delivers modern solutions using high-quality materials,
-              innovative storage systems, and exceptional craftsmanship.
-            </p>
+          </div>
+
+          <div className="overflow-hidden">
+
+            <div className="flex gap-8 animate-marquee whitespace-nowrap">
+              {[...modularKitchenImages, ...modularKitchenImages].map((image, index) => (
+
+  <div
+    key={index}
+    className="group relative flex-shrink-0 w-[380px] h-[270px] overflow-hidden rounded-3xl shadow-xl"
+  >
+
+    <img
+      src={image}
+      alt={`Modular Kitchen ${index + 1}`}
+      className="w-full h-full object-cover transition duration-700 group-hover:scale-110"
+    />
+
+    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-500" />
+
+    <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-8 group-hover:translate-y-0 transition duration-500">
+
+      <p className="text-white text-xl font-semibold">
+        Luxury Modular Kitchen
+      </p>
+
+      <p className="text-gray-200 text-sm mt-2">
+        Premium Kitchen Collection
+      </p>
+
+    </div>
+
+  </div>
+
+))}
+
+            </div>
 
           </div>
 
         </section>
 
-        {/* Gallery */}
+        {/* Premium Gallery */}
 
-        <section className="py-20 bg-[#faf8f5]">
+        <section className="py-24 bg-white">
 
           <div className="max-w-7xl mx-auto px-6">
 
-            <div className="text-center mb-14">
+            <div className="text-center mb-16">
 
-              <p className="text-blue-600 uppercase tracking-[4px] font-semibold">
-                Project Gallery
+              <p className="uppercase tracking-[6px] text-red-600 font-semibold">
+                Gallery
               </p>
 
-              <h2 className="text-4xl lg:text-5xl font-bold mt-3">
-                Explore Our Work
+              <h2 className="mt-4 text-5xl font-bold text-gray-900">
+                Explore Every Modular Kitchen
               </h2>
 
-              <p className="mt-5 text-gray-600 max-w-3xl mx-auto">
-                Browse some of our completed modular kitchen projects that
-                reflect quality craftsmanship and timeless design.
+              <p className="mt-5 text-gray-600 max-w-3xl mx-auto leading-8">
+                Browse our premium modular kitchen designs featuring
+                elegant cabinetry, smart storage solutions and modern
+                craftsmanship tailored to your lifestyle.
               </p>
 
             </div>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {modularKitchenImages.map((image, index) => (
 
-              {gallery.map((image, index) => (
+  <div
+    key={index}
+    className="group relative overflow-hidden rounded-3xl bg-white shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-2"
+  >
 
-                <div
-                  key={index}
-                  className="group overflow-hidden rounded-3xl bg-white shadow-lg"
-                >
+    <div className="relative overflow-hidden">
 
-                  <img
-                    src={image}
-                    alt={`Kitchen ${index + 1}`}
-                    className="w-full h-80 object-cover group-hover:scale-105 transition duration-500"
-                  />
+      <img
+        src={image}
+        alt={`Modular Kitchen ${index + 1}`}
+        className="w-full h-[320px] object-cover transition-transform duration-700 group-hover:scale-110"
+      />
 
-                </div>
+      {/* Overlay */}
 
-              ))}
-                          </div>
+      <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-500" />
+
+      {/* Image Number */}
+
+      <div className="absolute top-5 left-5">
+
+        <span className="bg-red-600 text-white text-xs font-semibold px-4 py-2 rounded-full">
+          {String(index + 1).padStart(2, "0")}
+        </span>
+
+      </div>
+
+      {/* Hover Content */}
+
+      <div className="absolute bottom-0 left-0 right-0 p-8 translate-y-10 group-hover:translate-y-0 transition duration-500">
+
+        <h3 className="text-2xl font-bold text-white">
+          Luxury Modular Kitchen
+        </h3>
+
+        <p className="mt-2 text-gray-200">
+          Elegant • Functional • Contemporary
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+))}
+
+            </div>
 
           </div>
 
         </section>
 
-        {/* Call To Action */}
+        {/* Premium Quote */}
 
-        <section className="py-20 bg-gradient-to-r from-[#0A4F9E] to-[#1565C0] text-white">
+        <section className="py-24 bg-[#faf8f5]">
 
-          <div className="max-w-5xl mx-auto px-6 text-center">
+          <div className="max-w-4xl mx-auto px-6 text-center">
 
-            <p className="uppercase tracking-[4px] text-blue-200 font-semibold">
-              Let's Create Something Beautiful
+            <p className="text-5xl text-red-600 mb-8">
+              ❝
             </p>
 
-            <h2 className="text-4xl lg:text-5xl font-bold mt-4">
-              Ready to Design Your Dream Kitchen?
+            <h2 className="text-3xl lg:text-5xl font-bold text-gray-900 leading-relaxed">
+              A well-designed modular kitchen is
+              the perfect blend of elegance,
+              innovation and everyday convenience.
             </h2>
 
-            <p className="mt-6 text-lg leading-8 text-blue-100 max-w-3xl mx-auto">
-              Whether you're building a new home or renovating your existing
-              kitchen, our team is here to transform your ideas into elegant,
-              functional spaces with premium craftsmanship.
-            </p>
+            <div className="w-24 h-1 bg-red-600 mx-auto mt-10 rounded-full"></div>
+
+          </div>
+
+        </section>
+              {/* Premium Call To Action */}
+
+      <section className="relative overflow-hidden bg-gradient-to-r from-red-700 via-red-600 to-red-500 py-24">
+
+        <div className="absolute -top-24 -left-24 w-72 h-72 rounded-full bg-white/10 blur-3xl"></div>
+
+        <div className="absolute -bottom-24 -right-24 w-80 h-80 rounded-full bg-white/10 blur-3xl"></div>
+
+        <div className="relative max-w-6xl mx-auto px-6 text-center">
+
+          <p className="uppercase tracking-[6px] text-red-100 font-semibold">
+            Let's Create Your Dream Kitchen
+          </p>
+
+          <h2 className="mt-6 text-4xl lg:text-6xl font-bold text-white leading-tight">
+            Ready to Design
+            <br />
+            Your Dream Kitchen?
+          </h2>
+
+          <p className="mt-8 max-w-3xl mx-auto text-lg text-red-100 leading-8">
+            From contemporary modular kitchens to premium customized
+            layouts, Sai Lalit creates functional and elegant kitchen
+            spaces with exceptional craftsmanship, innovative storage
+            and world-class finishes.
+          </p>
+
+          <div className="mt-12 flex flex-col sm:flex-row justify-center gap-6">
 
             <Link
               href="/contact"
-              className="inline-block mt-10 bg-white text-[#0A4F9E] font-semibold px-8 py-4 rounded-full hover:bg-blue-50 transition"
+              className="px-10 py-4 rounded-full bg-white text-red-600 font-bold shadow-xl hover:scale-105 transition duration-300"
             >
-              Get Free Consultation
+              Book Free Consultation
             </Link>
+
+            <a
+              href="tel:8106406999"
+              className="px-10 py-4 rounded-full border-2 border-white text-white font-bold hover:bg-white hover:text-red-600 transition duration-300"
+            >
+              📞 81064 06999
+            </a>
 
           </div>
 
-        </section>
+        </div>
 
-      </main>
+      </section>
 
       <Footer />
 
+    </main>
     </>
   );
 }
