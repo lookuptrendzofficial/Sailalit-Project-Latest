@@ -41,7 +41,7 @@ export default function Header() {
             Services
           </Link>
 
-          <Link href="/Projects" className="hover:text-red-600">
+          <Link href="/projects" className="hover:text-red-600">
             Projects
           </Link>
 
