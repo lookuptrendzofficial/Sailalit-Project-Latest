@@ -21,7 +21,7 @@ const wardrobeImages = [
   "https://YOUR-WARDROBE-IMAGE-15.jpg",
 ];
 
-eexport default function WardrobesPage() {
+export default function WardrobesPage() {
   return (
     <main className="bg-white">
 
@@ -50,11 +50,13 @@ eexport default function WardrobesPage() {
               <h1 className="mt-6 text-5xl lg:text-7xl font-bold text-white leading-tight">
                 Luxury
                 <br />
-                wardrobe
+                Wardrobe Designs
               </h1>
 
               <p className="mt-8 text-lg text-gray-200 leading-8">
-                Explore premium wardrobe designs crafted with modern aesthetics, smart storage solutions and elegant finishes to enhance your bedroom interiors.
+                Discover beautifully crafted wardrobes with premium
+                finishes, intelligent storage solutions and elegant
+                designs that perfectly complement your interiors.
               </p>
 
               <div className="mt-12 flex flex-wrap gap-5">
@@ -94,12 +96,12 @@ eexport default function WardrobesPage() {
           </p>
 
           <h2 className="mt-4 text-5xl font-bold text-gray-900">
-            Luxury Wardrobes Showcase
+            Luxury Wardrobe Showcase
           </h2>
 
           <p className="mt-5 text-gray-600 max-w-3xl mx-auto leading-8">
-            A continuous showcase of our finest Wardrobe interiors,
-            designed to inspire your dream home.
+            Explore a premium collection of modern wardrobes crafted
+            for style, functionality and maximum storage.
           </p>
 
         </div>
@@ -116,7 +118,7 @@ eexport default function WardrobesPage() {
 
     <img
       src={image}
-      alt={`Bedroom ${index + 1}`}
+      alt={`Wardrobe ${index + 1}`}
       className="w-full h-full object-cover transition duration-700 group-hover:scale-110"
     />
 
@@ -129,7 +131,7 @@ eexport default function WardrobesPage() {
       </p>
 
       <p className="text-gray-200 text-sm mt-2">
-        Premium Interior Collection
+        Premium Storage Collection
       </p>
 
     </div>
@@ -157,11 +159,12 @@ eexport default function WardrobesPage() {
             </p>
 
             <h2 className="mt-4 text-5xl font-bold text-gray-900">
-              Explore Every Detail
+              Explore Every Wardrobe Design
             </h2>
 
             <p className="mt-5 text-gray-600 max-w-3xl mx-auto leading-8">
-              Browse our collection of beautifully designed wardrobes featuring premium finishes, intelligent storage and contemporary styles.
+              Browse our premium wardrobe collection featuring elegant
+              finishes, smart storage and modern craftsmanship.
             </p>
 
           </div>
@@ -178,7 +181,7 @@ eexport default function WardrobesPage() {
 
       <img
         src={image}
-        alt={`Bedroom Interior ${index + 1}`}
+        alt={`Wardrobe Design ${index + 1}`}
         className="w-full h-[320px] object-cover transition-transform duration-700 group-hover:scale-110"
       />
 
@@ -205,7 +208,7 @@ eexport default function WardrobesPage() {
         </h3>
 
         <p className="mt-2 text-gray-200">
-          Elegant • Functional • Timeless
+          Elegant • Smart • Functional
         </p>
 
       </div>
@@ -233,7 +236,9 @@ eexport default function WardrobesPage() {
           </p>
 
           <h2 className="text-3xl lg:text-5xl font-bold text-gray-900 leading-relaxed">
-            Every wardrobe should blend elegance, functionality and intelligent storage into one timeless design.
+            Every wardrobe should blend elegance,
+            functionality and intelligent storage
+            into one timeless design.
           </h2>
 
           <div className="w-24 h-1 bg-red-600 mx-auto mt-10 rounded-full"></div>
@@ -256,13 +261,15 @@ eexport default function WardrobesPage() {
           </p>
 
           <h2 className="mt-6 text-4xl lg:text-6xl font-bold text-white leading-tight">
-            Ready to Transform
+            Ready to Upgrade
             <br />
             Your Wardrobe?
           </h2>
 
           <p className="mt-8 max-w-3xl mx-auto text-lg text-red-100 leading-8">
-            From sliding wardrobes to walk-in closets and custom storage solutions, Sai Lalit creates wardrobes that perfectly combine style, functionality and craftsmanship.
+            From sliding wardrobes to walk-in closets and custom storage
+            solutions, Sai Lalit creates elegant wardrobes that combine
+            style, functionality and premium craftsmanship.
           </p>
 
           <div className="mt-12 flex flex-col sm:flex-row justify-center gap-6">
