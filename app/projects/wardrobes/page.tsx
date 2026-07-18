@@ -4,10 +4,10 @@ import Link from "next/link";
 import Footer from "../../components/Footer";
 
 const wardrobeImages = [
-  "https://YOUR-WARDROBE-IMAGE-01.jpg",
-  "https://YOUR-WARDROBE-IMAGE-02.jpg",
-  "https://YOUR-WARDROBE-IMAGE-03.jpg",
-  "https://YOUR-WARDROBE-IMAGE-04.jpg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.01.12.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.01.08-scaled.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.01.05-scaled.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.01.02-1-scaled.jpeg",
   "https://YOUR-WARDROBE-IMAGE-05.jpg",
   "https://YOUR-WARDROBE-IMAGE-06.jpg",
   "https://YOUR-WARDROBE-IMAGE-07.jpg",
