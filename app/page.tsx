@@ -175,19 +175,6 @@ export default function Home() {
 
     </div>
 
-    {/* Right Image */}
-
-    <div>
-
-      <img
-        src="https://your-about-image-link.jpg"
-        alt="Sai Lalit Interior"
-        className="w-full h-[520px] object-cover rounded-3xl shadow-2xl"
-      />
-
-    </div>
-
-  </div>
 
 </section>                                                                                                                                                                                               
 
@@ -465,64 +452,50 @@ export default function Home() {
       {[
         {
           title: "Modular Kitchens",
-          image: "https://lookuptrendz.com/wp-content/uploads/2026/07/file_00000000523c72078cc3b58a91847ae3.png",
+          image: "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.00.09.jpeg",
           link: "/projects/modular-kitchens",
         },
         {
           title: "Living Rooms",
-          image: "https://YOUR-LIVING-ROOM.jpg",
+          image: "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.01.22.jpeg",
           link: "/projects/living-room",
         },
         {
           title: "TV Units",
-          image: "https://YOUR-TV-UNIT.jpg",
+          image: "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-00.52.15-1.jpeg",
           link: "/projects/tv-units",
         },
         {
-          title: "Bedrooms",
-          image: "https://YOUR-BEDROOM.jpg",
-          link: "/projects/bedrooms",
-        },
-        {
           title: "Wardrobes",
-          image: "https://YOUR-WARDROBE.jpg",
+          image: "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.01.08-scaled.jpeg",
           link: "/projects/wardrobes",
         },
         {
           title: "False Ceiling",
-          image: "https://YOUR-FALSE-CEILING.jpg",
+          image: "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.45-2.jpeg",
           link: "/projects/false-ceiling",
         },
         {
           title: "Pooja Mandir",
-          image: "https://YOUR-POOJA.jpg",
+          image: "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.22-2.jpeg",
           link: "/projects/pooja-mandir",
         },
         {
           title: "Elevations",
-          image: "https://YOUR-ELEVATION.jpg",
+          image: "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG-20201213-WA0029.jpg",
           link: "/projects/elevations",
         },
         {
           title: "Wall Designs",
-          image: "https://YOUR-WALL.jpg",
+          image: "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.41-2.jpeg",
           link: "/projects/wall-designs",
         },
         {
           title: "Vertical Gardens",
-          image: "https://YOUR-GARDEN.jpg",
+          image: "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.48.jpeg",
           link: "/projects/vertical-gardens",
         },
-        {
-          title: "Hyderabad Projects",
-          image: "https://YOUR-HYDERABAD.jpg",
-          link: "/projects/hyderabad-projects",
-        },
-        {
-          title: "3D Designs",
-          image: "https://YOUR-3D.jpg",
-          link: "/projects/3d-designs",
-        },
+    
 
       ].map((item, index) => (
 
