@@ -3,6 +3,7 @@
 import { ArrowRight } from "lucide-react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 import HangingBadge from "./components/HangingBadge";
 
@@ -175,6 +176,19 @@ export default function Home() {
 
     </div>
 
+    {/* Right Image */}
+
+    <div>
+
+      <img
+        src="https://your-about-image-link.jpg"
+        alt="Sai Lalit Interior"
+        className="w-full h-[520px] object-cover rounded-3xl shadow-2xl"
+      />
+
+    </div>
+
+  </div>
 
 </section>                                                                                                                                                                                               
 
@@ -418,138 +432,124 @@ export default function Home() {
 </section>
 
       {/* ================= OUR PROJECTS ================= */}
-{/* Our Work */}
 
-<section id="projects" className="py-24 bg-[#faf8f5]">
-
+<section id="projects" className="py-20 bg-[#faf8f5]">
   <div className="max-w-7xl mx-auto px-6">
 
     {/* Heading */}
-
-    <div className="text-center mb-16">
-
-      <p className="text-red-600 font-semibold uppercase tracking-[6px]">
-        Our Portfolio
+    <div className="text-center mb-14">
+      <p className="text-blue-600 font-semibold uppercase tracking-widest">
+        — Our Projects —
       </p>
 
-      <h2 className="mt-4 text-5xl lg:text-6xl font-bold text-gray-900">
-        Explore Our Finest Work
+      <h2 className="mt-3 text-4xl lg:text-5xl font-bold text-gray-900">
+        Explore Our
+        <span className="text-blue-600"> Project Categories</span>
       </h2>
 
-      <p className="mt-6 max-w-3xl mx-auto text-lg text-gray-600 leading-8">
-        Every project reflects our passion for craftsmanship,
-        premium materials and timeless interior design.
-        Explore our signature creations across residential
-        and commercial spaces.
+      <p className="mt-5 text-gray-600 max-w-3xl mx-auto leading-8">
+        Browse our completed interior and exterior works. Click any category to
+        explore the complete project gallery.
       </p>
-
     </div>
 
-    {/* Projects */}
+    {/* Categories */}
 
     <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
 
       {[
         {
           title: "Modular Kitchens",
-          image: "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.00.09.jpeg",
+          image: "https://lookuptrendz.com/wp-content/uploads/2026/07/file_00000000523c72078cc3b58a91847ae3.png",
           link: "/projects/modular-kitchens",
         },
         {
           title: "Living Rooms",
-          image: "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.01.22.jpeg",
+          image: "https://YOUR-LIVING-ROOM-IMAGE.jpg",
           link: "/projects/living-room",
         },
         {
           title: "TV Units",
-          image: "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-00.52.15-1.jpeg",
-          link: "/projects/tv-units",
+          image: "https://YOUR-TV-UNIT-IMAGE.jpg",
+          link: "/projects/tv-unit",
+        },
+        {
+          title: "Bedrooms",
+          image: "https://YOUR-BEDROOM-IMAGE.jpg",
+          link: "/projects/bedrooms",
         },
         {
           title: "Wardrobes",
-          image: "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.01.08-scaled.jpeg",
+          image: "https://YOUR-WARDROBE-IMAGE.jpg",
           link: "/projects/wardrobes",
         },
         {
           title: "False Ceiling",
-          image: "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.45-2.jpeg",
+          image: "https://YOUR-CEILING-IMAGE.jpg",
           link: "/projects/false-ceiling",
         },
         {
           title: "Pooja Mandir",
-          image: "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.22-2.jpeg",
+          image: "https://YOUR-PUJA-IMAGE.jpg",
           link: "/projects/pooja-mandir",
         },
         {
-          title: "Elevations",
-          image: "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG-20201213-WA0029.jpg",
-          link: "/projects/elevations",
+          title: "Exterior Elevation",
+          image: "https://YOUR-ELEVATION-IMAGE.jpg",
+          link: "/projects/exterior",
+        },
+        {
+          title: "Office Interiors",
+          image: "https://YOUR-OFFICE-IMAGE.jpg",
+          link: "/projects/office",
         },
         {
           title: "Wall Designs",
-          image: "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.41-2.jpeg",
-          link: "/projects/wall-designs",
+          image: "https://YOUR-WALL-IMAGE.jpg",
+          link: "/projects/wall-design",
         },
         {
           title: "Vertical Gardens",
-          image: "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.48.jpeg",
-          link: "/projects/vertical-gardens",
+          image: "https://YOUR-GARDEN-IMAGE.jpg",
+          link: "/projects/vertical-garden",
         },
-    
+        {
+          title: "Commercial Projects",
+          image: "https://YOUR-COMMERCIAL-IMAGE.jpg",
+          link: "/projects/commercial-projects",
+        },
 
       ].map((item, index) => (
 
-        <div
+        <a
           key={index}
-          className="group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl hover:-translate-y-3 transition-all duration-500"
+          href={item.link}
+          className="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-2xl transition duration-300"
         >
-
           <div className="overflow-hidden">
-
             <img
               src={item.image}
               alt={item.title}
-              className="w-full h-64 object-cover group-hover:scale-110 transition duration-700"
+              className="w-full h-60 object-cover group-hover:scale-110 transition duration-500"
             />
-
           </div>
 
-          <div className="p-6">
-
-            <h3 className="text-2xl font-bold text-center text-gray-900">
+          <div className="p-6 text-center">
+            <h3 className="text-xl font-bold text-gray-900">
               {item.title}
             </h3>
 
-            <Link
-              href={item.link}
-              className="mt-6 inline-flex justify-center w-full py-3 rounded-full bg-red-600 text-white font-semibold hover:bg-red-700 transition"
-            >
+            <p className="mt-3 text-blue-600 font-medium">
               View Gallery →
-            </Link>
-
+            </p>
           </div>
-
-        </div>
+        </a>
 
       ))}
 
     </div>
 
-    {/* View All */}
-
-    <div className="text-center mt-20">
-
-      <Link
-        href="/projects"
-        className="inline-flex items-center gap-3 px-12 py-5 rounded-full bg-gray-900 text-white text-lg font-bold hover:bg-red-600 transition duration-300 shadow-xl"
-      >
-        View All Projects →
-      </Link>
-
-    </div>
-
   </div>
-
 </section>
       
 {/* ================= WHY CHOOSE US ================= */}
