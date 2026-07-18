@@ -6,21 +6,21 @@ import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 
 const tvUnitImages = [
-  "https://lookuptrendz.com/wp-content/uploads/2026/07/tv-unit-1.jpg",
-  "https://lookuptrendz.com/wp-content/uploads/2026/07/tv-unit-2.jpg",
-  "https://lookuptrendz.com/wp-content/uploads/2026/07/tv-unit-3.jpg",
-  "https://lookuptrendz.com/wp-content/uploads/2026/07/tv-unit-4.jpg",
-  "https://lookuptrendz.com/wp-content/uploads/2026/07/tv-unit-5.jpg",
-  "https://lookuptrendz.com/wp-content/uploads/2026/07/tv-unit-6.jpg",
-  "https://lookuptrendz.com/wp-content/uploads/2026/07/tv-unit-7.jpg",
-  "https://lookuptrendz.com/wp-content/uploads/2026/07/tv-unit-8.jpg",
-  "https://lookuptrendz.com/wp-content/uploads/2026/07/tv-unit-9.jpg",
-  "https://lookuptrendz.com/wp-content/uploads/2026/07/tv-unit-10.jpg",
-  "https://lookuptrendz.com/wp-content/uploads/2026/07/tv-unit-11.jpg",
-  "https://lookuptrendz.com/wp-content/uploads/2026/07/tv-unit-12.jpg",
-  "https://lookuptrendz.com/wp-content/uploads/2026/07/tv-unit-13.jpg",
-  "https://lookuptrendz.com/wp-content/uploads/2026/07/tv-unit-14.jpg",
-  "https://lookuptrendz.com/wp-content/uploads/2026/07/tv-unit-15.jpg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.41.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.01.25-1.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.01.12-1.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.00.59.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.00.56.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.00.51.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.00.28.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG_20220518_202251.jpg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-00.42.15.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-00.45.21-scaled.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-00.42.15.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-00.48.33.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-00.48.37-1-scaled.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-00.52.28-1.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.41.jpeg",
 ];
 
 export default function TVUnitsPage() {
