@@ -70,6 +70,36 @@ const projects = [
   image: "https://YOUR-COMMERCIAL-IMAGE.jpg",
   link: "/projects/commercial-projects",
 },
+  {
+  title: "MSB Area",
+  image: "https://YOUR-MSB-AREA-IMAGE.jpg",
+  link: "/projects/msb-area",
+},
+{
+  title: "WPVC Cupboards",
+  image: "https://YOUR-WPVC-CUPBOARDS-IMAGE.jpg",
+  link: "/projects/wpvc-cupboards",
+},
+{
+  title: "Wash Basins",
+  image: "https://YOUR-WASH-BASINS-IMAGE.jpg",
+  link: "/projects/wash-basins",
+},
+{
+  title: "Pfizer Vizag Projects",
+  image: "https://YOUR-PFIZER-VIZAG-IMAGE.jpg",
+  link: "/projects/pfizer-vizag-projects",
+},
+{
+  title: "SPCL Site",
+  image: "https://YOUR-SPCL-SITE-IMAGE.jpg",
+  link: "/projects/spcl-site",
+},
+{
+  title: "Rajasthan Site",
+  image: "https://YOUR-RAJASTHAN-SITE-IMAGE.jpg",
+  link: "/projects/rajasthan-site",
+},
 ];
 
 export default function ProjectsPage() {
