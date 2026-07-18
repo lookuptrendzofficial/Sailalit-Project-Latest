@@ -6,21 +6,21 @@ import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 
 const poojaMandirImages = [
-  "https://lookuptrendz.com/wp-content/uploads/2026/07/pooja-mandir-1.jpg",
-  "https://lookuptrendz.com/wp-content/uploads/2026/07/pooja-mandir-2.jpg",
-  "https://lookuptrendz.com/wp-content/uploads/2026/07/pooja-mandir-3.jpg",
-  "https://lookuptrendz.com/wp-content/uploads/2026/07/pooja-mandir-4.jpg",
-  "https://lookuptrendz.com/wp-content/uploads/2026/07/pooja-mandir-5.jpg",
-  "https://lookuptrendz.com/wp-content/uploads/2026/07/pooja-mandir-6.jpg",
-  "https://lookuptrendz.com/wp-content/uploads/2026/07/pooja-mandir-7.jpg",
-  "https://lookuptrendz.com/wp-content/uploads/2026/07/pooja-mandir-8.jpg",
-  "https://lookuptrendz.com/wp-content/uploads/2026/07/pooja-mandir-9.jpg",
-  "https://lookuptrendz.com/wp-content/uploads/2026/07/pooja-mandir-10.jpg",
-  "https://lookuptrendz.com/wp-content/uploads/2026/07/pooja-mandir-11.jpg",
-  "https://lookuptrendz.com/wp-content/uploads/2026/07/pooja-mandir-12.jpg",
-  "https://lookuptrendz.com/wp-content/uploads/2026/07/pooja-mandir-13.jpg",
-  "https://lookuptrendz.com/wp-content/uploads/2026/07/pooja-mandir-14.jpg",
-  "https://lookuptrendz.com/wp-content/uploads/2026/07/pooja-mandir-15.jpg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/Screenshot_2022_0129_170919.png",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/Screenshot_2022_0129_170804.png",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/Screenshot_2022_0129_170743.png",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG-20210816-WA0058.jpg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-00.45.07-1.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-00.42.16-1.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-00.45.08.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-00.45.08-1-scaled.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-00.45.49.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-00.45.09-scaled.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-00.52.31-2-scaled.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/Screenshot_2022_0129_170838.png",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG_20220321_111254-scaled.jpg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-00.45.08-1-scaled.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-00.45.07-1.jpeg",
 ];
 
 export default function PoojaMandirPage() {
