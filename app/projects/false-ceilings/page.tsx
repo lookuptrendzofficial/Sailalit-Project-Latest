@@ -4,21 +4,21 @@ import Link from "next/link";
 import Footer from "../../components/Footer";
 
 const falseCeilingImages = [
-  "https://YOUR-FALSE-CEILING-IMAGE-01.jpg",
-  "https://YOUR-FALSE-CEILING-IMAGE-02.jpg",
-  "https://YOUR-FALSE-CEILING-IMAGE-03.jpg",
-  "https://YOUR-FALSE-CEILING-IMAGE-04.jpg",
-  "https://YOUR-FALSE-CEILING-IMAGE-05.jpg",
-  "https://YOUR-FALSE-CEILING-IMAGE-06.jpg",
-  "https://YOUR-FALSE-CEILING-IMAGE-07.jpg",
-  "https://YOUR-FALSE-CEILING-IMAGE-08.jpg",
-  "https://YOUR-FALSE-CEILING-IMAGE-09.jpg",
-  "https://YOUR-FALSE-CEILING-IMAGE-10.jpg",
-  "https://YOUR-FALSE-CEILING-IMAGE-11.jpg",
-  "https://YOUR-FALSE-CEILING-IMAGE-12.jpg",
-  "https://YOUR-FALSE-CEILING-IMAGE-13.jpg",
-  "https://YOUR-FALSE-CEILING-IMAGE-14.jpg",
-  "https://YOUR-FALSE-CEILING-IMAGE-15.jpg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.01.50-1.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.45-2.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.45-1.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.44-1.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.24-1.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.23-2.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.02.53.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.01.26.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.01.29-1.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.01.33-1.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.01.46.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.01.48.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.01.50-1-1.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.02.48.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.24-1.jpeg",
 ];
 
 export default function FalseCeilingsPage() {
