@@ -1133,7 +1133,7 @@ export default function Home() {
     <div>
 
       <img
-        src="https://your-logo-link.png"
+        src="https://lookuptrendz.com/wp-content/uploads/2026/07/IMG-20260610-WA01197.jpg"
         alt="Sai Lalit"
         className="h-16 mb-6"
       />
