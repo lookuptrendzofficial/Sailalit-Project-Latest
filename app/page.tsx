@@ -457,99 +457,95 @@ export default function Home() {
 
     <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
 
-      {[
-        {
-          title: "Modular Kitchens",
-          image: "https://lookuptrendz.com/wp-content/uploads/2026/07/file_00000000523c72078cc3b58a91847ae3.png",
-          link: "/projects/modular-kitchens",
-        },
-        {
-          title: "Living Rooms",
-          image: "https://YOUR-LIVING-ROOM-IMAGE.jpg",
-          link: "/projects/living-room",
-        },
-        {
-          title: "TV Units",
-          image: "https://YOUR-TV-UNIT-IMAGE.jpg",
-          link: "/projects/tv-unit",
-        },
-        {
-          title: "Bedrooms",
-          image: "https://YOUR-BEDROOM-IMAGE.jpg",
-          link: "/projects/bedrooms",
-        },
-        {
-          title: "Wardrobes",
-          image: "https://YOUR-WARDROBE-IMAGE.jpg",
-          link: "/projects/wardrobes",
-        },
-        {
-          title: "False Ceiling",
-          image: "https://YOUR-CEILING-IMAGE.jpg",
-          link: "/projects/false-ceiling",
-        },
-        {
-          title: "Pooja Mandir",
-          image: "https://YOUR-PUJA-IMAGE.jpg",
-          link: "/projects/pooja-mandir",
-        },
-        {
-          title: "Exterior Elevation",
-          image: "https://YOUR-ELEVATION-IMAGE.jpg",
-          link: "/projects/exterior",
-        },
-        {
-          title: "Office Interiors",
-          image: "https://YOUR-OFFICE-IMAGE.jpg",
-          link: "/projects/office",
-        },
-        {
-          title: "Wall Designs",
-          image: "https://YOUR-WALL-IMAGE.jpg",
-          link: "/projects/wall-design",
-        },
-        {
-          title: "Vertical Gardens",
-          image: "https://YOUR-GARDEN-IMAGE.jpg",
-          link: "/projects/vertical-garden",
-        },
-        {
-          title: "Commercial Projects",
-          image: "https://YOUR-COMMERCIAL-IMAGE.jpg",
-          link: "/projects/commercial-projects",
-        },
+  {[
+    {
+      title: "Modular Kitchens",
+      image: "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.00.09.jpeg",
+      link: "/projects/modular-kitchens",
+    },
+    {
+      title: "Living Rooms",
+      image: "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.01.22.jpeg",
+      link: "/projects/living-room",
+    },
+    {
+      title: "TV Units",
+      image: "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-00.52.15-1.jpeg",
+      link: "/projects/tv-units",
+    },
+    {
+      title: "Wardrobes",
+      image: "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.01.08-scaled.jpeg",
+      link: "/projects/wardrobes",
+    },
+    {
+      title: "False Ceiling",
+      image: "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.45-2.jpeg",
+      link: "/projects/false-ceiling",
+    },
+    {
+      title: "Pooja Mandir",
+      image: "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.22-2.jpeg",
+      link: "/projects/pooja-mandir",
+    },
+    {
+      title: "Elevations",
+      image: "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG-20201213-WA0029.jpg",
+      link: "/projects/elevations",
+    },
+    {
+      title: "Wall Designs",
+      image: "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.41-2.jpeg",
+      link: "/projects/wall-designs",
+    },
+    {
+      title: "Vertical Gardens",
+      image: "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.48.jpeg",
+      link: "/projects/vertical-gardens",
+    },
+  ].map((item, index) => (
+    <div
+      key={index}
+      className="group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl hover:-translate-y-3 transition-all duration-500"
+    >
+      <div className="overflow-hidden">
+        <img
+          src={item.image}
+          alt={item.title}
+          className="w-full h-64 object-cover group-hover:scale-110 transition duration-700"
+        />
+      </div>
 
-      ].map((item, index) => (
+      <div className="p-6">
+        <h3 className="text-2xl font-bold text-center text-gray-900">
+          {item.title}
+        </h3>
 
-        <a
-          key={index}
+        <Link
           href={item.link}
-          className="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-2xl transition duration-300"
+          className="mt-6 inline-flex justify-center w-full py-3 rounded-full bg-red-600 text-white font-semibold hover:bg-red-700 transition"
         >
-          <div className="overflow-hidden">
-            <img
-              src={item.image}
-              alt={item.title}
-              className="w-full h-60 object-cover group-hover:scale-110 transition duration-500"
-            />
-          </div>
-
-          <div className="p-6 text-center">
-            <h3 className="text-xl font-bold text-gray-900">
-              {item.title}
-            </h3>
-
-            <p className="mt-3 text-blue-600 font-medium">
-              View Gallery →
-            </p>
-          </div>
-        </a>
-
-      ))}
-
+          View Gallery →
+        </Link>
+      </div>
     </div>
+  ))}
 
-  </div>
+</div>
+
+{/* View All */}
+
+<div className="text-center mt-20">
+  <Link
+    href="/projects"
+    className="inline-flex items-center gap-3 px-12 py-5 rounded-full bg-gray-900 text-white text-lg font-bold hover:bg-red-600 transition duration-300 shadow-xl"
+  >
+    View All Projects →
+  </Link>
+</div>
+
+</div>
+
 </section>
       
 {/* ================= WHY CHOOSE US ================= */}
