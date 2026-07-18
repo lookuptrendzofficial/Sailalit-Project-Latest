@@ -180,7 +180,7 @@ export default function Home() {
     <div>
 
       <img
-        src="https://your-about-image-link.jpg"
+        src="https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/file_0000000091b881fa92e8fdd7aed18f94.jpg"
         alt="Sai Lalit Interior"
         className="w-full h-[520px] object-cover rounded-3xl shadow-2xl"
       />
