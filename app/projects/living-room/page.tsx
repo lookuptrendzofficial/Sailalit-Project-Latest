@@ -6,21 +6,21 @@ import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 
 const livingRoomImages = [
-  "https://lookuptrendz.com/wp-content/uploads/2026/07/living-room-1.jpg",
-  "https://lookuptrendz.com/wp-content/uploads/2026/07/living-room-2.jpg",
-  "https://lookuptrendz.com/wp-content/uploads/2026/07/living-room-3.jpg",
-  "https://lookuptrendz.com/wp-content/uploads/2026/07/living-room-4.jpg",
-  "https://lookuptrendz.com/wp-content/uploads/2026/07/living-room-5.jpg",
-  "https://lookuptrendz.com/wp-content/uploads/2026/07/living-room-6.jpg",
-  "https://lookuptrendz.com/wp-content/uploads/2026/07/living-room-7.jpg",
-  "https://lookuptrendz.com/wp-content/uploads/2026/07/living-room-8.jpg",
-  "https://lookuptrendz.com/wp-content/uploads/2026/07/living-room-9.jpg",
-  "https://lookuptrendz.com/wp-content/uploads/2026/07/living-room-10.jpg",
-  "https://lookuptrendz.com/wp-content/uploads/2026/07/living-room-11.jpg",
-  "https://lookuptrendz.com/wp-content/uploads/2026/07/living-room-12.jpg",
-  "https://lookuptrendz.com/wp-content/uploads/2026/07/living-room-13.jpg",
-  "https://lookuptrendz.com/wp-content/uploads/2026/07/living-room-14.jpg",
-  "https://lookuptrendz.com/wp-content/uploads/2026/07/living-room-15.jpg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.01.17.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-00.48.34.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-00.48.31.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-00.48.30.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-00.48.30-2.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-00.48.29-2.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/Screenshot_2022_0804_205232.png",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG-20220215-WA0007.jpg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-00.48.36.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.01.22.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.23-2-1.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.35.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.04.56-2.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.35-2.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.22.jpeg",
 ];
 
 export default function LivingRoomPage() {
