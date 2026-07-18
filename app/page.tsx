@@ -661,8 +661,6 @@ export default function Home() {
     </div>
 
     {/* Review Slider */}
-
-    {/* Review Slider */}
     <div className="overflow-hidden">
       <div className="review-scroll gap-6">
 
