@@ -30,8 +30,8 @@ export default function FalseCeilingsPage() {
       <section className="relative h-[85vh] overflow-hidden">
 
         <img
-          src={bedroomImages[0]}
-          alt="Luxury Bedroom"
+          src={falseCeilingImages[0]}
+          alt="False Ceiling"
           className="absolute inset-0 w-full h-full object-cover"
         />
 
