@@ -88,7 +88,7 @@ export default function Header() {
               Services
             </Link>
 
-            <Link href="/Projects" onClick={() => setMenuOpen(false)}>
+            <Link href="/projects" onClick={() => setMenuOpen(false)}>
               Projects
             </Link>
 
