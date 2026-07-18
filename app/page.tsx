@@ -3,6 +3,7 @@
 import { ArrowRight } from "lucide-react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Link from "next/link";
 import HangingBadge from "./components/HangingBadge";
 
 export default function Home() {
