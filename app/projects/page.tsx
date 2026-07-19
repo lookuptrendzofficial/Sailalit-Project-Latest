@@ -47,12 +47,12 @@ const projects = [
 },
 {
   title: "3D Designs",
-  image: "https://YOUR-3D-DESIGN-IMAGE.jpg",
+  image: "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/Screenshot_2022_1001_091412.png",
   link: "/projects/3d-designs",
 },
 {
   title: "Wall Designs",
-  image: "https://YOUR-WALL-DESIGN-IMAGE.jpg",
+  image: "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.41-3.jpeg",
   link: "/projects/wall-designs",
 },
 {
@@ -62,13 +62,13 @@ const projects = [
 },
   {
   title: "MSB Area",
-  image: "https://YOUR-MSB-AREA-IMAGE.jpg",
+  image: "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG-20220131-WA0066.jpg",
   link: "/projects/msb-area",
 },
 {
-  title: "WPVC Cupboards",
-  image: "https://YOUR-WPVC-CUPBOARDS-IMAGE.jpg",
-  link: "/projects/wpvc-cupboards",
+  title: "UPVC Cupboards",
+  image: "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.01.25.jpeg",
+  link: "/projects/upvc-cupboards",
 },
 {
   title: "Wash Basins",
