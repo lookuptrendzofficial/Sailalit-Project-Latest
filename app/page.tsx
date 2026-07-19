@@ -511,7 +511,7 @@ export default function Home() {
       link: "/projects/wardrobes",
     },
     {
-      title: "False Ceilings",
+      title: "False Ceiling",
       image: "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.45-2.jpeg",
       link: "/projects/false-ceilings",
     },
@@ -668,35 +668,72 @@ export default function Home() {
 </section>
 {/* ================= TESTIMONIALS ================= */}
 
-            {/* ================= TESTIMONIALS ================= */}
-
-<section id="testimonials" className="py-24 bg-[#faf8f5] overflow-hidden">
+<section id="testimonials" className="py-20 bg-[#faf8f5] overflow-hidden">
 
   <div className="max-w-7xl mx-auto px-6">
 
     {/* Heading */}
 
-    <div className="text-center mb-14">
+    <div className="text-center mb-12">
 
-      <p className="text-red-600 font-semibold uppercase tracking-[4px]">
-        Testimonials
+      <p className="text-red-600 font-semibold uppercase tracking-widest">
+        — Testimonials —
       </p>
 
-      <h2 className="mt-3 text-4xl md:text-5xl font-bold text-gray-900">
-        What Our Clients Say
+      <h2 className="mt-3 text-4xl lg:text-5xl font-bold text-gray-900">
+        What Our <span className="text-red-600">Clients Say</span>
       </h2>
 
-      <p className="mt-5 text-gray-600 max-w-2xl mx-auto leading-8">
-        Hear directly from our happy customers who trusted Sai Lalit Interior & Exterior for their dream projects.
+      <p className="mt-5 text-lg text-gray-600 max-w-3xl mx-auto">
+        Trusted by homeowners and businesses for quality workmanship,
+        timely project delivery and customer satisfaction.
       </p>
+
+      <div className="flex justify-center items-center gap-3 mt-6">
+
+        <span className="text-yellow-500 text-2xl">
+          ★★★★★
+        </span>
+
+        <span className="font-semibold text-gray-700">
+          5.0 Google Rating
+        </span>
+
+      </div>
 
     </div>
 
-    {/* Testimonial Cards */}
+    {/* Review Slider */}
+<section id="testimonials" className="py-20 bg-[#faf8f5] overflow-hidden">
+  <div className="max-w-7xl mx-auto px-6">
 
+    {/* Heading */}
+    <div className="text-center mb-12">
+      <p className="text-red-600 font-semibold uppercase tracking-widest">
+        — Testimonials —
+      </p>
+
+      <h2 className="mt-3 text-4xl lg:text-5xl font-bold text-gray-900">
+        What Our <span className="text-red-600">Clients Say</span>
+      </h2>
+
+      <p className="mt-5 text-lg text-gray-600 max-w-3xl mx-auto">
+        Trusted by homeowners and businesses for quality workmanship,
+        timely project delivery and customer satisfaction.
+      </p>
+
+      <div className="flex justify-center items-center gap-3 mt-6">
+        <span className="text-yellow-500 text-2xl">★★★★★</span>
+
+        <span className="font-semibold text-gray-700">
+          5.0 Google Rating
+        </span>
+      </div>
+    </div>
+
+    {/* Review Slider */}
     <div className="overflow-hidden">
-
-      <div className="flex gap-8 overflow-x-auto pb-4">
+      <div className="review-scroll gap-6">
 
         {[
           {
@@ -744,7 +781,7 @@ export default function Home() {
             rating: "★★★★★",
             review: "It's simply ossum. Had a pleasant and innovative work output with this firm. Thnx to SLIEC."
           },
-            {
+          {
             name: "Santanu Bhutia",
             rating: "★★★★★",
             review: "Good experience and polite work man of word srinivas garu"
@@ -788,6 +825,34 @@ export default function Home() {
             name: "dons group",
             rating: "★★★★★",
             review: "he is a gentleman...good behaviour,,,its nice to deal with him ( aalia aluminium)"
+          },
+
+          /* Duplicate for Infinite Scroll */
+
+          {
+            name: "Lalith Chandra Yeddu",
+            rating: "★★★★★",
+            review: "Best interior well trained labours and friendly workers and the work is excellent and this is best interior person who mad this throughout and the material is imported and top class material and the quality and texture of the interior will ne topnotch"
+          },
+          {
+            name: "Rohit padavanil",
+            rating: "★★★★★",
+            review: "Seamless experience from start to finish—an amazing team, great attention to detail, and truly beautiful results. Would highly recommend for anyone looking for quality interiors."
+          },
+          {
+            name: "avinash Chinna",
+            rating: "★★★★★",
+            review: "Had a very pleasant experience working with Srinivas garu. They did a really good work and the final output exceeded our expectations. He helped a lot with the color selection and interiors."
+          },
+          {
+            name: "vamsi badireddi",
+            rating: "★★★★★",
+            review: "Great service and most knowledge in interior designing and Aluminium cupboard works, thank you for the service."
+          },
+          {
+            name: "Mummana Bharat",
+            rating: "★★★★★",
+            review: "They have done a very great work by giving a best result, thank you 😊"
           }
 
         ].map((item, index) => (
@@ -806,7 +871,6 @@ export default function Home() {
             </p>
 
             <div className="mt-8">
-
               <h4 className="font-bold text-lg text-gray-900">
                 {item.name}
               </h4>
@@ -814,7 +878,6 @@ export default function Home() {
               <p className="text-red-600 text-sm mt-1">
                 Verified Google Customer
               </p>
-
             </div>
 
           </div>
@@ -822,11 +885,9 @@ export default function Home() {
         ))}
 
       </div>
-
     </div>
 
   </div>
-
 </section>
 
     {/* Button */}
