@@ -145,86 +145,79 @@ export default function Services() {
 
         </section>
                 {/* ================= SERVICES ================= */}
+{/* ================= WHAT WE OFFER ================= */}
 
-        <section id="services" className="py-24 bg-[#faf8f5]">
+<section id="services" className="py-24 bg-[#faf8f5]">
 
-          <div className="max-w-7xl mx-auto px-6">
+  <div className="max-w-7xl mx-auto px-6">
 
-            <div className="text-center mb-16">
+    <div className="text-center mb-16">
 
-              <p className="uppercase tracking-[6px] text-red-600 font-semibold">
-                What We Offer
-              </p>
+      <p className="uppercase tracking-[6px] text-red-600 font-semibold">
+        What We Offer
+      </p>
 
-              <h2 className="mt-4 text-5xl font-bold text-gray-900">
-                Complete Interior & Exterior Solutions
-              </h2>
+      <h2 className="mt-4 text-5xl font-bold text-gray-900">
+        Our Premium Services
+      </h2>
 
-              <p className="mt-6 max-w-3xl mx-auto text-lg text-gray-600 leading-8">
-                Every project is carefully designed with premium materials,
-                innovative concepts and expert craftsmanship to deliver
-                beautiful, functional and long-lasting spaces.
-              </p>
+      <p className="mt-6 max-w-3xl mx-auto text-lg text-gray-600 leading-8">
+        We provide complete interior and exterior solutions with premium
+        materials, innovative designs and exceptional craftsmanship,
+        creating elegant spaces that are functional, durable and timeless.
+      </p>
 
-            </div>
+    </div>
 
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
 
-              {services.map((service, index) => (
+      {services.map((service, index) => (
 
-                <div
-                  key={index}
-                  className="group overflow-hidden rounded-3xl bg-white shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-3"
-                >
+        <div
+          key={index}
+          className="group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-3"
+        >
 
-                  <div className="relative overflow-hidden">
+          <div className="overflow-hidden">
 
-                    <img
-                      src={service.image}
-                      alt={service.title}
-                      className="w-full h-72 object-cover transition duration-700 group-hover:scale-110"
-                    />
-
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-500"></div>
-
-                    <div className="absolute top-5 left-5">
-
-                      <span className="bg-red-600 text-white text-xs font-semibold px-4 py-2 rounded-full">
-                        {String(index + 1).padStart(2, "0")}
-                      </span>
-
-                    </div>
-
-                  </div>
-
-                  <div className="p-8">
-
-                    <h3 className="text-2xl font-bold text-gray-900">
-                      {service.title}
-                    </h3>
-
-                    <p className="mt-4 text-gray-600 leading-7">
-                      {service.desc}
-                    </p>
-
-                    <Link
-                      href={service.link}
-                      className="inline-flex items-center mt-8 text-red-600 font-semibold hover:gap-3 transition-all duration-300"
-                    >
-                      Explore Service →
-                    </Link>
-
-                  </div>
-
-                </div>
-
-              ))}
-
-            </div>
+            <img
+              src={service.image}
+              alt={service.title}
+              className="w-full h-72 object-cover transition duration-700 group-hover:scale-110"
+            />
 
           </div>
 
-        </section>
+          <div className="p-8">
+
+            <h3 className="text-3xl font-bold text-gray-900">
+              {service.title}
+            </h3>
+
+            <p className="mt-5 text-gray-600 leading-8 text-lg">
+              {service.desc}
+            </p>
+
+            <a
+              href="https://wa.me/918106406999"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block mt-8 bg-red-600 hover:bg-red-700 text-white px-8 py-3 rounded-xl font-semibold transition duration-300 shadow-lg hover:shadow-xl"
+            >
+              Get Quote
+            </a>
+
+          </div>
+
+        </div>
+
+      ))}
+
+    </div>
+
+  </div>
+
+</section>
                 {/* ================= WHY CHOOSE US ================= */}
 
         <section className="py-24 bg-white">
