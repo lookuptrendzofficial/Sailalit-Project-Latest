@@ -1,7 +1,9 @@
 "use client";
 
 import Link from "next/link";
+import Header from "../../components/Header";
 import Footer from "../../components/Footer";
+
 
 const falseCeilingImages = [
   "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.01.50-1.jpeg",
@@ -23,6 +25,7 @@ const falseCeilingImages = [
 
 export default function FalseCeilingsPage() {
   return (
+    <Header />
     <main className="bg-white">
 
       {/* Hero Section */}
