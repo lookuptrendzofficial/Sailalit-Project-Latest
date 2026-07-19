@@ -25,9 +25,9 @@ const falseCeilingImages = [
 
 export default function FalseCeilingsPage() {
   return (
-    <Header />
+    
     <main className="bg-white">
-
+<Header />
       {/* Hero Section */}
 
       <section className="relative h-[85vh] overflow-hidden">
