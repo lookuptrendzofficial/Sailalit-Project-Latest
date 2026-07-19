@@ -199,9 +199,12 @@ export default function Home() {
 
       {/* Button */}
 
-      <button className="mt-10 bg-red-600 hover:bg-red-700 transition duration-300 text-white px-8 py-4 rounded-xl font-semibold shadow-lg">
-        Explore More About Us →
-      </button>
+<Link
+  href="/about"
+  className="inline-flex items-center mt-10 bg-red-600 hover:bg-red-700 transition duration-300 text-white px-8 py-4 rounded-xl font-semibold shadow-lg hover:shadow-xl"
+>
+  Explore More About Us →
+</Link>
 
     </div>
 
@@ -419,13 +422,18 @@ export default function Home() {
 </div>
   
 
-  {/* Button */}
+{/* Button */}
 
-  <div className="text-center mt-12">
+<div className="text-center mt-12">
 
-    <button className="bg-red-600 hover:bg-red-700 transition text-white px-8 py-4 rounded-md font-semibold">
-      View All Services →
-    </button>
+  <Link
+    href="/services"
+    className="inline-flex items-center bg-red-600 hover:bg-red-700 transition duration-300 text-white px-8 py-4 rounded-md font-semibold shadow-lg hover:shadow-xl"
+  >
+    View All Services →
+  </Link>
+
+</div>
 
   </div>
 
