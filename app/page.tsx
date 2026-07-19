@@ -23,11 +23,11 @@ export default function Home() {
 const [currentSlide, setCurrentSlide] = useState(0);
 
 useEffect(() => {
-  const interval = setInterval(() => {
+  const timer = setInterval(() => {
     setCurrentSlide((prev) => (prev + 1) % heroImages.length);
   }, 3500);
 
-  return () => clearInterval(interval);
+  return () => clearInterval(timer);
 }, []);
 
       <Header />
@@ -39,16 +39,18 @@ useEffect(() => {
 
   {/* ================= HERO ================= */}
 
+{/* ================= HERO ================= */}
+
 <section className="relative min-h-screen overflow-hidden flex items-center">
 
   {heroImages.map((image, index) => (
     <img
       key={index}
       src={image}
-      alt=""
-      className={`absolute inset-0 w-full h-full object-cover transition-all duration-[1800ms] ${
+      alt={`Slide ${index + 1}`}
+      className={`absolute inset-0 h-full w-full object-cover transition-all duration-1000 ${
         currentSlide === index
-          ? "opacity-100 scale-110"
+          ? "opacity-100 scale-105"
           : "opacity-0 scale-100"
       }`}
     />
@@ -56,7 +58,7 @@ useEffect(() => {
 
   <div className="absolute inset-0 bg-black/60"></div>
 
-  <div className="relative max-w-7xl mx-auto w-full px-6 pt-24 z-10">
+  <div className="relative z-10 max-w-7xl mx-auto w-full px-6 pt-24">
 
     <div className="max-w-2xl text-white">
 
@@ -113,15 +115,13 @@ useEffect(() => {
 
   </div>
 
-  {/* Navigation Dots */}
-
   <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex gap-3 z-20">
 
     {heroImages.map((_, index) => (
       <button
         key={index}
         onClick={() => setCurrentSlide(index)}
-        className={`transition-all rounded-full ${
+        className={`rounded-full transition-all ${
           currentSlide === index
             ? "w-8 h-3 bg-red-500"
             : "w-3 h-3 bg-white/60"
