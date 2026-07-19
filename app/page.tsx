@@ -8,27 +8,11 @@ import HangingBadge from "./components/HangingBadge";
 
 export default function Home() {
 
-  const heroImages = [
-  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.00.09.jpeg",
-  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.01.22.jpeg",
-  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-00.52.15-1.jpeg",
-  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.01.08-scaled.jpeg",
-  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.45-2.jpeg",
-  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.22-2.jpeg",
-  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG-20201213-WA0029.jpg",
-  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.41-2.jpeg",
-  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.48.jpeg",
-];
+  const heroImage =
+    "https://lookuptrendz.com/wp-content/uploads/2026/07/file_000000001804723085d86eb19bcdca03.png";
 
-const [currentSlide, setCurrentSlide] = useState(0);
-
-useEffect(() => {
-  const timer = setInterval(() => {
-    setCurrentSlide((prev) => (prev + 1) % heroImages.length);
-  }, 3500);
-
-  return () => clearInterval(timer);
-}, []);
+  return (
+    <main className="w-full">
 
       <Header />
 
@@ -37,36 +21,20 @@ useEffect(() => {
 
   {/* ================= HERO ================= */}  
 
-  {/* ================= HERO ================= */}
+  <section  
+  className="relative min-h-screen bg-cover bg-center flex items-center"
+  style={{
+    backgroundImage: `url(${heroImage})`,
+  }}
+>
+  {/* Overlay */}
+  <div className="absolute inset-0 bg-black/50"></div>
 
-{/* ================= HERO ================= */}
-
-<section className="relative min-h-screen overflow-hidden flex items-center">
-
-  {heroImages.map((image, index) => (
-    <img
-      key={index}
-      src={image}
-      alt={`Slide ${index + 1}`}
-      className={`absolute inset-0 h-full w-full object-cover transition-all duration-1000 ${
-        currentSlide === index
-          ? "opacity-100 scale-105"
-          : "opacity-0 scale-100"
-      }`}
-    />
-  ))}
-
-  <div className="absolute inset-0 bg-black/60"></div>
-
-  <div className="relative z-10 max-w-7xl mx-auto w-full px-6 pt-24">
+  <div className="relative max-w-7xl mx-auto w-full px-6 pt-24">
 
     <div className="max-w-2xl text-white">
 
-      <p className="uppercase tracking-[8px] text-red-500 font-semibold">
-        Since 2019
-      </p>
-
-      <h1 className="mt-6 text-4xl md:text-6xl font-extrabold leading-tight">
+      <h1 className="text-4xl md:text-6xl font-extrabold leading-tight">
         Transforming Spaces
         <br />
         with Premium
@@ -80,13 +48,17 @@ useEffect(() => {
 
       <h2 className="mt-6 text-2xl font-semibold">
         Building Dream Homes & Commercial Spaces
+        <span className="text-red-500">
+          {" "}Since 2019
+        </span>
       </h2>
 
       <p className="mt-6 text-lg text-gray-200 leading-8">
-        With over 20 years of experience and 170+ completed projects,
-        Sai Lalit Interior & Exterior specializes in imported aluminium
-        systems, modular interiors, false ceilings, ACP cladding,
-        elevations, railings and customized design solutions across
+        With over 20 years of experience and 170+ completed
+        projects, Sai Lalit Interior & Exterior specializes
+        in imported aluminium systems, modular interiors,
+        false ceilings, ACP cladding, elevations, railings,
+        and customized design solutions across
         Visakhapatnam, Vizianagaram & Hyderabad.
       </p>
 
@@ -115,23 +87,8 @@ useEffect(() => {
 
   </div>
 
-  <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex gap-3 z-20">
-
-    {heroImages.map((_, index) => (
-      <button
-        key={index}
-        onClick={() => setCurrentSlide(index)}
-        className={`rounded-full transition-all ${
-          currentSlide === index
-            ? "w-8 h-3 bg-red-500"
-            : "w-3 h-3 bg-white/60"
-        }`}
-      />
-    ))}
-
-  </div>
-
-</section>                                                                                                                                                                                      
+</section>  
+                                                                                                                                                                                      
    {/* ================= ABOUT ================= */}
 
 <section id="about" className="bg-white py-20 px-6">
