@@ -513,7 +513,7 @@ export default function Home() {
     {
       title: "False Ceiling",
       image: "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.45-2.jpeg",
-      link: "/projects/false-ceiling",
+      link: "/projects/false-ceilings",
     },
     {
       title: "Pooja Mandir",
@@ -668,40 +668,6 @@ export default function Home() {
 </section>
 {/* ================= TESTIMONIALS ================= */}
 
-<section id="testimonials" className="py-20 bg-[#faf8f5] overflow-hidden">
-
-  <div className="max-w-7xl mx-auto px-6">
-
-    {/* Heading */}
-
-    <div className="text-center mb-12">
-
-      <p className="text-red-600 font-semibold uppercase tracking-widest">
-        — Testimonials —
-      </p>
-
-      <h2 className="mt-3 text-4xl lg:text-5xl font-bold text-gray-900">
-        What Our <span className="text-red-600">Clients Say</span>
-      </h2>
-
-      <p className="mt-5 text-lg text-gray-600 max-w-3xl mx-auto">
-        Trusted by homeowners and businesses for quality workmanship,
-        timely project delivery and customer satisfaction.
-      </p>
-
-      <div className="flex justify-center items-center gap-3 mt-6">
-
-        <span className="text-yellow-500 text-2xl">
-          ★★★★★
-        </span>
-
-        <span className="font-semibold text-gray-700">
-          5.0 Google Rating
-        </span>
-
-      </div>
-
-    </div>
 
     {/* Review Slider */}
 <section id="testimonials" className="py-20 bg-[#faf8f5] overflow-hidden">
