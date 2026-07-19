@@ -14,13 +14,13 @@ const heroImages = [
   "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.22-2.jpeg",
 ];
 
-export default function About() {
+export default function AboutPage() {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % heroImages.length);
-    }, 3500);
+    }, 4000);
 
     return () => clearInterval(timer);
   }, []);
@@ -39,7 +39,7 @@ export default function About() {
             <img
               key={index}
               src={image}
-              alt={`About Slide ${index + 1}`}
+              alt={`Slide ${index + 1}`}
               className={`absolute inset-0 w-full h-full object-cover transition-all duration-1000 ${
                 currentSlide === index
                   ? "opacity-100 scale-105"
@@ -48,15 +48,17 @@ export default function About() {
             />
           ))}
 
-          <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/50"></div>
+          {/* Dark Overlay */}
 
-          {/* Floating Blur Circles */}
+          <div className="absolute inset-0 bg-black/65"></div>
 
-          <div className="absolute top-20 left-10 w-72 h-72 bg-red-600/20 rounded-full blur-3xl animate-pulse"></div>
+          {/* Background Glow */}
 
-          <div className="absolute bottom-20 right-10 w-80 h-80 bg-blue-600/20 rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute top-20 left-10 w-72 h-72 rounded-full bg-red-600/20 blur-3xl animate-pulse"></div>
 
-          <div className="relative z-10 max-w-7xl mx-auto px-6 w-full">
+          <div className="absolute bottom-20 right-10 w-80 h-80 rounded-full bg-blue-600/20 blur-3xl animate-pulse"></div>
+
+          <div className="relative z-10 max-w-7xl mx-auto px-6">
 
             <div className="max-w-3xl text-white">
 
@@ -64,7 +66,7 @@ export default function About() {
                 Since 2019
               </p>
 
-              <h1 className="mt-6 text-5xl lg:text-7xl font-extrabold leading-tight">
+              <h1 className="mt-6 text-5xl md:text-6xl lg:text-7xl font-extrabold leading-tight">
                 About
                 <br />
                 <span className="text-red-500">
@@ -73,31 +75,37 @@ export default function About() {
               </h1>
 
               <h2 className="mt-6 text-2xl lg:text-3xl font-semibold">
-                Building Elegant Spaces with
-                Innovation, Quality & Craftsmanship
+                Interior, Exterior & Co.
               </h2>
 
-              <p className="mt-8 text-lg text-gray-200 leading-8 max-w-2xl">
-                Since 2019, Sai Lalit Interior, Exterior & Co. has been
-                transforming residential and commercial spaces with
-                premium interior and exterior solutions. Our commitment
-                to quality, innovative designs and customer satisfaction
-                has helped us deliver exceptional projects across
-                Visakhapatnam, Vizianagaram and Hyderabad.
+              <p className="mt-8 text-lg leading-9 text-gray-200">
+
+                Since 2019, Sai Lalit Interior, Exterior & Co.
+                has been transforming residential and commercial
+                spaces through innovative designs, premium
+                craftsmanship and exceptional quality.
+
+                <br /><br />
+
+                We specialize in complete interior,
+                exterior, aluminium and turnkey solutions,
+                delivering beautiful spaces that combine
+                luxury, comfort and functionality.
+
               </p>
 
-              <div className="mt-10 flex flex-wrap gap-5">
+              <div className="mt-12 flex flex-wrap gap-5">
 
                 <Link
                   href="/contact"
-                  className="bg-red-600 hover:bg-red-700 transition px-8 py-4 rounded-xl font-semibold"
+                  className="bg-red-600 hover:bg-red-700 px-8 py-4 rounded-xl font-semibold shadow-xl transition duration-300"
                 >
                   Get Free Consultation
                 </Link>
 
                 <a
                   href="#story"
-                  className="border border-white hover:bg-white hover:text-black transition px-8 py-4 rounded-xl font-semibold"
+                  className="border border-white px-8 py-4 rounded-xl font-semibold hover:bg-white hover:text-black transition duration-300"
                 >
                   Our Journey
                 </a>
@@ -108,46 +116,81 @@ export default function About() {
 
           </div>
 
-          {/* Floating Stats */}
+        </section>
+                {/* ================= COMPANY STATS ================= */}
 
-          <div className="absolute bottom-10 left-1/2 -translate-x-1/2 w-full max-w-6xl px-6">
+        <section className="relative bg-white -mt-16 z-20 pb-10">
 
-            <div className="grid grid-cols-2 lg:grid-cols-4 gap-5">
+          <div className="max-w-7xl mx-auto px-6">
 
-              <div className="backdrop-blur-xl bg-white/10 border border-white/20 rounded-3xl p-6 text-center text-white">
-                <h3 className="text-4xl font-bold text-red-400">
-                  20+
-                </h3>
-                <p className="mt-2 text-gray-200">
-                  Years Experience
-                </p>
-              </div>
+            <div className="bg-white rounded-[35px] shadow-2xl border border-gray-100 p-8 lg:p-10">
 
-              <div className="backdrop-blur-xl bg-white/10 border border-white/20 rounded-3xl p-6 text-center text-white">
-                <h3 className="text-4xl font-bold text-red-400">
-                  170+
-                </h3>
-                <p className="mt-2 text-gray-200">
-                  Projects Completed
-                </p>
-              </div>
+              <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
 
-              <div className="backdrop-blur-xl bg-white/10 border border-white/20 rounded-3xl p-6 text-center text-white">
-                <h3 className="text-4xl font-bold text-red-400">
-                  100%
-                </h3>
-                <p className="mt-2 text-gray-200">
-                  Premium Quality
-                </p>
-              </div>
+                {/* Card 1 */}
 
-              <div className="backdrop-blur-xl bg-white/10 border border-white/20 rounded-3xl p-6 text-center text-white">
-                <h3 className="text-4xl font-bold text-red-400">
-                  100%
-                </h3>
-                <p className="mt-2 text-gray-200">
-                  Client Satisfaction
-                </p>
+                <div className="group text-center rounded-3xl bg-[#faf8f5] p-8 hover:-translate-y-3 hover:shadow-xl transition-all duration-500">
+
+                  <div className="text-5xl mb-4">🏆</div>
+
+                  <h3 className="text-4xl font-bold text-red-600">
+                    20+
+                  </h3>
+
+                  <p className="mt-3 text-gray-700 font-medium">
+                    Years Experience
+                  </p>
+
+                </div>
+
+                {/* Card 2 */}
+
+                <div className="group text-center rounded-3xl bg-[#faf8f5] p-8 hover:-translate-y-3 hover:shadow-xl transition-all duration-500">
+
+                  <div className="text-5xl mb-4">🏡</div>
+
+                  <h3 className="text-4xl font-bold text-red-600">
+                    170+
+                  </h3>
+
+                  <p className="mt-3 text-gray-700 font-medium">
+                    Projects Completed
+                  </p>
+
+                </div>
+
+                {/* Card 3 */}
+
+                <div className="group text-center rounded-3xl bg-[#faf8f5] p-8 hover:-translate-y-3 hover:shadow-xl transition-all duration-500">
+
+                  <div className="text-5xl mb-4">⭐</div>
+
+                  <h3 className="text-4xl font-bold text-red-600">
+                    100%
+                  </h3>
+
+                  <p className="mt-3 text-gray-700 font-medium">
+                    Premium Quality
+                  </p>
+
+                </div>
+
+                {/* Card 4 */}
+
+                <div className="group text-center rounded-3xl bg-[#faf8f5] p-8 hover:-translate-y-3 hover:shadow-xl transition-all duration-500">
+
+                  <div className="text-5xl mb-4">🤝</div>
+
+                  <h3 className="text-4xl font-bold text-red-600">
+                    100%
+                  </h3>
+
+                  <p className="mt-3 text-gray-700 font-medium">
+                    Client Satisfaction
+                  </p>
+
+                </div>
+
               </div>
 
             </div>
@@ -155,6 +198,8 @@ export default function About() {
           </div>
 
         </section>
+
+        {/* ================= OUR STORY ================= */}
                 {/* ================= OUR STORY ================= */}
 
         <section
