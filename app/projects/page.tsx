@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import Footer from "../components/Footer";
-
+import Header from "../components/Header";
 const projects = [
   {
     title: "Modular Kitchens",
@@ -95,6 +95,7 @@ const projects = [
 export default function ProjectsPage() {
   return (
     <main className="bg-white">
+      <Header />
 
       {/* Hero */}
 
