@@ -666,6 +666,241 @@ export default function Home() {
 
   </div>
 </section>
+      {/* ================= TESTIMONIALS ================= */}
+
+<section
+  id="testimonials"
+  className="py-20 bg-[#faf8f5] overflow-hidden"
+>
+  <div className="max-w-7xl mx-auto px-6">
+
+    {/* Heading */}
+
+    <div className="text-center mb-12">
+
+      <p className="text-red-600 font-semibold uppercase tracking-widest">
+        — Testimonials —
+      </p>
+
+      <h2 className="mt-3 text-4xl lg:text-5xl font-bold text-gray-900">
+        What Our <span className="text-red-600">Clients Say</span>
+      </h2>
+
+      <p className="mt-5 text-lg text-gray-600 max-w-3xl mx-auto">
+        Trusted by homeowners and businesses for quality workmanship,
+        timely project delivery and customer satisfaction.
+      </p>
+
+      <div className="flex justify-center items-center gap-3 mt-6">
+        <span className="text-yellow-500 text-2xl">★★★★★</span>
+
+        <span className="font-semibold text-gray-700">
+          5.0 Google Rating
+        </span>
+      </div>
+
+    </div>
+
+    {/* Review Slider */}
+
+    <div className="overflow-hidden">
+
+      <div className="review-scroll gap-6">
+
+        {[
+          {
+            name: "Lalith Chandra Yeddu",
+            rating: "★★★★★",
+            review:
+              "Best interior well trained labours and friendly workers and the work is excellent and this is best interior person who made this throughout and the material is imported and top class material."
+          },
+          {
+            name: "BYLAPOODI GOWRI",
+            rating: "★★★★★",
+            review: "Excellent quality"
+          },
+          {
+            name: "Mahesh Vadada",
+            rating: "★★★★★",
+            review: "Great work."
+          },
+          {
+            name: "prasad katta",
+            rating: "★★★★★",
+            review:
+              "I am very satisfied and very reasonable price also."
+          },
+          {
+            name: "Pindi Sunil Kumar",
+            rating: "★★★★★",
+            review: "Good work Srinivas garu."
+          },
+          {
+            name: "Sajeeshmadhavan Pkd",
+            rating: "★★★★★",
+            review: "Excellent quality and good service."
+          },
+          {
+            name: "Nanaji Dadi",
+            rating: "★★★★★",
+            review:
+              "Very good quality work at a reasonable price."
+          },
+          {
+            name: "Bhassckar Bobbhile",
+            rating: "★★★★★",
+            review:
+              "I was completely impressed with their professionalism and work."
+          },
+          {
+            name: "NAVEEN KUMAR",
+            rating: "★★★★★",
+            review:
+              "It's simply awesome. Had a pleasant and innovative work output with this firm."
+          },
+          {
+            name: "Santanu Bhutia",
+            rating: "★★★★★",
+            review:
+              "Good experience and polite work. Man of his word, Srinivas garu."
+          },
+
+          // Continue in Part 2
+            {
+            name: "Rohit Padavanil",
+            rating: "★★★★★",
+            review:
+              "Seamless experience from start to finish—an amazing team, great attention to detail, and truly beautiful results. Would highly recommend for anyone looking for quality interiors."
+          },
+          {
+            name: "Vamsi Badireddi",
+            rating: "★★★★★",
+            review:
+              "Great service and most knowledgeable in interior designing and aluminium cupboard works. Thank you for the excellent service."
+          },
+          {
+            name: "Sai Kumar Mutyala",
+            rating: "★★★★★",
+            review:
+              "Excellent work. Very much satisfied with the quality and reasonable pricing."
+          },
+          {
+            name: "Avinash Chinna",
+            rating: "★★★★★",
+            review:
+              "Had a very pleasant experience working with Srinivas garu. The final output exceeded our expectations. Excellent guidance with colour selection and interiors."
+          },
+          {
+            name: "Krishna Reddy",
+            rating: "★★★★★",
+            review:
+              "Quality work, on-time delivery and always available when required."
+          },
+          {
+            name: "Srinivasa Reddy",
+            rating: "★★★★★",
+            review:
+              "I got my cupboards done by Sai Lalit team. Best quality and beautiful finishing."
+          },
+          {
+            name: "Mummana Bharat",
+            rating: "★★★★★",
+            review:
+              "They have done a wonderful job with excellent finishing. Thank you!"
+          },
+          {
+            name: "Dons Group",
+            rating: "★★★★★",
+            review:
+              "A gentleman with great behaviour. It was a pleasure working with him."
+          },
+
+          /* Duplicate Reviews for Infinite Scroll */
+
+          {
+            name: "Lalith Chandra Yeddu",
+            rating: "★★★★★",
+            review:
+              "Best interior well trained labours and friendly workers and the work is excellent with premium imported materials."
+          },
+          {
+            name: "Rohit Padavanil",
+            rating: "★★★★★",
+            review:
+              "Seamless experience from start to finish. Highly recommended for quality interiors."
+          },
+          {
+            name: "Avinash Chinna",
+            rating: "★★★★★",
+            review:
+              "Excellent workmanship and beautiful interior finishing. Highly satisfied."
+          },
+          {
+            name: "Vamsi Badireddi",
+            rating: "★★★★★",
+            review:
+              "Excellent interior designing and aluminium cupboard work."
+          },
+          {
+            name: "Mummana Bharat",
+            rating: "★★★★★",
+            review:
+              "Excellent quality and professional service."
+          }
+
+        ].map((item, index) => (
+
+          <div
+            key={index}
+            className="bg-white rounded-2xl shadow-lg border border-gray-100 p-8 w-[340px] flex-shrink-0 hover:-translate-y-2 transition duration-300"
+          >
+
+            <div className="text-yellow-500 text-xl mb-4">
+              {item.rating}
+            </div>
+
+            <p className="text-gray-600 leading-7 italic">
+              "{item.review}"
+            </p>
+
+            <div className="mt-8">
+
+              <h4 className="font-bold text-lg text-gray-900">
+                {item.name}
+              </h4>
+
+              <p className="text-red-600 text-sm mt-1">
+                Verified Google Customer
+              </p>
+
+            </div>
+
+          </div>
+
+        ))}
+
+      </div>
+
+    </div>
+
+    {/* View Reviews Button */}
+
+    <div className="text-center mt-14">
+
+      <a
+        href="https://g.page/r/CVXXXXXXXXXX/review"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex items-center bg-red-600 hover:bg-red-700 transition text-white px-8 py-4 rounded-md font-semibold"
+      >
+        View Google Reviews →
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
   {/* ================= FAQ ================= */}
 
 <section id="faq" className="bg-[#faf8f5] py-20 px-6">
