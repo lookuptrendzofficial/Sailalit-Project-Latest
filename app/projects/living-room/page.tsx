@@ -11,7 +11,7 @@ const livingRoomImages = [
   "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.01.25-1.jpeg",
   "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-00.48.30.jpeg",
   "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-00.42.54.jpeg",
-  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-00.48.29-2.jpeg",
+
   "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/Screenshot_2022_0804_205232.png",
   "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG-20220215-WA0007.jpg",
   "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-00.48.36.jpeg",
