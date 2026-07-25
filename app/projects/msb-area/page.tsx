@@ -6,18 +6,21 @@ import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 
 const msbAreaImages = [
-  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG-20220131-WA0066.jpg",
-  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG-20220131-WA0058-1.jpg",
-  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG-20220131-WA0053.jpg",
-  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG-20220131-WA0049.jpg",
-  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG-20220131-WA0047.jpg",
-  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG-20220131-WA0044.jpg",
-  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG-20220131-WA0043.jpg",
-  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG-20220131-WA0041.jpg",
-  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG-20220131-WA0034.jpg",
-  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG-20220131-WA0031.jpg",
-  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG-20220131-WA0018.jpg",
-  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG-20220130-WA0026.jpg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG-20260725-WA0082.jpg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG-20260725-WA0096.jpg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG-20260725-WA0097.jpg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG-20260725-WA0088.jpg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG-20260725-WA0092.jpg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG-20260725-WA0090.jpg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG-20260725-WA0093.jpg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG-20260725-WA0091.jpg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG-20260725-WA0086.jpg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG-20260725-WA0087.jpg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG-20260725-WA0084.jpg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG-20260725-WA0085.jpg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG-20260725-WA0080.jpg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG-20260725-WA0083.jpg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG-20260725-WA0081.jpg",
 ];
 
 export default function MSBAreaPage() {
