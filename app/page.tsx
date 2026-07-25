@@ -19,19 +19,132 @@ export default function Home() {
     "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.41-2.jpeg",
     "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.48.jpeg",
   ];
+  "use client";
+
+import { useState, useEffect } from "react";
+import Link from "next/link";
+
+const projects = [
+  {
+    title: "Modular Kitchens",
+    link: "/projects/modular-kitchens",
+    images: [
+      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.00.09.jpeg",
+      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.01.22.jpeg",
+      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-00.52.15-1.jpeg",
+    ],
+  },
+
+  {
+    title: "Living Rooms",
+    link: "/projects/living-room",
+    images: [
+      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.01.22.jpeg",
+      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.45-2.jpeg",
+      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.22-2.jpeg",
+    ],
+  },
+
+  {
+    title: "TV Units",
+    link: "/projects/tv-units",
+    images: [
+      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-00.52.15-1.jpeg",
+      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.01.08-scaled.jpeg",
+      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG-20201213-WA0029.jpg",
+    ],
+  },
+
+  {
+    title: "Wardrobes",
+    link: "/projects/wardrobes",
+    images: [
+      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.01.08-scaled.jpeg",
+      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.41-2.jpeg",
+      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.48.jpeg",
+    ],
+  },
+
+  {
+    title: "False Ceiling",
+    link: "/projects/false-ceilings",
+    images: [
+      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.45-2.jpeg",
+      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.22-2.jpeg",
+      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG-20201213-WA0029.jpg",
+    ],
+  },
+
+  {
+    title: "Pooja Mandir",
+    link: "/projects/pooja-mandir",
+    images: [
+      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.22-2.jpeg",
+      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.41-2.jpeg",
+      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.48.jpeg",
+    ],
+  },
+
+  {
+    title: "Elevations",
+    link: "/projects/elevations",
+    images: [
+      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG-20201213-WA0029.jpg",
+      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.00.09.jpeg",
+      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.48.jpeg",
+    ],
+  },
+
+  {
+    title: "Wall Designs",
+    link: "/projects/wall-designs",
+    images: [
+      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.41-2.jpeg",
+      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.01.22.jpeg",
+      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG-20201213-WA0029.jpg",
+    ],
+  },
+
+  {
+    title: "Vertical Gardens",
+    link: "/projects/vertical-gardens",
+    images: [
+      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.48.jpeg",
+      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.41-2.jpeg",
+      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.22-2.jpeg",
+    ],
+  },
+];
 
   const [currentSlide, setCurrentSlide] = useState(0);
+const [currentImages, setCurrentImages] = useState(
+  projects.map(() => 0)
+);
+  // Hero Slider
+useEffect(() => {
+  const timer = setInterval(() => {
+    setCurrentSlide((prev) => (prev + 1) % heroImages.length);
+  }, 3500);
 
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setCurrentSlide((prev) => (prev + 1) % heroImages.length);
-    }, 3500);
+  return () => clearInterval(timer);
+}, []);
 
-    return () => clearInterval(timer);
-  }, []);
+// Projects Slider
+useEffect(() => {
+  const timer = setInterval(() => {
+    setCurrentImages((prev) =>
+      prev.map((value, index) => {
+        const total = projects[index].images.length;
+        return (value + 1) % total;
+      })
+    );
+  }, 2500);
 
-  return (
-    <main className="w-full">
+  return () => clearInterval(timer);
+}, []);
+
+return (
+  <main className="w-full">
 
       <Header />
 
@@ -463,13 +576,16 @@ export default function Home() {
 
 </section>
 
-      {/* ================= OUR PROJECTS ================= */}
+{/* ================= OUR PROJECTS ================= */}
 
 <section id="projects" className="py-20 bg-[#faf8f5]">
+
   <div className="max-w-7xl mx-auto px-6">
 
     {/* Heading */}
+
     <div className="text-center mb-14">
+
       <p className="text-blue-600 font-semibold uppercase tracking-widest">
         — Our Projects —
       </p>
@@ -480,103 +596,98 @@ export default function Home() {
       </h2>
 
       <p className="mt-5 text-gray-600 max-w-3xl mx-auto leading-8">
-        Browse our completed interior and exterior works. Click any category to
-        explore the complete project gallery.
+        Browse our completed interior and exterior works.
+        Every project card showcases multiple completed works through an
+        automatic slideshow.
       </p>
+
     </div>
 
     {/* Categories */}
 
     <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
 
-  {[
-    {
-      title: "Modular Kitchens",
-      image: "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.00.09.jpeg",
-      link: "/projects/modular-kitchens",
-    },
-    {
-      title: "Living Rooms",
-      image: "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.01.22.jpeg",
-      link: "/projects/living-room",
-    },
-    {
-      title: "TV Units",
-      image: "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-00.52.15-1.jpeg",
-      link: "/projects/tv-units",
-    },
-    {
-      title: "Wardrobes",
-      image: "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.01.08-scaled.jpeg",
-      link: "/projects/wardrobes",
-    },
-    {
-      title: "False Ceiling",
-      image: "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.45-2.jpeg",
-      link: "/projects/false-ceilings",
-    },
-    {
-      title: "Pooja Mandir",
-      image: "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.22-2.jpeg",
-      link: "/projects/pooja-mandir",
-    },
-    {
-      title: "Elevations",
-      image: "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG-20201213-WA0029.jpg",
-      link: "/projects/elevations",
-    },
-    {
-      title: "Wall Designs",
-      image: "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.41-2.jpeg",
-      link: "/projects/wall-designs",
-    },
-    {
-      title: "Vertical Gardens",
-      image: "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.48.jpeg",
-      link: "/projects/vertical-gardens",
-    },
-  ].map((item, index) => (
-    <div
-      key={index}
-      className="group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl hover:-translate-y-3 transition-all duration-500"
-    >
-      <div className="overflow-hidden">
-        <img
-          src={item.image}
-          alt={item.title}
-          className="w-full h-64 object-cover group-hover:scale-110 transition duration-700"
-        />
-      </div>
+      {projects.map((item, index) => (
 
-      <div className="p-6">
-        <h3 className="text-2xl font-bold text-center text-gray-900">
-          {item.title}
-        </h3>
-
-        <Link
-          href={item.link}
-          className="mt-6 inline-flex justify-center w-full py-3 rounded-full bg-red-600 text-white font-semibold hover:bg-red-700 transition"
+        <div
+          key={index}
+          className="group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl hover:-translate-y-3 transition-all duration-500"
         >
-          View Gallery →
-        </Link>
-      </div>
+
+          {/* Slideshow */}
+
+          <div className="relative h-64 overflow-hidden">
+
+            {item.images.map((image, imgIndex) => (
+
+              <img
+                key={imgIndex}
+                src={image}
+                alt={item.title}
+                className={`absolute inset-0 w-full h-full object-cover transition-all duration-1000 ${
+                  currentImages[index] === imgIndex
+                    ? "opacity-100 scale-110"
+                    : "opacity-0 scale-100"
+                }`}
+              />
+
+            ))}
+
+            {/* Image Dots */}
+
+            <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2">
+
+              {item.images.map((_, dotIndex) => (
+
+                <span
+                  key={dotIndex}
+                  className={`w-2.5 h-2.5 rounded-full transition ${
+                    currentImages[index] === dotIndex
+                      ? "bg-white"
+                      : "bg-white/40"
+                  }`}
+                />
+
+              ))}
+
+            </div>
+
+          </div>
+
+          {/* Card Content */}
+
+          <div className="p-6">
+
+            <h3 className="text-2xl font-bold text-center text-gray-900">
+              {item.title}
+            </h3>
+
+            <Link
+              href={item.link}
+              className="mt-6 inline-flex justify-center w-full py-3 rounded-full bg-red-600 text-white font-semibold hover:bg-red-700 transition"
+            >
+              View Gallery →
+            </Link>
+
+          </div>
+
+        </div>
+
+      ))}
+          </div>
+
+    {/* View All */}
+
+    <div className="text-center mt-20">
+      <Link
+        href="/projects"
+        className="inline-flex items-center gap-3 px-12 py-5 rounded-full bg-gray-900 text-white text-lg font-bold hover:bg-red-600 transition duration-300 shadow-xl"
+      >
+        View All Projects →
+      </Link>
     </div>
-  ))}
 
-</div>
-
-{/* View All */}
-
-<div className="text-center mt-20">
-  <Link
-    href="/projects"
-    className="inline-flex items-center gap-3 px-12 py-5 rounded-full bg-gray-900 text-white text-lg font-bold hover:bg-red-600 transition duration-300 shadow-xl"
-  >
-    View All Projects →
-  </Link>
-</div>
-
-</div>
+  </div>
 
 </section>
       
@@ -888,7 +999,7 @@ export default function Home() {
     <div className="text-center mt-14">
 
       <a
-        href="https://g.page/r/CVXXXXXXXXXX/review"
+        href="https://share.google/arOH558HJPvTPVUNr"
         target="_blank"
         rel="noopener noreferrer"
         className="inline-flex items-center bg-red-600 hover:bg-red-700 transition text-white px-8 py-4 rounded-md font-semibold"
