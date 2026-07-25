@@ -18,7 +18,6 @@ const poojaMandirImages = [
   "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-00.45.09-scaled.jpeg",
   "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-00.52.31-2-scaled.jpeg",
   "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/Screenshot_2022_0129_170838.png",
-  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG_20220321_111254-scaled.jpg",
   "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-00.45.08-1-scaled.jpeg",
   "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-00.45.07-1.jpeg",
 ];
