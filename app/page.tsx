@@ -19,10 +19,6 @@ export default function Home() {
     "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.41-2.jpeg",
     "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.48.jpeg",
   ];
-  "use client";
-
-import { useState, useEffect } from "react";
-import Link from "next/link";
 
 const projects = [
   {
