@@ -200,13 +200,9 @@ export default function ThreeDDesignsPage() {
 
                     <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-500" />
 
-                    <div className="absolute top-5 left-5">
-
-                      <span className="bg-red-600 text-white text-xs font-semibold px-4 py-2 rounded-full">
-                        {String(index + 1).padStart(2, "0")}
-                      </span>
-
-                    </div>
+   <span className="bg-red-600 text-white text-xs font-semibold px-4 py-2 rounded-full">
+  Premium
+</span>
 
                     <div className="absolute bottom-0 left-0 right-0 p-8 translate-y-10 group-hover:translate-y-0 transition duration-500">
 
