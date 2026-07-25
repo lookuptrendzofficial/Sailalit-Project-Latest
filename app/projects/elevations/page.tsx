@@ -12,8 +12,8 @@ const elevationImages = [
   "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG_20220429_115936-scaled.jpg",
   "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG_20220315_175058-scaled.jpg",
   "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG_20211123_105454-scaled.jpg",
-  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG_20191009_154619-scaled.jpg",
-  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG_20191009_154457-scaled.jpg",
+
+  
   "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG_20220429_115930-scaled.jpg",
   "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG_20160929_130018-scaled.jpg",
   "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG-20201213-WA0044.jpg",
