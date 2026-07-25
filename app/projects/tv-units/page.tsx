@@ -21,7 +21,7 @@ const tvUnitImages = [
   "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-00.48.37-1-scaled.jpeg",
   "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-00.52.28-1.jpeg",
   "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.41.jpeg",
-  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/Screenshot_2022_1001_091254.png",
+
 ];
 
 export default function TVUnitsPage() {
