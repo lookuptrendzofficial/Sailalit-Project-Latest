@@ -423,7 +423,7 @@ export default function Services() {
             </div>
 
             <img
-              https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG_20220429_115936-scaled.jpg"
+              src=https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG_20220429_115936-scaled.jpg"
               alt="Building Elevations"
               className="order-1 lg:order-2 h-[500px] w-full rounded-3xl object-cover shadow-2xl transition duration-500 hover:scale-105"
             />
