@@ -16,7 +16,6 @@ const heroImages = [
 
 export default function ContactPage() {
   const [currentSlide, setCurrentSlide] = useState(0);
-
   const [loading, setLoading] = useState(false);
 
   const [formData, setFormData] = useState({
@@ -47,7 +46,9 @@ export default function ContactPage() {
     }));
   };
 
-  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (
+    e: React.FormEvent<HTMLFormElement>
+  ) => {
     e.preventDefault();
 
     if (
@@ -95,9 +96,9 @@ export default function ContactPage() {
     } catch (error) {
       console.error(error);
       alert("Something went wrong. Please try again.");
+    } finally {
+      setLoading(false);
     }
-
-    setLoading(false);
   };
 
   return (
