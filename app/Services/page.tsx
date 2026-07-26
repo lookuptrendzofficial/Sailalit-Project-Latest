@@ -6,12 +6,12 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 
 const heroImages = [
-  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.01.25-1.jpeg",
-  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.26-1.jpeg",
-  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.00.28.jpeg",
-  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-00.48.35.jpeg",
-  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG_20220518_202251.jpg",
-  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.00.50.jpeg",
+  "YOUR_HERO_IMAGE_1",
+  "YOUR_HERO_IMAGE_2",
+  "YOUR_HERO_IMAGE_3",
+  "YOUR_HERO_IMAGE_4",
+  "YOUR_HERO_IMAGE_5",
+  "YOUR_HERO_IMAGE_6",
 ];
 
 export default function Services() {
@@ -85,7 +85,7 @@ export default function Services() {
           <div className="grid lg:grid-cols-2 gap-14 items-center py-24 border-t">
 
             <img
-              src="https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.01.17.jpeg"
+              src="YOUR_MODULAR_INTERIORS_IMAGE"
               alt="Modular Interiors"
               className="h-[500px] w-full rounded-3xl object-cover shadow-2xl transition duration-500 hover:scale-105"
             />
@@ -423,7 +423,7 @@ export default function Services() {
             </div>
 
             <img
-              src=https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG_20220429_115936-scaled.jpg"
+              src="YOUR_BUILDING_ELEVATION_IMAGE"
               alt="Building Elevations"
               className="order-1 lg:order-2 h-[500px] w-full rounded-3xl object-cover shadow-2xl transition duration-500 hover:scale-105"
             />
@@ -434,7 +434,7 @@ export default function Services() {
           <div className="grid lg:grid-cols-2 gap-14 items-center py-24 border-t">
 
             <img
-              src="https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/Screenshot_2022_1001_091238.png"
+              src="YOUR_3D_DESIGN_IMAGE"
               alt="3D Designs"
               className="h-[500px] w-full rounded-3xl object-cover shadow-2xl transition duration-500 hover:scale-105"
             />
@@ -663,7 +663,7 @@ export default function Services() {
           <div className="grid lg:grid-cols-2 gap-14 items-center py-24 border-t">
 
             <img
-              src="https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.45-2.jpeg"
+              src="YOUR_FALSE_CEILING_IMAGE"
               alt="False Ceiling"
               className="h-[500px] w-full rounded-3xl object-cover shadow-2xl transition duration-500 hover:scale-105"
             />
