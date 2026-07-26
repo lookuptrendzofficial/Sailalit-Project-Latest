@@ -89,7 +89,7 @@ export default function Services() {
 <div className="grid lg:grid-cols-2 gap-14 items-center py-24 border-t">
 
   <img
-    src="https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.01.08-scaled.jpeg"
+    src="https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.44.jpeg"
     alt="Painting & Wallpapers"
     className="rounded-3xl shadow-2xl w-full h-[500px] object-cover"
   />
