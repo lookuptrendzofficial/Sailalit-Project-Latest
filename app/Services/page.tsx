@@ -6,12 +6,12 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 
 const heroImages = [
-  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.00.09.jpeg",
-  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.01.22.jpeg",
-  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-00.52.15-1.jpeg",
-  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.01.08-scaled.jpeg",
-  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.45-2.jpeg",
-  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.22-2.jpeg",
+  "YOUR_HERO_IMAGE_1",
+  "YOUR_HERO_IMAGE_2",
+  "YOUR_HERO_IMAGE_3",
+  "YOUR_HERO_IMAGE_4",
+  "YOUR_HERO_IMAGE_5",
+  "YOUR_HERO_IMAGE_6",
 ];
 
 export default function Services() {
@@ -30,332 +30,983 @@ export default function Services() {
       <Header />
 
       <main className="pt-20">
-        {/* ================= FALSE CEILING ================= */}
-
-<div className="grid lg:grid-cols-2 gap-14 items-center py-24 border-t">
-
-  <div className="order-2 lg:order-1">
-
-    <p className="uppercase tracking-[5px] text-red-600 font-semibold">
-      04. False Ceiling
-    </p>
-
-    <h3 className="mt-4 text-4xl font-bold text-gray-900">
-      Premium False Ceiling Solutions
-    </h3>
-
-    <p className="mt-6 text-lg leading-8 text-gray-600">
-      Transform your interiors with beautifully designed false ceilings that
-      enhance lighting, improve aesthetics and create a luxurious ambience.
-      We specialize in Gypsum, PVC, Grid and Designer ceilings for homes,
-      offices and commercial spaces.
-    </p>
-
-    <p className="mt-5 text-lg leading-8 text-gray-600">
-      Every ceiling is designed according to your interior theme, ensuring
-      durability, elegant finishing and seamless integration with lighting,
-      air-conditioning and décor elements.
-    </p>
-
-    <div className="grid grid-cols-2 gap-4 mt-8 text-gray-700">
-      <p>✔ Gypsum Ceiling</p>
-      <p>✔ PVC Ceiling</p>
-      <p>✔ Cove Lighting</p>
-      <p>✔ Designer Ceiling</p>
-      <p>✔ Office Ceiling</p>
-      <p>✔ Commercial Projects</p>
-    </div>
-
-    <a
-      href="https://wa.me/918106406999"
-      target="_blank"
-      className="inline-block mt-10 px-8 py-4 bg-red-600 text-white rounded-full hover:bg-red-700 transition"
-    >
-      Get Free Consultation
-    </a>
-
-  </div>
-
-  <img
-    src="https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-00.52.15-1.jpeg"
-    alt="False Ceiling"
-    className="rounded-3xl shadow-2xl w-full h-[500px] object-cover order-1 lg:order-2"
-  />
-
-</div>
-
-{/* ================= PAINTING & WALLPAPERS ================= */}
-
-<div className="grid lg:grid-cols-2 gap-14 items-center py-24 border-t">
-
-  <img
-    src="https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.44.jpeg"
-    alt="Painting & Wallpapers"
-    className="rounded-3xl shadow-2xl w-full h-[500px] object-cover"
-  />
-
-  <div>
-
-    <p className="uppercase tracking-[5px] text-red-600 font-semibold">
-      05. Painting & Wallpapers
-    </p>
-
-    <h3 className="mt-4 text-4xl font-bold text-gray-900">
-      Luxury Wall Finishes & Wallpapers
-    </h3>
-
-    <p className="mt-6 text-lg leading-8 text-gray-600">
-      Give your interiors a fresh identity with premium painting solutions,
-      designer wallpapers and decorative wall finishes. Our experts create
-      elegant interiors that perfectly match your lifestyle and décor.
-    </p>
-
-    <p className="mt-5 text-lg leading-8 text-gray-600">
-      We work with premium paints, textured finishes and imported wallpapers
-      to deliver long-lasting beauty and a sophisticated appearance for every
-      room.
-    </p>
-
-    <div className="grid grid-cols-2 gap-4 mt-8 text-gray-700">
-      <p>✔ Interior Painting</p>
-      <p>✔ Exterior Painting</p>
-      <p>✔ Imported Wallpapers</p>
-      <p>✔ Texture Finishes</p>
-      <p>✔ Decorative Walls</p>
-      <p>✔ Premium Paints</p>
-    </div>
-
-    <a
-      href="https://wa.me/918106406999"
-      target="_blank"
-      className="inline-block mt-10 px-8 py-4 bg-red-600 text-white rounded-full hover:bg-red-700 transition"
-    >
-      Get Free Consultation
-    </a>
-
-  </div>
-
-</div>
-
-{/* ================= RAILINGS & GLASS WORKS ================= */}
-
-<div className="grid lg:grid-cols-2 gap-14 items-center py-24 border-t">
-
-  <div className="order-2 lg:order-1">
-
-    <p className="uppercase tracking-[5px] text-red-600 font-semibold">
-      06. Railings & Glass Works
-    </p>
-
-    <h3 className="mt-4 text-4xl font-bold text-gray-900">
-      Modern Railings & Toughened Glass Solutions
-    </h3>
-
-    <p className="mt-6 text-lg leading-8 text-gray-600">
-      Enhance safety and elegance with premium stainless steel railings,
-      glass railings, partitions and customized toughened glass
-      installations for residential and commercial spaces.
-    </p>
-
-    <p className="mt-5 text-lg leading-8 text-gray-600">
-      Our experienced professionals ensure precision installation using
-      premium-quality materials that provide durability, strength and a
-      contemporary architectural appearance.
-    </p>
-
-    <div className="grid grid-cols-2 gap-4 mt-8 text-gray-700">
-      <p>✔ SS Railings</p>
-      <p>✔ Glass Railings</p>
-      <p>✔ Toughened Glass</p>
-      <p>✔ Glass Partitions</p>
-      <p>✔ Balcony Railings</p>
-      <p>✔ Office Glass Works</p>
-    </div>
-
-    <a
-      href="https://wa.me/918106406999"
-      target="_blank"
-      className="inline-block mt-10 px-8 py-4 bg-red-600 text-white rounded-full hover:bg-red-700 transition"
-    >
-      Get Free Consultation
-    </a>
-
-  </div>
-
-  <img
-    src="https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.45-2.jpeg"
-    alt="Railings & Glass Works"
-    className="rounded-3xl shadow-2xl w-full h-[500px] object-cover order-1 lg:order-2"
-  />
-
-</div>
-        {/* ================= CUPBOARDS ================= */}
-
-<div className="grid lg:grid-cols-2 gap-14 items-center py-24 border-t">
-
-  <img
-    src="YOUR_CUPBOARDS_IMAGE"
-    alt="Cupboards"
-    className="rounded-3xl shadow-2xl w-full h-[500px] object-cover"
-  />
-
-  <div>
-
-    <p className="uppercase tracking-[5px] text-red-600 font-semibold">
-      07. Cupboards
-    </p>
-
-    <h3 className="mt-4 text-4xl font-bold text-gray-900">
-      Elegant Storage Solutions for Every Space
-    </h3>
-
-    <p className="mt-6 text-lg leading-8 text-gray-600">
-      At Sai Lalit Interior & Exterior & Co., we understand that storage is
-      just as important as style. Our custom-designed cupboards are crafted
-      to maximize storage while enhancing the beauty of your home or office.
-      From wardrobes and kitchen cupboards to office storage units and TV
-      cabinets, every design is tailored to suit your space perfectly.
-    </p>
-
-    <p className="mt-5 text-lg leading-8 text-gray-600">
-      We use premium plywood, laminates, acrylic finishes and branded
-      hardware to ensure long-lasting durability, smooth functionality and
-      elegant aesthetics that complement every interior.
-    </p>
-
-    <div className="grid grid-cols-2 gap-4 mt-8 text-gray-700">
-      <p>✔ Bedroom Wardrobes</p>
-      <p>✔ Kitchen Cupboards</p>
-      <p>✔ Office Storage</p>
-      <p>✔ TV Cabinets</p>
-      <p>✔ Customized Designs</p>
-      <p>✔ Premium Hardware</p>
-    </div>
-
-    <a
-      href="https://wa.me/918106406999"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="inline-block mt-10 px-8 py-4 bg-red-600 text-white rounded-full hover:bg-red-700 transition"
-    >
-      Get Free Consultation
-    </a>
-
-  </div>
-
-</div>
-
-{/* ================= WPVC LOUVERS ================= */}
-
-<div className="grid lg:grid-cols-2 gap-14 items-center py-24 border-t">
-
-  <div className="order-2 lg:order-1">
-
-    <p className="uppercase tracking-[5px] text-red-600 font-semibold">
-      08. WPVC Louvers
-    </p>
-
-    <h3 className="mt-4 text-4xl font-bold text-gray-900">
-      Stylish & Durable WPVC Louvers
-    </h3>
-
-    <p className="mt-6 text-lg leading-8 text-gray-600">
-      Our premium WPVC Louvers provide the perfect combination of modern
-      aesthetics, privacy and ventilation. Designed using high-quality
-      Wood-Plastic Composite materials, they are waterproof,
-      termite-resistant and ideal for both residential and commercial
-      interiors.
-    </p>
-
-    <p className="mt-5 text-lg leading-8 text-gray-600">
-      Whether used for feature walls, ceilings, partitions or decorative
-      elements, our WPVC Louvers add elegance while requiring very little
-      maintenance throughout their lifespan.
-    </p>
-
-    <div className="grid grid-cols-2 gap-4 mt-8 text-gray-700">
-      <p>✔ Waterproof</p>
-      <p>✔ Termite Resistant</p>
-      <p>✔ Low Maintenance</p>
-      <p>✔ Modern Designs</p>
-      <p>✔ Decorative Panels</p>
-      <p>✔ Premium Finish</p>
-    </div>
-
-    <a
-      href="https://wa.me/918106406999"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="inline-block mt-10 px-8 py-4 bg-red-600 text-white rounded-full hover:bg-red-700 transition"
-    >
-      Get Free Consultation
-    </a>
-
-  </div>
-
-  <img
-    src="YOUR_WPVC_IMAGE"
-    alt="WPVC Louvers"
-    className="rounded-3xl shadow-2xl w-full h-[500px] object-cover order-1 lg:order-2"
-  />
-
-</div>
-
-{/* ================= PVC & ALUMINIUM ACCESSORIES ================= */}
-
-<div className="grid lg:grid-cols-2 gap-14 items-center py-24 border-t">
-
-  <img
-    src="YOUR_ACCESSORIES_IMAGE"
-    alt="PVC & Aluminium Accessories"
-    className="rounded-3xl shadow-2xl w-full h-[500px] object-cover"
-  />
-
-  <div>
-
-    <p className="uppercase tracking-[5px] text-red-600 font-semibold">
-      09. PVC & Aluminium Accessories
-    </p>
-
-    <h3 className="mt-4 text-4xl font-bold text-gray-900">
-      Premium PVC & Aluminium Accessories
-    </h3>
-
-    <p className="mt-6 text-lg leading-8 text-gray-600">
-      Complete your interior and exterior projects with our premium range of
-      PVC and aluminium accessories. We provide durable, stylish and
-      high-quality products that improve both functionality and aesthetics
-      for residential and commercial spaces.
-    </p>
-
-    <p className="mt-5 text-lg leading-8 text-gray-600">
-      Every accessory is selected to meet the highest quality standards,
-      offering corrosion resistance, durability and a clean modern finish.
-      Our expert team ensures proper installation and seamless integration
-      with your project.
-    </p>
-
-    <div className="grid grid-cols-2 gap-4 mt-8 text-gray-700">
-      <p>✔ PVC Profiles</p>
-      <p>✔ Aluminium Profiles</p>
-      <p>✔ Decorative Accessories</p>
-      <p>✔ Durable Materials</p>
-      <p>✔ Modern Finishes</p>
-      <p>✔ Professional Installation</p>
-    </div>
-
-    <a
-      href="https://wa.me/918106406999"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="inline-block mt-10 px-8 py-4 bg-red-600 text-white rounded-full hover:bg-red-700 transition"
-    >
-      Get Free Consultation
-    </a>
-
-  </div>
-
-</div>
+
+        {/* ================= HERO SECTION ================= */}
+
+        <section className="relative h-[70vh] overflow-hidden">
+
+          {heroImages.map((image, index) => (
+            <img
+              key={index}
+              src={image}
+              alt={`Slide ${index + 1}`}
+              className={`absolute inset-0 h-full w-full object-cover transition-opacity duration-1000 ${
+                currentSlide === index ? "opacity-100" : "opacity-0"
+              }`}
+            />
+          ))}
+
+          <div className="absolute inset-0 bg-black/60"></div>
+
+          <div className="relative z-10 flex h-full flex-col items-center justify-center px-6 text-center">
+
+            <p className="uppercase tracking-[8px] text-red-500 font-semibold">
+              Our Services
+            </p>
+
+            <h1 className="mt-5 text-5xl md:text-6xl font-bold text-white">
+              Complete Interior &
+              <br />
+              Exterior Solutions
+            </h1>
+
+            <p className="mt-8 max-w-3xl text-lg leading-8 text-gray-200">
+              Explore our wide range of professional interior and exterior
+              services designed for homes, apartments, villas, offices,
+              commercial spaces and industrial projects with premium quality,
+              modern designs and expert workmanship.
+            </p>
+
+            <Link
+              href="/contact"
+              className="mt-10 rounded-full bg-red-600 px-8 py-4 font-semibold text-white transition hover:bg-red-700"
+            >
+              Get Free Consultation
+            </Link>
+
+          </div>
+
+        </section>
+
+        <div className="mx-auto max-w-7xl px-6">
+
+          {/* ================= 01. MODULAR INTERIORS ================= */}
+
+          <div className="grid lg:grid-cols-2 gap-14 items-center py-24 border-t">
+
+            <img
+              src="YOUR_MODULAR_INTERIORS_IMAGE"
+              alt="Modular Interiors"
+              className="h-[500px] w-full rounded-3xl object-cover shadow-2xl transition duration-500 hover:scale-105"
+            />
+
+            <div data-aos="fade-left">
+
+              <p className="uppercase tracking-[5px] text-red-600 font-semibold">
+                01. Modular Interiors
+              </p>
+
+              <h2 className="mt-4 text-4xl font-bold text-gray-900">
+                Elegant Modular Interior Solutions
+              </h2>
+
+              <p className="mt-6 text-lg leading-8 text-gray-600">
+                <strong>Sai Lalit Interior & Exterior & Co.</strong> offers
+                premium modular interior solutions that combine functionality,
+                comfort and modern aesthetics. Every space is carefully planned
+                to maximize storage while maintaining a clean, elegant and
+                luxurious appearance.
+              </p>
+
+              <p className="mt-5 text-lg leading-8 text-gray-600">
+                From modular kitchens and wardrobes to TV units, bedroom
+                interiors, office furniture and customized storage solutions,
+                our experienced team delivers high-quality craftsmanship using
+                premium materials and branded hardware for lasting durability.
+              </p>
+
+              <div className="mt-8 grid grid-cols-2 gap-4 text-gray-700">
+                <p>✔ Modular Kitchens</p>
+                <p>✔ Wardrobes</p>
+                <p>✔ TV Units</p>
+                <p>✔ Bedroom Interiors</p>
+                <p>✔ Office Interiors</p>
+                <p>✔ Customized Furniture</p>
+              </div>
+
+              <a
+                href="https://wa.me/918106406999"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-10 inline-block rounded-full bg-red-600 px-8 py-4 text-white transition hover:bg-red-700"
+              >
+                Get Free Consultation
+              </a>
+
+            </div>
+
+          </div>
+                    {/* ================= 02. IMPORTED ALUMINIUM ================= */}
+
+          <div className="grid lg:grid-cols-2 gap-14 items-center py-24 border-t">
+
+            <div
+              className="order-2 lg:order-1"
+              data-aos="fade-right"
+            >
+
+              <p className="uppercase tracking-[5px] text-red-600 font-semibold">
+                02. Imported Aluminium
+              </p>
+
+              <h2 className="mt-4 text-4xl font-bold text-gray-900">
+                Premium Imported Aluminium Systems
+              </h2>
+
+              <p className="mt-6 text-lg leading-8 text-gray-600">
+                <strong>Sai Lalit Interior & Exterior & Co.</strong> offers
+                premium imported aluminium solutions that combine elegance,
+                durability and superior performance. Our systems are designed
+                to enhance both residential and commercial spaces with modern
+                aesthetics and exceptional strength.
+              </p>
+
+              <p className="mt-5 text-lg leading-8 text-gray-600">
+                We specialize in aluminium sliding windows, doors, office
+                partitions, fixed glazing and customized architectural
+                solutions using premium-quality profiles and accessories that
+                require minimal maintenance while delivering long-lasting
+                performance.
+              </p>
+
+              <div className="mt-8 grid grid-cols-2 gap-4 text-gray-700">
+                <p>✔ Sliding Windows</p>
+                <p>✔ Sliding Doors</p>
+                <p>✔ Office Partitions</p>
+                <p>✔ Fixed Glazing</p>
+                <p>✔ Premium Hardware</p>
+                <p>✔ Custom Aluminium Systems</p>
+              </div>
+
+              <a
+                href="https://wa.me/918106406999"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-10 inline-block rounded-full bg-red-600 px-8 py-4 text-white transition hover:bg-red-700"
+              >
+                Get Free Consultation
+              </a>
+
+            </div>
+
+            <img
+              src="YOUR_IMPORTED_ALUMINIUM_IMAGE"
+              alt="Imported Aluminium"
+              className="order-1 lg:order-2 h-[500px] w-full rounded-3xl object-cover shadow-2xl transition duration-500 hover:scale-105"
+            />
+
+          </div>
+
+          {/* ================= 03. uPVC WINDOWS & DOORS ================= */}
+
+          <div className="grid lg:grid-cols-2 gap-14 items-center py-24 border-t">
+
+            <img
+              src="YOUR_UPVC_WINDOWS_IMAGE"
+              alt="uPVC Windows & Doors"
+              className="h-[500px] w-full rounded-3xl object-cover shadow-2xl transition duration-500 hover:scale-105"
+            />
+
+            <div data-aos="fade-left">
+
+              <p className="uppercase tracking-[5px] text-red-600 font-semibold">
+                03. uPVC Windows & Doors
+              </p>
+
+              <h2 className="mt-4 text-4xl font-bold text-gray-900">
+                Stylish, Energy-Efficient uPVC Solutions
+              </h2>
+
+              <p className="mt-6 text-lg leading-8 text-gray-600">
+                <strong>Sai Lalit Interior & Exterior & Co.</strong> provides
+                premium uPVC windows and doors that offer excellent thermal
+                insulation, sound reduction and weather resistance while adding
+                a modern and elegant appearance to your property.
+              </p>
+
+              <p className="mt-5 text-lg leading-8 text-gray-600">
+                Our customized uPVC solutions are ideal for villas,
+                apartments, offices and commercial buildings, delivering
+                outstanding durability, security and low maintenance for years
+                to come.
+              </p>
+
+              <div className="mt-8 grid grid-cols-2 gap-4 text-gray-700">
+                <p>✔ Sliding Windows</p>
+                <p>✔ Casement Windows</p>
+                <p>✔ Sliding Doors</p>
+                <p>✔ French Doors</p>
+                <p>✔ Sound Insulation</p>
+                <p>✔ Weather Resistant</p>
+              </div>
+
+              <a
+                href="https://wa.me/918106406999"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-10 inline-block rounded-full bg-red-600 px-8 py-4 text-white transition hover:bg-red-700"
+              >
+                Get Free Consultation
+              </a>
+
+            </div>
+
+          </div>
+
+          {/* ================= 04. MESH DOORS ================= */}
+
+          <div className="grid lg:grid-cols-2 gap-14 items-center py-24 border-t">
+
+            <div
+              className="order-2 lg:order-1"
+              data-aos="fade-right"
+            >
+
+              <p className="uppercase tracking-[5px] text-red-600 font-semibold">
+                04. Mesh Doors
+              </p>
+
+              <h2 className="mt-4 text-4xl font-bold text-gray-900">
+                Durable & Elegant Mesh Door Systems
+              </h2>
+
+              <p className="mt-6 text-lg leading-8 text-gray-600">
+                <strong>Sai Lalit Interior & Exterior & Co.</strong> supplies
+                premium mesh door systems that provide excellent ventilation
+                while protecting your home or office from insects, dust and
+                unwanted pests without compromising natural airflow.
+              </p>
+
+              <p className="mt-5 text-lg leading-8 text-gray-600">
+                Our mesh doors are available in sliding, pleated and customized
+                designs that integrate seamlessly with aluminium and uPVC
+                systems, offering durability, convenience and an elegant
+                finish.
+              </p>
+
+              <div className="mt-8 grid grid-cols-2 gap-4 text-gray-700">
+                <p>✔ Pleated Mesh Doors</p>
+                <p>✔ Sliding Mesh Doors</p>
+                <p>✔ Magnetic Mesh</p>
+                <p>✔ Insect Protection</p>
+                <p>✔ Easy Maintenance</p>
+                <p>✔ Premium Finishes</p>
+              </div>
+
+              <a
+                href="https://wa.me/918106406999"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-10 inline-block rounded-full bg-red-600 px-8 py-4 text-white transition hover:bg-red-700"
+              >
+                Get Free Consultation
+              </a>
+
+            </div>
+
+            <img
+              src="YOUR_MESH_DOORS_IMAGE"
+              alt="Mesh Doors"
+              className="order-1 lg:order-2 h-[500px] w-full rounded-3xl object-cover shadow-2xl transition duration-500 hover:scale-105"
+            />
+
+          </div>
+                    {/* ================= 05. EXTERIOR SOLUTIONS ================= */}
+
+          <div className="grid lg:grid-cols-2 gap-14 items-center py-24 border-t">
+
+            <img
+              src="YOUR_EXTERIOR_SOLUTIONS_IMAGE"
+              alt="Exterior Solutions"
+              className="h-[500px] w-full rounded-3xl object-cover shadow-2xl transition duration-500 hover:scale-105"
+            />
+
+            <div data-aos="fade-left">
+
+              <p className="uppercase tracking-[5px] text-red-600 font-semibold">
+                05. Exterior Solutions
+              </p>
+
+              <h2 className="mt-4 text-4xl font-bold text-gray-900">
+                Transforming Exteriors with Style & Strength
+              </h2>
+
+              <p className="mt-6 text-lg leading-8 text-gray-600">
+                <strong>Sai Lalit Interior & Exterior & Co.</strong> provides
+                complete exterior solutions that enhance the appearance,
+                durability and value of your property. Our team combines modern
+                architectural concepts with premium materials to create elegant
+                and long-lasting exterior spaces.
+              </p>
+
+              <p className="mt-5 text-lg leading-8 text-gray-600">
+                Whether it's a residence, villa, apartment, commercial complex
+                or corporate office, we deliver customized exterior solutions
+                that perfectly blend beauty, functionality and structural
+                excellence.
+              </p>
+
+              <div className="mt-8 grid grid-cols-2 gap-4 text-gray-700">
+                <p>✔ Residential Exteriors</p>
+                <p>✔ Commercial Projects</p>
+                <p>✔ Exterior Renovation</p>
+                <p>✔ Modern Designs</p>
+                <p>✔ Premium Finishes</p>
+                <p>✔ Quality Execution</p>
+              </div>
+
+              <a
+                href="https://wa.me/918106406999"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-10 inline-block rounded-full bg-red-600 px-8 py-4 text-white transition hover:bg-red-700"
+              >
+                Get Free Consultation
+              </a>
+
+            </div>
+
+          </div>
+
+          {/* ================= 06. BUILDING ELEVATIONS ================= */}
+
+          <div className="grid lg:grid-cols-2 gap-14 items-center py-24 border-t">
+
+            <div
+              className="order-2 lg:order-1"
+              data-aos="fade-right"
+            >
+
+              <p className="uppercase tracking-[5px] text-red-600 font-semibold">
+                06. Building Elevations
+              </p>
+
+              <h2 className="mt-4 text-4xl font-bold text-gray-900">
+                Modern Building Elevation Designs
+              </h2>
+
+              <p className="mt-6 text-lg leading-8 text-gray-600">
+                <strong>Sai Lalit Interior & Exterior & Co.</strong> designs
+                premium building elevations that create a powerful first
+                impression while reflecting your lifestyle and architectural
+                vision. Every elevation is thoughtfully planned to achieve the
+                perfect balance of beauty, functionality and structural
+                harmony.
+              </p>
+
+              <p className="mt-5 text-lg leading-8 text-gray-600">
+                From contemporary villas to luxury residences, apartments,
+                commercial buildings and office spaces, our creative team
+                delivers customized elevation designs with exceptional
+                attention to detail and premium finishing.
+              </p>
+
+              <div className="mt-8 grid grid-cols-2 gap-4 text-gray-700">
+                <p>✔ Villa Elevations</p>
+                <p>✔ Apartment Elevations</p>
+                <p>✔ Commercial Buildings</p>
+                <p>✔ Contemporary Designs</p>
+                <p>✔ Premium Exterior Finish</p>
+                <p>✔ Custom Architectural Concepts</p>
+              </div>
+
+              <a
+                href="https://wa.me/918106406999"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-10 inline-block rounded-full bg-red-600 px-8 py-4 text-white transition hover:bg-red-700"
+              >
+                Get Free Consultation
+              </a>
+
+            </div>
+
+            <img
+              src="YOUR_BUILDING_ELEVATION_IMAGE"
+              alt="Building Elevations"
+              className="order-1 lg:order-2 h-[500px] w-full rounded-3xl object-cover shadow-2xl transition duration-500 hover:scale-105"
+            />
+
+          </div>
+
+                  {/* ================= 07. 3D DESIGNS ================= */}
+
+          <div className="grid lg:grid-cols-2 gap-14 items-center py-24 border-t">
+
+            <img
+              src="YOUR_3D_DESIGN_IMAGE"
+              alt="3D Designs"
+              className="h-[500px] w-full rounded-3xl object-cover shadow-2xl transition duration-500 hover:scale-105"
+            />
+
+            <div data-aos="fade-left">
+
+              <p className="uppercase tracking-[5px] text-red-600 font-semibold">
+                07. 3D Designs
+              </p>
+
+              <h2 className="mt-4 text-4xl font-bold text-gray-900">
+                Visualize Your Dream Before Execution
+              </h2>
+
+              <p className="mt-6 text-lg leading-8 text-gray-600">
+                <strong>Sai Lalit Interior & Exterior & Co.</strong> creates
+                realistic 3D interior and exterior designs that help you
+                visualize your dream project before construction begins. Our
+                detailed concepts allow you to make confident design decisions
+                while saving both time and cost.
+              </p>
+
+              <p className="mt-5 text-lg leading-8 text-gray-600">
+                We prepare high-quality 3D views for homes, villas,
+                apartments, offices, commercial spaces and exterior projects,
+                ensuring every detail reflects your vision with precision.
+              </p>
+
+              <div className="mt-8 grid grid-cols-2 gap-4 text-gray-700">
+                <p>✔ Interior 3D Views</p>
+                <p>✔ Exterior 3D Views</p>
+                <p>✔ Walkthrough Concepts</p>
+                <p>✔ Space Planning</p>
+                <p>✔ Material Selection</p>
+                <p>✔ Photorealistic Renders</p>
+              </div>
+
+              <a
+                href="https://wa.me/918106406999"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-10 inline-block rounded-full bg-red-600 px-8 py-4 text-white transition hover:bg-red-700"
+              >
+                Get Free Consultation
+              </a>
+
+            </div>
+
+          </div>
+
+          {/* ================= 08. ACP CLADDING ================= */}
+
+          <div className="grid lg:grid-cols-2 gap-14 items-center py-24 border-t">
+
+            <div
+              className="order-2 lg:order-1"
+              data-aos="fade-right"
+            >
+
+              <p className="uppercase tracking-[5px] text-red-600 font-semibold">
+                08. ACP Cladding
+              </p>
+
+              <h2 className="mt-4 text-4xl font-bold text-gray-900">
+                Premium ACP Cladding Solutions
+              </h2>
+
+              <p className="mt-6 text-lg leading-8 text-gray-600">
+                <strong>Sai Lalit Interior & Exterior & Co.</strong> delivers
+                premium ACP cladding solutions that provide a modern,
+                sophisticated appearance while improving the durability and
+                weather resistance of your building.
+              </p>
+
+              <p className="mt-5 text-lg leading-8 text-gray-600">
+                Our ACP cladding systems are ideal for commercial buildings,
+                offices, showrooms, apartments and luxury residences, offering
+                excellent strength, elegant finishes and long-term performance.
+              </p>
+
+              <div className="mt-8 grid grid-cols-2 gap-4 text-gray-700">
+                <p>✔ Exterior Cladding</p>
+                <p>✔ Building Facades</p>
+                <p>✔ Commercial Buildings</p>
+                <p>✔ Office Elevations</p>
+                <p>✔ Premium Finish</p>
+                <p>✔ Weather Resistant</p>
+              </div>
+
+              <a
+                href="https://wa.me/918106406999"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-10 inline-block rounded-full bg-red-600 px-8 py-4 text-white transition hover:bg-red-700"
+              >
+                Get Free Consultation
+              </a>
+
+            </div>
+
+            <img
+              src="YOUR_ACP_CLADDING_IMAGE"
+              alt="ACP Cladding"
+              className="order-1 lg:order-2 h-[500px] w-full rounded-3xl object-cover shadow-2xl transition duration-500 hover:scale-105"
+            />
+
+          </div>
+
+          {/* ================= 09. FACADE WORKS ================= */}
+
+          <div className="grid lg:grid-cols-2 gap-14 items-center py-24 border-t">
+
+            <img
+              src="YOUR_FACADE_WORK_IMAGE"
+              alt="Facade Works"
+              className="h-[500px] w-full rounded-3xl object-cover shadow-2xl transition duration-500 hover:scale
+                        {/* ================= 10. VERTICAL GARDEN ================= */}
+
+          <div className="grid lg:grid-cols-2 gap-14 items-center py-24 border-t">
+
+            <div
+              className="order-2 lg:order-1"
+              data-aos="fade-right"
+            >
+
+              <p className="uppercase tracking-[5px] text-red-600 font-semibold">
+                10. Vertical Garden
+              </p>
+
+              <h2 className="mt-4 text-4xl font-bold text-gray-900">
+                Bring Nature Into Your Living Spaces
+              </h2>
+
+              <p className="mt-6 text-lg leading-8 text-gray-600">
+                <strong>Sai Lalit Interior & Exterior & Co.</strong> designs
+                and installs premium vertical gardens that transform ordinary
+                walls into beautiful green spaces. Our solutions enhance
+                aesthetics while creating a refreshing and eco-friendly
+                environment for residential and commercial properties.
+              </p>
+
+              <p className="mt-5 text-lg leading-8 text-gray-600">
+                Whether you prefer natural or artificial vertical gardens,
+                our customized designs are perfect for homes, offices,
+                restaurants, hotels, balconies and outdoor landscapes,
+                delivering beauty with minimal maintenance.
+              </p>
+
+              <div className="mt-8 grid grid-cols-2 gap-4 text-gray-700">
+                <p>✔ Natural Vertical Gardens</p>
+                <p>✔ Artificial Green Walls</p>
+                <p>✔ Balcony Gardens</p>
+                <p>✔ Terrace Landscaping</p>
+                <p>✔ Office Green Spaces</p>
+                <p>✔ Low Maintenance Designs</p>
+              </div>
+
+              <a
+                href="https://wa.me/918106406999"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-10 inline-block rounded-full bg-red-600 px-8 py-4 text-white transition hover:bg-red-700"
+              >
+                Get Free Consultation
+              </a>
+
+            </div>
+
+            <img
+              src="YOUR_VERTICAL_GARDEN_IMAGE"
+              alt="Vertical Garden"
+              className="order-1 lg:order-2 h-[500px] w-full rounded-3xl object-cover shadow-2xl transition duration-500 hover:scale-105"
+            />
+
+          </div>
+
+          {/* ================= 11. FALSE CEILING ================= */}
+
+          <div className="grid lg:grid-cols-2 gap-14 items-center py-24 border-t">
+
+            <img
+              src="YOUR_FALSE_CEILING_IMAGE"
+              alt="False Ceiling"
+              className="h-[500px] w-full rounded-3xl object-cover shadow-2xl transition duration-500 hover:scale-105"
+            />
+
+            <div data-aos="fade-left">
+
+              <p className="uppercase tracking-[5px] text-red-600 font-semibold">
+                11. False Ceiling
+              </p>
+
+              <h2 className="mt-4 text-4xl font-bold text-gray-900">
+                Modern False Ceiling Solutions
+              </h2>
+
+              <p className="mt-6 text-lg leading-8 text-gray-600">
+                <strong>Sai Lalit Interior & Exterior & Co.</strong> delivers
+                elegant false ceiling solutions that enhance the beauty,
+                lighting and overall ambience of your interiors. Our designs
+                seamlessly combine style, functionality and durability.
+              </p>
+
+              <p className="mt-5 text-lg leading-8 text-gray-600">
+                We specialize in gypsum, PVC and designer false ceilings with
+                integrated lighting concepts for homes, offices, retail
+                outlets and commercial spaces, creating sophisticated interiors
+                with premium finishes.
+              </p>
+
+              <div className="mt-8 grid grid-cols-2 gap-4 text-gray-700">
+                <p>✔ Gypsum Ceilings</p>
+                <p>✔ PVC Ceilings</p>
+                <p>✔ Cove Lighting</p>
+                <p>✔ Designer Ceilings</p>
+                <p>✔ Commercial Ceilings</p>
+                <p>✔ Premium Finishes</p>
+              </div>
+
+              <a
+                href="https://wa.me/918106406999"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-10 inline-block rounded-full bg-red-600 px-8 py-4 text-white transition hover:bg-red-700"
+              >
+                Get Free Consultation
+              </a>
+
+            </div>
+
+          </div>
+
+          {/* ================= 12. DESIGNER WALLPAPERS ================= */}
+
+          <div className="grid lg:grid-cols-2 gap-14 items-center py-24 border-t">
+
+            <div
+              className="order-2 lg:order-1"
+              data-aos="fade-right"
+            >
+
+              <p className="uppercase tracking-[5px] text-red-600 font-semibold">
+                12. Designer Wallpapers
+              </p>
+
+              <h2 className="mt-4 text-4xl font-bold text-gray-900">
+                Stylish Designer Wallpapers
+              </h2>
+
+              <p className="mt-6 text-lg leading-8 text-gray-600">
+                <strong>Sai Lalit Interior & Exterior & Co.</strong> offers an
+                exclusive collection of premium designer wallpapers that add
+                elegance, personality and luxury to every room. Our wallpaper
+                solutions are carefully selected to suit both classic and
+                contemporary interiors.
+              </p>
+
+              <p className="mt-5 text-lg leading-8 text-gray-600">
+                From living rooms and bedrooms to offices, hotels and retail
+                spaces, we provide professional wallpaper selection and
+                installation services with flawless finishing and long-lasting
+                quality.
+              </p>
+
+              <div className="mt-8 grid grid-cols-2 gap-4 text-gray-700">
+                <p>✔ Luxury Wallpapers</p>
+                <p>✔ 3D Wallpapers</p>
+                <p>✔ Customized Designs</p>
+                <p>✔ Office Wallpapers</p>
+                <p>✔ Premium Textures</p>
+                <p>✔ Professional Installation</p>
+              </div>
+
+              <a
+                href="https://wa.me/918106406999"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-10 inline-block rounded-full bg-red-600 px-8 py-4 text-white transition hover:bg-red-700"
+              >
+                Get Free Consultation
+              </a>
+
+            </div>
+
+            <img
+              src="YOUR_WALLPAPER_IMAGE"
+              alt="Designer Wallpapers"
+              className="order-1 lg:order-2 h-[500px] w-full rounded-3xl object-cover shadow-2xl transition duration-500 hover:scale-105"
+            />
+
+          </div>
+          
+               {/* ================= 13. SS RAILINGS ================= */}
+
+          <div className="grid lg:grid-cols-2 gap-14 items-center py-24 border-t">
+
+            <img
+              src="YOUR_SS_RAILINGS_IMAGE"
+              alt="SS Railings"
+              className="h-[500px] w-full rounded-3xl object-cover shadow-2xl transition duration-500 hover:scale-105"
+            />
+
+            <div data-aos="fade-left">
+
+              <p className="uppercase tracking-[5px] text-red-600 font-semibold">
+                13. SS Railings
+              </p>
+
+              <h2 className="mt-4 text-4xl font-bold text-gray-900">
+                Elegant Stainless Steel Railing Solutions
+              </h2>
+
+              <p className="mt-6 text-lg leading-8 text-gray-600">
+                <strong>Sai Lalit Interior & Exterior & Co.</strong> provides
+                premium stainless steel railing solutions that combine safety,
+                durability and modern elegance. Our railings are designed to
+                complement contemporary residential and commercial spaces while
+                ensuring long-lasting performance.
+              </p>
+
+              <p className="mt-5 text-lg leading-8 text-gray-600">
+                We manufacture and install customized SS railings for
+                staircases, balconies, terraces and commercial buildings using
+                high-grade stainless steel with precision finishing and expert
+                workmanship.
+              </p>
+
+              <div className="mt-8 grid grid-cols-2 gap-4 text-gray-700">
+                <p>✔ Staircase Railings</p>
+                <p>✔ Balcony Railings</p>
+                <p>✔ Terrace Railings</p>
+                <p>✔ Glass SS Railings</p>
+                <p>✔ Hand Rail Systems</p>
+                <p>✔ Custom Designs</p>
+              </div>
+
+              <a
+                href="https://wa.me/918106406999"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-10 inline-block rounded-full bg-red-600 px-8 py-4 text-white transition hover:bg-red-700"
+              >
+                Get Free Consultation
+              </a>
+
+            </div>
+
+          </div>
+
+          {/* ================= 14. GLASS WORKS ================= */}
+
+          <div className="grid lg:grid-cols-2 gap-14 items-center py-24 border-t">
+
+            <div
+              className="order-2 lg:order-1"
+              data-aos="fade-right"
+            >
+
+              <p className="uppercase tracking-[5px] text-red-600 font-semibold">
+                14. Glass Works
+              </p>
+
+              <h2 className="mt-4 text-4xl font-bold text-gray-900">
+                Premium Glass Solutions
+              </h2>
+
+              <p className="mt-6 text-lg leading-8 text-gray-600">
+                <strong>Sai Lalit Interior & Exterior & Co.</strong> offers
+                premium glass solutions that add sophistication, openness and
+                natural light to residential and commercial interiors. Every
+                installation is completed with precision and premium-quality
+                materials.
+              </p>
+
+              <p className="mt-5 text-lg leading-8 text-gray-600">
+                From toughened glass installations to decorative glass
+                applications, our experienced team delivers customized
+                solutions that perfectly blend functionality with elegant
+                architectural design.
+              </p>
+
+              <div className="mt-8 grid grid-cols-2 gap-4 text-gray-700">
+                <p>✔ Toughened Glass</p>
+                <p>✔ Decorative Glass</p>
+                <p>✔ Glass Doors</p>
+                <p>✔ Glass Panels</p>
+                <p>✔ Office Glass Systems</p>
+                <p>✔ Custom Installations</p>
+              </div>
+
+              <a
+                href="https://wa.me/918106406999"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-10 inline-block rounded-full bg-red-600 px-8 py-4 text-white transition hover:bg-red-700"
+              >
+                Get Free Consultation
+              </a>
+
+            </div>
+
+            <img
+              src="YOUR_GLASS_WORKS_IMAGE"
+              alt="Glass Works"
+              className="order-1 lg:order-2 h-[500px] w-full rounded-3xl object-cover shadow-2xl transition duration-500 hover:scale-105"
+            />
+
+          </div>
+
+          {/* ================= 15. GLASS PARTITIONS ================= */}
+
+          <div className="grid lg:grid-cols-2 gap-14 items-center py-24 border-t">
+
+            <img
+              src="YOUR_GLASS_PARTITION_IMAGE"
+              alt="Glass Partitions"
+              className="h-[500px] w-full rounded-3xl object-cover shadow-2xl transition duration-500 hover:scale-105"
+            />
+
+            <div data-aos="fade-left">
+
+              <p className="uppercase tracking-[5px] text-red-600 font-semibold">
+                15. Glass Partitions
+              </p>
+
+              <h2 className="mt-4 text-4xl font-bold text-gray-900">
+                Modern Glass Partition Systems
+              </h2>
+
+              <p className="mt-6 text-lg leading-8 text-gray-600">
+                <strong>Sai Lalit Interior & Exterior & Co.</strong> designs
+                and installs elegant glass partition systems that maximize
+                natural light while creating stylish, functional and
+                professional spaces for homes and offices.
+              </p>
+
+              <p className="mt-5 text-lg leading-8 text-gray-600">
+                Our glass partitions are available in frameless, framed,
+                sliding and customized designs, making them ideal for offices,
+                conference rooms, cabins, retail spaces and luxury interiors.
+              </p>
+
+              <div className="mt-8 grid grid-cols-2 gap-4 text-gray-700">
+                <p>✔ Frameless Partitions</p>
+                <p>✔ Office Cabins</p>
+                <p>✔ Sliding Glass Systems</p>
+                <p>✔ Conference Rooms</p>
+                <p>✔ Toughened Glass</p>
+                <p>✔ Customized Solutions</p>
+              </div>
+
+              <a
+                href="https://wa.me/918106406999"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-10 inline-block rounded-full bg-red-600 px-8 py-4 text-white transition hover:bg-red-700"
+              >
+                Get Free Consultation
+              </a>
+
+            </div>
+
+          </div>
+                    {/* ================= 16. MS FABRICATION ================= */}
+
+          <div className="grid lg:grid-cols-2 gap-14 items-center py-24 border-t">
+
+            <div
+              className="order-2 lg:order-1"
+              data-aos="fade-right"
+            >
+
+              <p className="uppercase tracking-[5px] text-red-600 font-semibold">
+                16. MS Fabrication
+              </p>
+
+              <h2 className="mt-4 text-4xl font-bold text-gray-900">
+                Precision Mild Steel Fabrication Solutions
+              </h2>
+
+              <p className="mt-6 text-lg leading-8 text-gray-600">
+                <strong>Sai Lalit Interior & Exterior & Co.</strong> provides
+                high-quality Mild Steel (MS) fabrication services for
+                residential, commercial and industrial projects. We combine
+                expert craftsmanship with premium materials to deliver durable,
+                secure and aesthetically appealing fabrication works.
+              </p>
+
+              <p className="mt-5 text-lg leading-8 text-gray-600">
+                From gates and staircases to structural frameworks and custom
+                fabrication, our experienced team ensures precision
+                manufacturing, professional installation and long-lasting
+                performance tailored to your project requirements.
+              </p>
+
+              <div className="mt-8 grid grid-cols-2 gap-4 text-gray-700">
+                <p>✔ MS Gates</p>
+                <p>✔ MS Staircases</p>
+                <p>✔ Structural Fabrication</p>
+                <p>✔ MS Railings</p>
+                <p>✔ Industrial Fabrication</p>
+                <p>✔ Custom Metal Works</p>
+              </div>
+
+              <a
+                href="https://wa.me/918106406999"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-10 inline-block rounded-full bg-red-600 px-8 py-4 text-white transition hover:bg-red-700"
+              >
+                Get Free Consultation
+              </a>
+
+            </div>
+
+            <img
+              src="YOUR_MS_FABRICATION_IMAGE"
+              alt="MS Fabrication"
+              className="order-1 lg:order-2 h-[500px] w-full rounded-3xl object-cover shadow-2xl transition duration-500 hover:scale-105"
+            />
+
+          </div>
+
+          {/* ================= 17. ALL INTERIOR & EXTERIOR SOLUTIONS ================= */}
+
+          <div className="grid lg:grid-cols-2 gap-14 items-center py-24 border-t">
+
+            <img
+              src="YOUR_ALL_SERVICES_IMAGE"
+              alt="All Interior & Exterior Solutions"
+              className="h-[500px] w-full rounded-3xl object-cover shadow-2xl transition duration-500 hover:scale-105"
+            />
+
+            <div data-aos="fade-left">
+
+              <p className="uppercase tracking-[5px] text-red-600 font-semibold">
+                17. Complete Interior & Exterior Solutions
+              </p>
+
+              <h2 className="mt-4 text-4xl font-bold text-gray-900">
+                One Destination for Every Space
+              </h2>
+
+              <p className="mt-6 text-lg leading-8 text-gray-600">
+                <strong>Sai Lalit Interior & Exterior & Co.</strong> is your
+                trusted partner for complete interior and exterior solutions.
+                From concept, planning and 3D visualization to manufacturing,
+                execution and final finishing, we handle every stage with
+                professionalism and attention to detail.
+              </p>
+
+              <p className="mt-5 text-lg leading-8 text-gray-600">
+                Whether you're building a new home, renovating an existing
+                property or developing a commercial project, our experienced
+                team delivers innovative designs, premium materials and quality
+                workmanship to bring your vision to life.
+              </p>
+
+              <div className="mt-8 grid grid-cols-2 gap-4 text-gray-700">
+                <p>✔ Residential Projects</p>
+                <p>✔ Commercial Projects</p>
+                <p>✔ Office Interiors</p>
+                <p>✔ Turnkey Solutions</p>
+                <p>✔ End-to-End Execution</p>
+                <p>✔ Premium Quality Assurance</p>
+              </div>
+
+              <a
+                href="https://wa.me/918106406999"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-10 inline-block rounded-full bg-red-600 px-8 py-4 text-white transition hover
                 {/* ================= WHY CHOOSE US ================= */}
 
         <section className="py-24 bg-white">
