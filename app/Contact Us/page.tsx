@@ -15,25 +15,93 @@ const heroImages = [
 ];
 
 export default function ContactPage() {
-
   const [currentSlide, setCurrentSlide] = useState(0);
 
+  const [loading, setLoading] = useState(false);
+
+  const [formData, setFormData] = useState({
+    name: "",
+    phone: "",
+    email: "",
+    service: "",
+    budget: "",
+    message: "",
+  });
+
   useEffect(() => {
-
     const timer = setInterval(() => {
-
       setCurrentSlide((prev) => (prev + 1) % heroImages.length);
-
     }, 4000);
 
     return () => clearInterval(timer);
-
   }, []);
 
+  const handleChange = (
+    e: React.ChangeEvent<
+      HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement
+    >
+  ) => {
+    setFormData((prev) => ({
+      ...prev,
+      [e.target.name]: e.target.value,
+    }));
+  };
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+
+    if (
+      !formData.name ||
+      !formData.phone ||
+      !formData.email ||
+      !formData.service ||
+      !formData.budget ||
+      !formData.message
+    ) {
+      alert("Please fill all the fields.");
+      return;
+    }
+
+    setLoading(true);
+
+    try {
+      const response = await fetch(
+        "https://script.google.com/macros/s/AKfycbyS11cIalk-t5x1un_aBc3oUhwXKqKAVXWezhe_Xve-utWtNbuc5hC-gMYeMdkpsW_h6Q/exec",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(formData),
+        }
+      );
+
+      const result = await response.text();
+
+      if (response.ok) {
+        alert("Thank you! Your enquiry has been submitted successfully.");
+
+        setFormData({
+          name: "",
+          phone: "",
+          email: "",
+          service: "",
+          budget: "",
+          message: "",
+        });
+      } else {
+        alert(result);
+      }
+    } catch (error) {
+      console.error(error);
+      alert("Something went wrong. Please try again.");
+    }
+
+    setLoading(false);
+  };
+
   return (
-
     <>
-
       <Header />
 
       <main className="pt-20">
@@ -454,43 +522,228 @@ export default function ContactPage() {
                     <option>Below ₹5 Lakhs</option>
 
                     <option>₹5–10 Lakhs</option>
+{/* CONTACT FORM */}
 
-                    <option>₹10–25 Lakhs</option>
+<div className="relative">
 
-                    <option>Above ₹25 Lakhs</option>
+  <div className="absolute -top-10 -right-10 w-56 h-56 rounded-full bg-red-100 blur-3xl opacity-60"></div>
 
-                  </select>
+  <div className="absolute -bottom-10 -left-10 w-56 h-56 rounded-full bg-blue-100 blur-3xl opacity-60"></div>
 
-                  <textarea
-                    rows={6}
-                    placeholder="Tell us about your project..."
-                    className="w-full rounded-2xl border border-gray-300 px-5 py-4 outline-none focus:border-red-600 focus:ring-4 focus:ring-red-100 transition"
-                  ></textarea>
+  <div className="relative bg-white rounded-[35px] shadow-2xl border border-gray-100 overflow-hidden">
 
-                  <button
-                    type="submit"
-                    className="w-full bg-red-600 hover:bg-red-700 text-white py-5 rounded-2xl text-lg font-bold shadow-xl hover:shadow-2xl hover:scale-[1.02] transition duration-300"
-                  >
+    <div className="bg-gradient-to-r from-red-600 to-red-700 text-white p-8">
 
-                    Request Free Consultation →
+      <p className="uppercase tracking-[5px] text-red-200">
+        Free Consultation
+      </p>
 
-                  </button>
+      <h2 className="text-4xl font-bold mt-3">
+        Request Your Free Quote
+      </h2>
 
-                  <p className="text-center text-sm text-gray-500">
+      <p className="mt-4 text-red-100 leading-8">
+        Fill in your details and our team will get in touch shortly.
+      </p>
 
-                    🔒 Your information is safe and will only be used to contact you regarding your enquiry.
+    </div>
 
-                  </p>
+    <form
+      onSubmit={handleSubmit}
+      className="p-8 lg:p-10 space-y-6"
+    >
 
-                </form>
+      <input
+        type="text"
+        name="name"
+        value={formData.name}
+        onChange={handleChange}
+        placeholder="Full Name"
+        required
+        className="w-full rounded-2xl border border-gray-300 px-5 py-4 outline-none focus:border-red-600 focus:ring-4 focus:ring-red-100 transition"
+      />
 
-              </div>
+      <input
+        type="tel"
+        name="phone"
+        value={formData.phone}
+        onChange={handleChange}
+        placeholder="Mobile Number"
+        required
+        className="w-full rounded-2xl border border-gray-300 px-5 py-4 outline-none focus:border-red-600 focus:ring-4 focus:ring-red-100 transition"
+      />
 
-            </div>
+      <input
+        type="email"
+        name="email"
+        value={formData.email}
+        onChange={handleChange}
+        placeholder="Email Address"
+        required
+        className="w-full rounded-2xl border border-gray-300 px-5 py-4 outline-none focus:border-red-600 focus:ring-4 focus:ring-red-100 transition"
+      />
 
-          </div>
+      <select
+        name="service"
+        value={formData.service}
+        onChange={handleChange}
+        required
+        className="w-full rounded-2xl border border-gray-300 px-5 py-4 outline-none focus:border-red-600 focus:ring-4 focus:ring-red-100"
+      >
+        <option value="">Select Service</option>
+        <option>Modular Interiors</option>
+        <option>Imported Aluminium</option>
+        <option>False Ceiling</option>
+{/* CONTACT FORM */}
 
-        </section>
+<div className="relative">
+
+  <div className="absolute -top-10 -right-10 w-56 h-56 rounded-full bg-red-100 blur-3xl opacity-60"></div>
+
+  <div className="absolute -bottom-10 -left-10 w-56 h-56 rounded-full bg-blue-100 blur-3xl opacity-60"></div>
+
+  <div className="relative bg-white rounded-[35px] shadow-2xl border border-gray-100 overflow-hidden">
+
+    <div className="bg-gradient-to-r from-red-600 to-red-700 text-white p-8">
+
+      <p className="uppercase tracking-[5px] text-red-200">
+        Free Consultation
+      </p>
+
+      <h2 className="text-4xl font-bold mt-3">
+        Request Your Free Quote
+      </h2>
+
+      <p className="mt-4 text-red-100 leading-8">
+        Fill in your details and our team will get in touch shortly.
+      </p>
+
+    </div>
+
+    <form
+      onSubmit={handleSubmit}
+      className="p-8 lg:p-10 space-y-6"
+    >
+
+      <input
+        type="text"
+        name="name"
+        value={formData.name}
+        onChange={handleChange}
+        placeholder="Full Name"
+        required
+        className="w-full rounded-2xl border border-gray-300 px-5 py-4 outline-none focus:border-red-600 focus:ring-4 focus:ring-red-100 transition"
+      />
+
+      <input
+        type="tel"
+        name="phone"
+        value={formData.phone}
+        onChange={handleChange}
+        placeholder="Mobile Number"
+        required
+        className="w-full rounded-2xl border border-gray-300 px-5 py-4 outline-none focus:border-red-600 focus:ring-4 focus:ring-red-100 transition"
+      />
+
+      <input
+        type="email"
+        name="email"
+        value={formData.email}
+        onChange={handleChange}
+        placeholder="Email Address"
+        required
+        className="w-full rounded-2xl border border-gray-300 px-5 py-4 outline-none focus:border-red-600 focus:ring-4 focus:ring-red-100 transition"
+      />
+
+      <select
+        name="service"
+        value={formData.service}
+        onChange={handleChange}
+        required
+        className="w-full rounded-2xl border border-gray-300 px-5 py-4 outline-none focus:border-red-600 focus:ring-4 focus:ring-red-100"
+      >
+
+        <option value="">Select Service</option>
+
+        <option>Modular Interiors</option>
+
+        <option>Imported Aluminium</option>
+
+        <option>False Ceiling</option>
+
+        <option>Painting & Wallpapers</option>
+
+        <option>Glass Works</option>
+
+        <option>UPVC Cupboards</option>
+
+        <option>3D Elevation</option>
+
+        <option>Vertical Garden</option>
+
+        <option>Turnkey Projects</option>
+
+      </select>
+
+      <select
+        name="budget"
+        value={formData.budget}
+        onChange={handleChange}
+        required
+        className="w-full rounded-2xl border border-gray-300 px-5 py-4 outline-none focus:border-red-600 focus:ring-4 focus:ring-red-100"
+      >
+
+        <option value="">Select Budget</option>
+
+        <option>Below ₹5 Lakhs</option>
+
+        <option>₹5–10 Lakhs</option>
+
+        <option>₹10–25 Lakhs</option>
+
+        <option>Above ₹25 Lakhs</option>
+
+      </select>
+
+      <textarea
+        rows={6}
+        name="message"
+        value={formData.message}
+        onChange={handleChange}
+        placeholder="Tell us about your project..."
+        required
+        className="w-full rounded-2xl border border-gray-300 px-5 py-4 outline-none focus:border-red-600 focus:ring-4 focus:ring-red-100 transition"
+      ></textarea>
+
+      <button
+        type="submit"
+        disabled={loading}
+        className="w-full bg-red-600 hover:bg-red-700 disabled:bg-gray-400 disabled:cursor-not-allowed text-white py-5 rounded-2xl text-lg font-bold shadow-xl hover:shadow-2xl hover:scale-[1.02] transition duration-300"
+      >
+
+        {loading
+          ? "Submitting..."
+          : "Request Free Consultation →"}
+
+      </button>
+
+      <p className="text-center text-sm text-gray-500">
+
+        🔒 Your information is safe and will only be used to contact you regarding your enquiry.
+
+      </p>
+
+    </form>
+
+  </div>
+
+</div>
+
+        </div>
+
+      </div>
+
+    </section>
         {/* ================= GOOGLE MAP ================= */}
 
 <section className="py-24 bg-[#faf8f5]">
