@@ -6,12 +6,12 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 
 const heroImages = [
-  "YOUR_HERO_IMAGE_1",
-  "YOUR_HERO_IMAGE_2",
-  "YOUR_HERO_IMAGE_3",
-  "YOUR_HERO_IMAGE_4",
-  "YOUR_HERO_IMAGE_5",
-  "YOUR_HERO_IMAGE_6",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.01.25-1.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.26-1.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.00.28.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-00.48.35.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG_20220518_202251.jpg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.00.50.jpeg",
 ];
 
 export default function Services() {
@@ -85,7 +85,7 @@ export default function Services() {
           <div className="grid lg:grid-cols-2 gap-14 items-center py-24 border-t">
 
             <img
-              src="YOUR_MODULAR_INTERIORS_IMAGE"
+              src="https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.01.17.jpeg"
               alt="Modular Interiors"
               className="h-[500px] w-full rounded-3xl object-cover shadow-2xl transition duration-500 hover:scale-105"
             />
