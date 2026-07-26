@@ -15,94 +15,25 @@ const heroImages = [
 ];
 
 export default function ContactPage() {
-  const [currentSlide, setCurrentSlide] = useState(0);
-  const [loading, setLoading] = useState(false);
 
-  const [formData, setFormData] = useState({
-    name: "",
-    phone: "",
-    email: "",
-    service: "",
-    budget: "",
-    message: "",
-  });
+  const [currentSlide, setCurrentSlide] = useState(0);
 
   useEffect(() => {
+
     const timer = setInterval(() => {
+
       setCurrentSlide((prev) => (prev + 1) % heroImages.length);
+
     }, 4000);
 
     return () => clearInterval(timer);
+
   }, []);
 
-  const handleChange = (
-    e: React.ChangeEvent<
-      HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement
-    >
-  ) => {
-    setFormData((prev) => ({
-      ...prev,
-      [e.target.name]: e.target.value,
-    }));
-  };
-
-  const handleSubmit = async (
-    e: React.FormEvent<HTMLFormElement>
-  ) => {
-    e.preventDefault();
-
-    if (
-      !formData.name ||
-      !formData.phone ||
-      !formData.email ||
-      !formData.service ||
-      !formData.budget ||
-      !formData.message
-    ) {
-      alert("Please fill all the fields.");
-      return;
-    }
-
-    setLoading(true);
-
-    try {
-      const response = await fetch(
-        "https://script.google.com/macros/s/AKfycbyS11cIalk-t5x1un_aBc3oUhwXKqKAVXWezhe_Xve-utWtNbuc5hC-gMYeMdkpsW_h6Q/exec",
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify(formData),
-        }
-      );
-
-      const result = await response.text();
-
-      if (response.ok) {
-        alert("Thank you! Your enquiry has been submitted successfully.");
-
-        setFormData({
-          name: "",
-          phone: "",
-          email: "",
-          service: "",
-          budget: "",
-          message: "",
-        });
-      } else {
-        alert(result);
-      }
-    } catch (error) {
-      console.error(error);
-      alert("Something went wrong. Please try again.");
-    } finally {
-      setLoading(false);
-    }
-  };
-
   return (
+
     <>
+
       <Header />
 
       <main className="pt-20">
