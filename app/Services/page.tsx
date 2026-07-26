@@ -311,6 +311,7 @@ export default function Services() {
             />
 
           </div>
+
                     {/* ================= 05. EXTERIOR SOLUTIONS ================= */}
 
           <div className="grid lg:grid-cols-2 gap-14 items-center py-24 border-t">
@@ -428,8 +429,7 @@ export default function Services() {
             />
 
           </div>
-
-                  {/* ================= 07. 3D DESIGNS ================= */}
+                    {/* ================= 07. 3D DESIGNS ================= */}
 
           <div className="grid lg:grid-cols-2 gap-14 items-center py-24 border-t">
 
@@ -550,8 +550,55 @@ export default function Services() {
             <img
               src="YOUR_FACADE_WORK_IMAGE"
               alt="Facade Works"
-              className="h-[500px] w-full rounded-3xl object-cover shadow-2xl transition duration-500 hover:scale
-                        {/* ================= 10. VERTICAL GARDEN ================= */}
+              className="h-[500px] w-full rounded-3xl object-cover shadow-2xl transition duration-500 hover:scale-105"
+            />
+
+            <div data-aos="fade-left">
+
+              <p className="uppercase tracking-[5px] text-red-600 font-semibold">
+                09. Facade Works
+              </p>
+
+              <h2 className="mt-4 text-4xl font-bold text-gray-900">
+                Innovative Facade Design & Installation
+              </h2>
+
+              <p className="mt-6 text-lg leading-8 text-gray-600">
+                <strong>Sai Lalit Interior & Exterior & Co.</strong> specializes
+                in innovative facade works that enhance the architectural
+                identity of residential, commercial and corporate buildings.
+                Our facade solutions combine elegance, durability and modern
+                engineering.
+              </p>
+
+              <p className="mt-5 text-lg leading-8 text-gray-600">
+                Using premium materials and expert craftsmanship, we create
+                visually striking facades that improve curb appeal while
+                ensuring long-lasting performance and low maintenance.
+              </p>
+
+              <div className="mt-8 grid grid-cols-2 gap-4 text-gray-700">
+                <p>✔ Glass Facades</p>
+                <p>✔ ACP Facades</p>
+                <p>✔ Commercial Facades</p>
+                <p>✔ Architectural Designs</p>
+                <p>✔ Modern Elevations</p>
+                <p>✔ Premium Installation</p>
+              </div>
+
+              <a
+                href="https://wa.me/918106406999"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-10 inline-block rounded-full bg-red-600 px-8 py-4 text-white transition hover:bg-red-700"
+              >
+                Get Free Consultation
+              </a>
+
+            </div>
+
+          </div>
+                    {/* ================= 10. VERTICAL GARDEN ================= */}
 
           <div className="grid lg:grid-cols-2 gap-14 items-center py-24 border-t">
 
@@ -726,8 +773,7 @@ export default function Services() {
             />
 
           </div>
-          
-               {/* ================= 13. SS RAILINGS ================= */}
+                    {/* ================= 13. SS RAILINGS ================= */}
 
           <div className="grid lg:grid-cols-2 gap-14 items-center py-24 border-t">
 
@@ -1006,7 +1052,47 @@ export default function Services() {
                 href="https://wa.me/918106406999"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-10 inline-block rounded-full bg-red-600 px-8 py-4 text-white transition hover
+                className="mt-10 inline-block rounded-full bg-red-600 px-8 py-4 text-white transition hover:bg-red-700"
+              >
+                Get Free Consultation
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        {/* ================= CALL TO ACTION ================= */}
+
+        <section className="bg-gray-900 py-24">
+
+          <div className="max-w-5xl mx-auto px-6 text-center">
+
+            <h2 className="text-4xl md:text-5xl font-bold text-white">
+              Let's Build Your Dream Space Together
+            </h2>
+
+            <p className="mt-6 text-lg leading-8 text-gray-300">
+              Whether it's a home, office or commercial project,
+              <strong> Sai Lalit Interior & Exterior & Co.</strong> is ready to
+              transform your ideas into reality with innovative designs,
+              premium materials and exceptional craftsmanship.
+            </p>
+
+            <a
+              href="https://wa.me/918106406999"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-10 inline-block rounded-full bg-red-600 px-10 py-4 text-lg font-semibold text-white transition hover:bg-red-700"
+            >
+              Book a Free Consultation
+            </a>
+
+          </div>
+
+        </section>
+          
                 {/* ================= WHY CHOOSE US ================= */}
 
         <section className="py-24 bg-white">
