@@ -14,51 +14,6 @@ const heroImages = [
   "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.22-2.jpeg",
 ];
 
-const services = [
-  {
-    image:
-      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/file_000000009fe072088dd3f6700a00e3de.png",
-    title: "Modular Interiors",
-    desc: "Premium modular kitchens, wardrobes, TV units, pooja units and customized furniture crafted for modern living.",
-    link: "/projects/modular-interiors",
-  },
-  {
-    image:
-      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.00.09.jpeg",
-    title: "Imported Aluminium",
-    desc: "Luxury sliding windows, folding doors, slim profiles and premium imported aluminium systems.",
-    link: "/projects/imported-aluminium",
-  },
-  {
-    image:
-      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.01.22.jpeg",
-    title: "Exterior Solutions",
-    desc: "ACP Cladding, elevations, facade works and premium architectural exterior finishes.",
-    link: "/projects/elevations",
-  },
-  {
-    image:
-      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-00.52.15-1.jpeg",
-    title: "False Ceiling",
-    desc: "PVC & gypsum false ceilings with designer lighting concepts and premium finishing.",
-    link: "/projects/false-ceiling",
-  },
-  {
-    image:
-      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.01.08-scaled.jpeg",
-    title: "Painting & Wallpapers",
-    desc: "Luxury wall finishes, premium wallpapers, designer textures and decorative painting solutions.",
-    link: "/projects/painting-wallpapers",
-  },
-  {
-    image:
-      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.45-2.jpeg",
-    title: "Railings & Glass Works",
-    desc: "SS railings, glass railings, partitions and customized toughened glass solutions.",
-    link: "/projects/railings-glass",
-  },
-];
-
 export default function Services() {
   const [currentSlide, setCurrentSlide] = useState(0);
 
@@ -75,149 +30,332 @@ export default function Services() {
       <Header />
 
       <main className="pt-20">
+        {/* ================= FALSE CEILING ================= */}
 
-        {/* Hero */}
+<div className="grid lg:grid-cols-2 gap-14 items-center py-24 border-t">
 
-        <section className="relative h-[90vh] overflow-hidden">
+  <div className="order-2 lg:order-1">
 
-          {heroImages.map((image, index) => (
-            <img
-              key={index}
-              src={image}
-              alt={`Slide ${index + 1}`}
-              className={`absolute inset-0 w-full h-full object-cover transition-all duration-1000 ${
-                currentSlide === index
-                  ? "opacity-100 scale-105"
-                  : "opacity-0 scale-100"
-              }`}
-            />
-          ))}
+    <p className="uppercase tracking-[5px] text-red-600 font-semibold">
+      04. False Ceiling
+    </p>
 
-          <div className="absolute inset-0 bg-black/65"></div>
+    <h3 className="mt-4 text-4xl font-bold text-gray-900">
+      Premium False Ceiling Solutions
+    </h3>
 
-          <div className="relative z-10 h-full flex items-center">
+    <p className="mt-6 text-lg leading-8 text-gray-600">
+      Transform your interiors with beautifully designed false ceilings that
+      enhance lighting, improve aesthetics and create a luxurious ambience.
+      We specialize in Gypsum, PVC, Grid and Designer ceilings for homes,
+      offices and commercial spaces.
+    </p>
 
-            <div className="max-w-7xl mx-auto px-6">
+    <p className="mt-5 text-lg leading-8 text-gray-600">
+      Every ceiling is designed according to your interior theme, ensuring
+      durability, elegant finishing and seamless integration with lighting,
+      air-conditioning and décor elements.
+    </p>
 
-              <div className="max-w-3xl">
-
-                <p className="uppercase tracking-[8px] text-red-500 font-semibold">
-                  Premium Interior & Exterior Solutions
-                </p>
-
-                <h1 className="mt-6 text-5xl lg:text-7xl font-bold text-white leading-tight">
-                  Our
-                  <br />
-                  Services
-                </h1>
-
-                <p className="mt-8 text-lg text-gray-200 leading-8">
-                  From luxury modular interiors and imported aluminium
-                  systems to false ceilings, exterior elevations, ACP
-                  cladding, glass works and customized architectural
-                  solutions, we create premium spaces that combine
-                  elegance, durability and functionality.
-                </p>
-
-                <div className="mt-12 flex flex-wrap gap-5">
-
-                  <a
-                    href="#services"
-                    className="px-8 py-4 rounded-full bg-red-600 hover:bg-red-700 transition text-white font-semibold"
-                  >
-                    Explore Services
-                  </a>
-
-                  <Link
-                    href="/contact"
-                    className="px-8 py-4 rounded-full border border-white text-white hover:bg-white hover:text-red-600 transition"
-                  >
-                    Free Consultation
-                  </Link>
-
-                </div>
-
-              </div>
-
-            </div>
-
-          </div>
-
-        </section>
-                {/* ================= SERVICES ================= */}
-{/* ================= WHAT WE OFFER ================= */}
-
-<section id="services" className="py-24 bg-[#faf8f5]">
-
-  <div className="max-w-7xl mx-auto px-6">
-
-    <div className="text-center mb-16">
-
-      <p className="uppercase tracking-[6px] text-red-600 font-semibold">
-        What We Offer
-      </p>
-
-      <h2 className="mt-4 text-5xl font-bold text-gray-900">
-        Our Premium Services
-      </h2>
-
-      <p className="mt-6 max-w-3xl mx-auto text-lg text-gray-600 leading-8">
-        We provide complete interior and exterior solutions with premium
-        materials, innovative designs and exceptional craftsmanship,
-        creating elegant spaces that are functional, durable and timeless.
-      </p>
-
+    <div className="grid grid-cols-2 gap-4 mt-8 text-gray-700">
+      <p>✔ Gypsum Ceiling</p>
+      <p>✔ PVC Ceiling</p>
+      <p>✔ Cove Lighting</p>
+      <p>✔ Designer Ceiling</p>
+      <p>✔ Office Ceiling</p>
+      <p>✔ Commercial Projects</p>
     </div>
 
-    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
-
-      {services.map((service, index) => (
-
-        <div
-          key={index}
-          className="group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-3"
-        >
-
-          <div className="overflow-hidden">
-
-            <img
-              src={service.image}
-              alt={service.title}
-              className="w-full h-72 object-cover transition duration-700 group-hover:scale-110"
-            />
-
-          </div>
-
-          <div className="p-8">
-
-            <h3 className="text-3xl font-bold text-gray-900">
-              {service.title}
-            </h3>
-
-            <p className="mt-5 text-gray-600 leading-8 text-lg">
-              {service.desc}
-            </p>
-
-            <a
-              href="https://wa.me/918106406999"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block mt-8 bg-red-600 hover:bg-red-700 text-white px-8 py-3 rounded-xl font-semibold transition duration-300 shadow-lg hover:shadow-xl"
-            >
-              Get Quote
-            </a>
-
-          </div>
-
-        </div>
-
-      ))}
-
-    </div>
+    <a
+      href="https://wa.me/918106406999"
+      target="_blank"
+      className="inline-block mt-10 px-8 py-4 bg-red-600 text-white rounded-full hover:bg-red-700 transition"
+    >
+      Get Free Consultation
+    </a>
 
   </div>
 
-</section>
+  <img
+    src="https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-00.52.15-1.jpeg"
+    alt="False Ceiling"
+    className="rounded-3xl shadow-2xl w-full h-[500px] object-cover order-1 lg:order-2"
+  />
+
+</div>
+
+{/* ================= PAINTING & WALLPAPERS ================= */}
+
+<div className="grid lg:grid-cols-2 gap-14 items-center py-24 border-t">
+
+  <img
+    src="https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.01.08-scaled.jpeg"
+    alt="Painting & Wallpapers"
+    className="rounded-3xl shadow-2xl w-full h-[500px] object-cover"
+  />
+
+  <div>
+
+    <p className="uppercase tracking-[5px] text-red-600 font-semibold">
+      05. Painting & Wallpapers
+    </p>
+
+    <h3 className="mt-4 text-4xl font-bold text-gray-900">
+      Luxury Wall Finishes & Wallpapers
+    </h3>
+
+    <p className="mt-6 text-lg leading-8 text-gray-600">
+      Give your interiors a fresh identity with premium painting solutions,
+      designer wallpapers and decorative wall finishes. Our experts create
+      elegant interiors that perfectly match your lifestyle and décor.
+    </p>
+
+    <p className="mt-5 text-lg leading-8 text-gray-600">
+      We work with premium paints, textured finishes and imported wallpapers
+      to deliver long-lasting beauty and a sophisticated appearance for every
+      room.
+    </p>
+
+    <div className="grid grid-cols-2 gap-4 mt-8 text-gray-700">
+      <p>✔ Interior Painting</p>
+      <p>✔ Exterior Painting</p>
+      <p>✔ Imported Wallpapers</p>
+      <p>✔ Texture Finishes</p>
+      <p>✔ Decorative Walls</p>
+      <p>✔ Premium Paints</p>
+    </div>
+
+    <a
+      href="https://wa.me/918106406999"
+      target="_blank"
+      className="inline-block mt-10 px-8 py-4 bg-red-600 text-white rounded-full hover:bg-red-700 transition"
+    >
+      Get Free Consultation
+    </a>
+
+  </div>
+
+</div>
+
+{/* ================= RAILINGS & GLASS WORKS ================= */}
+
+<div className="grid lg:grid-cols-2 gap-14 items-center py-24 border-t">
+
+  <div className="order-2 lg:order-1">
+
+    <p className="uppercase tracking-[5px] text-red-600 font-semibold">
+      06. Railings & Glass Works
+    </p>
+
+    <h3 className="mt-4 text-4xl font-bold text-gray-900">
+      Modern Railings & Toughened Glass Solutions
+    </h3>
+
+    <p className="mt-6 text-lg leading-8 text-gray-600">
+      Enhance safety and elegance with premium stainless steel railings,
+      glass railings, partitions and customized toughened glass
+      installations for residential and commercial spaces.
+    </p>
+
+    <p className="mt-5 text-lg leading-8 text-gray-600">
+      Our experienced professionals ensure precision installation using
+      premium-quality materials that provide durability, strength and a
+      contemporary architectural appearance.
+    </p>
+
+    <div className="grid grid-cols-2 gap-4 mt-8 text-gray-700">
+      <p>✔ SS Railings</p>
+      <p>✔ Glass Railings</p>
+      <p>✔ Toughened Glass</p>
+      <p>✔ Glass Partitions</p>
+      <p>✔ Balcony Railings</p>
+      <p>✔ Office Glass Works</p>
+    </div>
+
+    <a
+      href="https://wa.me/918106406999"
+      target="_blank"
+      className="inline-block mt-10 px-8 py-4 bg-red-600 text-white rounded-full hover:bg-red-700 transition"
+    >
+      Get Free Consultation
+    </a>
+
+  </div>
+
+  <img
+    src="https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.45-2.jpeg"
+    alt="Railings & Glass Works"
+    className="rounded-3xl shadow-2xl w-full h-[500px] object-cover order-1 lg:order-2"
+  />
+
+</div>
+        {/* ================= CUPBOARDS ================= */}
+
+<div className="grid lg:grid-cols-2 gap-14 items-center py-24 border-t">
+
+  <img
+    src="YOUR_CUPBOARDS_IMAGE"
+    alt="Cupboards"
+    className="rounded-3xl shadow-2xl w-full h-[500px] object-cover"
+  />
+
+  <div>
+
+    <p className="uppercase tracking-[5px] text-red-600 font-semibold">
+      07. Cupboards
+    </p>
+
+    <h3 className="mt-4 text-4xl font-bold text-gray-900">
+      Elegant Storage Solutions for Every Space
+    </h3>
+
+    <p className="mt-6 text-lg leading-8 text-gray-600">
+      At Sai Lalit Interior & Exterior & Co., we understand that storage is
+      just as important as style. Our custom-designed cupboards are crafted
+      to maximize storage while enhancing the beauty of your home or office.
+      From wardrobes and kitchen cupboards to office storage units and TV
+      cabinets, every design is tailored to suit your space perfectly.
+    </p>
+
+    <p className="mt-5 text-lg leading-8 text-gray-600">
+      We use premium plywood, laminates, acrylic finishes and branded
+      hardware to ensure long-lasting durability, smooth functionality and
+      elegant aesthetics that complement every interior.
+    </p>
+
+    <div className="grid grid-cols-2 gap-4 mt-8 text-gray-700">
+      <p>✔ Bedroom Wardrobes</p>
+      <p>✔ Kitchen Cupboards</p>
+      <p>✔ Office Storage</p>
+      <p>✔ TV Cabinets</p>
+      <p>✔ Customized Designs</p>
+      <p>✔ Premium Hardware</p>
+    </div>
+
+    <a
+      href="https://wa.me/918106406999"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-block mt-10 px-8 py-4 bg-red-600 text-white rounded-full hover:bg-red-700 transition"
+    >
+      Get Free Consultation
+    </a>
+
+  </div>
+
+</div>
+
+{/* ================= WPVC LOUVERS ================= */}
+
+<div className="grid lg:grid-cols-2 gap-14 items-center py-24 border-t">
+
+  <div className="order-2 lg:order-1">
+
+    <p className="uppercase tracking-[5px] text-red-600 font-semibold">
+      08. WPVC Louvers
+    </p>
+
+    <h3 className="mt-4 text-4xl font-bold text-gray-900">
+      Stylish & Durable WPVC Louvers
+    </h3>
+
+    <p className="mt-6 text-lg leading-8 text-gray-600">
+      Our premium WPVC Louvers provide the perfect combination of modern
+      aesthetics, privacy and ventilation. Designed using high-quality
+      Wood-Plastic Composite materials, they are waterproof,
+      termite-resistant and ideal for both residential and commercial
+      interiors.
+    </p>
+
+    <p className="mt-5 text-lg leading-8 text-gray-600">
+      Whether used for feature walls, ceilings, partitions or decorative
+      elements, our WPVC Louvers add elegance while requiring very little
+      maintenance throughout their lifespan.
+    </p>
+
+    <div className="grid grid-cols-2 gap-4 mt-8 text-gray-700">
+      <p>✔ Waterproof</p>
+      <p>✔ Termite Resistant</p>
+      <p>✔ Low Maintenance</p>
+      <p>✔ Modern Designs</p>
+      <p>✔ Decorative Panels</p>
+      <p>✔ Premium Finish</p>
+    </div>
+
+    <a
+      href="https://wa.me/918106406999"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-block mt-10 px-8 py-4 bg-red-600 text-white rounded-full hover:bg-red-700 transition"
+    >
+      Get Free Consultation
+    </a>
+
+  </div>
+
+  <img
+    src="YOUR_WPVC_IMAGE"
+    alt="WPVC Louvers"
+    className="rounded-3xl shadow-2xl w-full h-[500px] object-cover order-1 lg:order-2"
+  />
+
+</div>
+
+{/* ================= PVC & ALUMINIUM ACCESSORIES ================= */}
+
+<div className="grid lg:grid-cols-2 gap-14 items-center py-24 border-t">
+
+  <img
+    src="YOUR_ACCESSORIES_IMAGE"
+    alt="PVC & Aluminium Accessories"
+    className="rounded-3xl shadow-2xl w-full h-[500px] object-cover"
+  />
+
+  <div>
+
+    <p className="uppercase tracking-[5px] text-red-600 font-semibold">
+      09. PVC & Aluminium Accessories
+    </p>
+
+    <h3 className="mt-4 text-4xl font-bold text-gray-900">
+      Premium PVC & Aluminium Accessories
+    </h3>
+
+    <p className="mt-6 text-lg leading-8 text-gray-600">
+      Complete your interior and exterior projects with our premium range of
+      PVC and aluminium accessories. We provide durable, stylish and
+      high-quality products that improve both functionality and aesthetics
+      for residential and commercial spaces.
+    </p>
+
+    <p className="mt-5 text-lg leading-8 text-gray-600">
+      Every accessory is selected to meet the highest quality standards,
+      offering corrosion resistance, durability and a clean modern finish.
+      Our expert team ensures proper installation and seamless integration
+      with your project.
+    </p>
+
+    <div className="grid grid-cols-2 gap-4 mt-8 text-gray-700">
+      <p>✔ PVC Profiles</p>
+      <p>✔ Aluminium Profiles</p>
+      <p>✔ Decorative Accessories</p>
+      <p>✔ Durable Materials</p>
+      <p>✔ Modern Finishes</p>
+      <p>✔ Professional Installation</p>
+    </div>
+
+    <a
+      href="https://wa.me/918106406999"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-block mt-10 px-8 py-4 bg-red-600 text-white rounded-full hover:bg-red-700 transition"
+    >
+      Get Free Consultation
+    </a>
+
+  </div>
+
+</div>
                 {/* ================= WHY CHOOSE US ================= */}
 
         <section className="py-24 bg-white">
