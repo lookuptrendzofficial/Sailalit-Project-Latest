@@ -455,7 +455,7 @@ return (
         </div>
 
         <Link
-          href="/about"
+          href="/About"
           className="inline-flex items-center mt-12 bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-xl font-semibold shadow-lg transition duration-300"
         >
           Learn More About Our Journey →
