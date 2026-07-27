@@ -1,25 +1,48 @@
-import './globals.css';
-import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
+import "./globals.css";
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
 
-const inter = Inter({ subsets: ['latin'] });
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Sai Lalit Interior & Exterior & Co',
-  description: 'Premium Interior & Exterior Design Company in Visakhapatnam, Vijaynagaram, Hyderabad.',
+  metadataBase: new URL("https://sailalitinteriors.com"),
+
+  title: "Sai Lalit Interior & Exterior & Co.",
+  description:
+    "Premium Interior & Exterior Design Company in Visakhapatnam, Vijayawada & Hyderabad.",
+
+  icons: {
+    icon: "https://lookuptrendz.com/wp-content/uploads/2026/07/IMG-20260610-WA01197.jpg",
+    shortcut:
+      "https://lookuptrendz.com/wp-content/uploads/2026/07/IMG-20260610-WA01197.jpg",
+    apple:
+      "https://lookuptrendz.com/wp-content/uploads/2026/07/IMG-20260610-WA01197.jpg",
+  },
+
   openGraph: {
+    title: "Sai Lalit Interior & Exterior & Co.",
+    description:
+      "Premium Interior & Exterior Design Company in Visakhapatnam, Vijayawada & Hyderabad.",
+    url: "https://sailalitinteriors.com",
+    siteName: "Sai Lalit Interior & Exterior & Co.",
+    type: "website",
     images: [
       {
-        url: 'https://lookuptrendz.com/wp-content/uploads/2026/07/IMG-20260610-WA01197.jpg',
+        url: "https://lookuptrendz.com/wp-content/uploads/2026/07/IMG-20260610-WA01197.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Sai Lalit Interior & Exterior & Co.",
       },
     ],
   },
+
   twitter: {
-    card: 'summary_large_image',
+    card: "summary_large_image",
+    title: "Sai Lalit Interior & Exterior & Co.",
+    description:
+      "Premium Interior & Exterior Design Company in Visakhapatnam, Vijayawada & Hyderabad.",
     images: [
-      {
-        url: 'https://lookuptrendz.com/wp-content/uploads/2026/07/IMG-20260610-WA01197.jpg',
-      },
+      "https://lookuptrendz.com/wp-content/uploads/2026/07/IMG-20260610-WA01197.jpg",
     ],
   },
 };
