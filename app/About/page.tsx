@@ -127,7 +127,7 @@ export default function AboutPage() {
       <div className="relative">
         <div className="overflow-hidden rounded-3xl shadow-2xl">
           <img
-            src="https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/Y.-Srinivas-Rao_20260727_151312_0000.png"
+            src="https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/Y.-Srinivas-Rao_20260727_151116_0000.png"
             alt="Y. Srinivasa Rao"
             className="w-full h-[650px] object-cover"
           />
