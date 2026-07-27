@@ -331,7 +331,143 @@ return (
 
   </div>
 
-</section>                                                                                                                                                                                               
+</section>
+    {/* ================= FOUNDER ================= */}
+
+<section className="py-24 bg-gradient-to-br from-white via-gray-50 to-white">
+
+  <div className="max-w-7xl mx-auto px-6">
+
+    <div className="grid lg:grid-cols-2 gap-16 items-center">
+
+      {/* Founder Image */}
+
+      <div className="relative">
+
+        <div className="overflow-hidden rounded-[35px] shadow-2xl bg-white">
+
+          <img
+            src="https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/Y.-Srinivas-Rao_20260727_151116_0000.png"
+            alt="Y. Srinivasa Rao"
+            className="w-full h-[650px] object-contain object-center bg-white p-4"
+          />
+
+        </div>
+
+        <div className="absolute -bottom-8 -right-8 bg-red-600 text-white rounded-2xl px-8 py-6 shadow-xl">
+
+          <p className="text-sm uppercase tracking-widest opacity-80">
+            Since
+          </p>
+
+          <h3 className="text-4xl font-bold">
+            2019
+          </h3>
+
+        </div>
+
+      </div>
+
+      {/* Founder Content */}
+
+      <div>
+
+        <p className="uppercase tracking-[6px] text-red-600 font-semibold">
+          Meet Our Founder
+        </p>
+
+        <h2 className="mt-4 text-5xl font-bold text-gray-900">
+          Y. Srinivasa Rao
+        </h2>
+
+        <p className="text-2xl text-red-600 font-semibold mt-3">
+          Founder & Proprietor
+        </p>
+
+        <p className="mt-8 text-lg leading-9 text-gray-600">
+
+          With over 20 years of industry experience, Y. Srinivasa Rao founded
+          Sai Lalit Interior & Exterior & Co. in 2019 with a vision to create
+          elegant, functional and premium interior & exterior spaces that blend
+          innovation, quality craftsmanship and timeless design.
+
+        </p>
+
+        <p className="mt-6 text-lg leading-9 text-gray-600">
+
+          Today, the company has successfully completed hundreds of residential,
+          commercial and industrial projects, earning the trust of clients
+          through superior quality, transparent service and on-time project
+          delivery.
+
+        </p>
+
+        <div className="grid grid-cols-2 gap-6 mt-12">
+
+          <div className="rounded-2xl bg-white shadow-lg p-6 text-center hover:-translate-y-2 transition duration-300">
+
+            <h3 className="text-4xl font-bold text-red-600">
+              20+
+            </h3>
+
+            <p className="mt-2 text-gray-600">
+              Years Experience
+            </p>
+
+          </div>
+
+          <div className="rounded-2xl bg-white shadow-lg p-6 text-center hover:-translate-y-2 transition duration-300">
+
+            <h3 className="text-4xl font-bold text-red-600">
+              500+
+            </h3>
+
+            <p className="mt-2 text-gray-600">
+              Projects Completed
+            </p>
+
+          </div>
+
+          <div className="rounded-2xl bg-white shadow-lg p-6 text-center hover:-translate-y-2 transition duration-300">
+
+            <h3 className="text-4xl font-bold text-red-600">
+              100%
+            </h3>
+
+            <p className="mt-2 text-gray-600">
+              Quality Commitment
+            </p>
+
+          </div>
+
+          <div className="rounded-2xl bg-white shadow-lg p-6 text-center hover:-translate-y-2 transition duration-300">
+
+            <h3 className="text-4xl font-bold text-red-600">
+              24/7
+            </h3>
+
+            <p className="mt-2 text-gray-600">
+              Customer Support
+            </p>
+
+          </div>
+
+        </div>
+
+        <Link
+          href="/about"
+          className="inline-flex items-center mt-12 bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-xl font-semibold shadow-lg transition duration-300"
+        >
+          Learn More About Our Journey →
+        </Link>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
 
                                                                                                                                                     
                                                                                                                                                                                                                       
