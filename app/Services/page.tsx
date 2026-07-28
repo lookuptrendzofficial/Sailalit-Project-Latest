@@ -202,7 +202,7 @@ export default function Services() {
           <div className="grid lg:grid-cols-2 gap-14 items-center py-24 border-t">
 
             <img
-              src="YOUR_UPVC_WINDOWS_IMAGE"
+              src="https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/file_000000009fb4820eb6fb0328cc89fef0.png"
               alt="uPVC Windows & Doors"
               className="h-[500px] w-full rounded-3xl object-cover shadow-2xl transition duration-500 hover:scale-105"
             />
@@ -305,7 +305,7 @@ export default function Services() {
             </div>
 
             <img
-              src="YOUR_MESH_DOORS_IMAGE"
+              src="https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/file_00000000ff34820eaf6eabad2835edd4.png"
               alt="Mesh Doors"
               className="order-1 lg:order-2 h-[500px] w-full rounded-3xl object-cover shadow-2xl transition duration-500 hover:scale-105"
             />
@@ -317,7 +317,7 @@ export default function Services() {
           <div className="grid lg:grid-cols-2 gap-14 items-center py-24 border-t">
 
             <img
-              src="YOUR_EXTERIOR_SOLUTIONS_IMAGE"
+              src="https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.37.jpeg"
               alt="Exterior Solutions"
               className="h-[500px] w-full rounded-3xl object-cover shadow-2xl transition duration-500 hover:scale-105"
             />
@@ -423,7 +423,7 @@ export default function Services() {
             </div>
 
             <img
-              src="YOUR_BUILDING_ELEVATION_IMAGE"
+              src="https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG-20201213-WA0044.jpg"
               alt="Building Elevations"
               className="order-1 lg:order-2 h-[500px] w-full rounded-3xl object-cover shadow-2xl transition duration-500 hover:scale-105"
             />
@@ -434,7 +434,7 @@ export default function Services() {
           <div className="grid lg:grid-cols-2 gap-14 items-center py-24 border-t">
 
             <img
-              src="YOUR_3D_DESIGN_IMAGE"
+              src="https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/Screenshot_2022_1029_185838.png"
               alt="3D Designs"
               className="h-[500px] w-full rounded-3xl object-cover shadow-2xl transition duration-500 hover:scale-105"
             />
@@ -536,7 +536,7 @@ export default function Services() {
             </div>
 
             <img
-              src="YOUR_ACP_CLADDING_IMAGE"
+              src="https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG-20201213-WA0043.jpg"
               alt="ACP Cladding"
               className="order-1 lg:order-2 h-[500px] w-full rounded-3xl object-cover shadow-2xl transition duration-500 hover:scale-105"
             />
@@ -597,7 +597,7 @@ export default function Services() {
             </div>
 
             <img
-              src="YOUR_VERTICAL_GARDEN_IMAGE"
+              src="https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/Screenshot_2023_1122_204239.png"
               alt="Vertical Garden"
               className="order-1 lg:order-2 h-[500px] w-full rounded-3xl object-cover shadow-2xl transition duration-500 hover:scale-105"
             />
@@ -609,7 +609,7 @@ export default function Services() {
           <div className="grid lg:grid-cols-2 gap-14 items-center py-24 border-t">
 
             <img
-              src="YOUR_FALSE_CEILING_IMAGE"
+              src="https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.42-1.jpeg"
               alt="False Ceiling"
               className="h-[500px] w-full rounded-3xl object-cover shadow-2xl transition duration-500 hover:scale-105"
             />
@@ -713,7 +713,7 @@ export default function Services() {
             </div>
 
             <img
-              src="YOUR_WALLPAPER_IMAGE"
+              src="https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.44.jpeg"
               alt="Designer Wallpapers"
               className="order-1 lg:order-2 h-[500px] w-full rounded-3xl object-cover shadow-2xl transition duration-500 hover:scale-105"
             />
@@ -726,7 +726,7 @@ export default function Services() {
           <div className="grid lg:grid-cols-2 gap-14 items-center py-24 border-t">
 
             <img
-              src="YOUR_ALL_SERVICES_IMAGE"
+              src="https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/file_000000009bbc81faae512c180f6ad0c7.png"
               alt="All Interior & Exterior Solutions"
               className="h-[500px] w-full rounded-3xl object-cover shadow-2xl transition duration-500 hover:scale-105"
             />
