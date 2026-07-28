@@ -190,14 +190,14 @@ export default function Services() {
             </div>
 
             <img
-              src="YOUR_IMPORTED_ALUMINIUM_IMAGE"
+              src="https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/file_0000000054d071fab01b4282367d3683.png"
               alt="Imported Aluminium"
               className="order-1 lg:order-2 h-[500px] w-full rounded-3xl object-cover shadow-2xl transition duration-500 hover:scale-105"
             />
 
           </div>
 
-          {/* ================= 03. uPVC WINDOWS & DOORS ================= */}
+          {/* ================= 03. UPVC WINDOWS & DOORS ================= */}
 
           <div className="grid lg:grid-cols-2 gap-14 items-center py-24 border-t">
 
@@ -543,62 +543,8 @@ export default function Services() {
 
           </div>
 
-          {/* ================= 09. FACADE WORKS ================= */}
-
-          <div className="grid lg:grid-cols-2 gap-14 items-center py-24 border-t">
-
-            <img
-              src="YOUR_FACADE_WORK_IMAGE"
-              alt="Facade Works"
-              className="h-[500px] w-full rounded-3xl object-cover shadow-2xl transition duration-500 hover:scale-105"
-            />
-
-            <div data-aos="fade-left">
-
-              <p className="uppercase tracking-[5px] text-red-600 font-semibold">
-                09. Facade Works
-              </p>
-
-              <h2 className="mt-4 text-4xl font-bold text-gray-900">
-                Innovative Facade Design & Installation
-              </h2>
-
-              <p className="mt-6 text-lg leading-8 text-gray-600">
-                <strong>Sai Lalit Interior & Exterior & Co.</strong> specializes
-                in innovative facade works that enhance the architectural
-                identity of residential, commercial and corporate buildings.
-                Our facade solutions combine elegance, durability and modern
-                engineering.
-              </p>
-
-              <p className="mt-5 text-lg leading-8 text-gray-600">
-                Using premium materials and expert craftsmanship, we create
-                visually striking facades that improve curb appeal while
-                ensuring long-lasting performance and low maintenance.
-              </p>
-
-              <div className="mt-8 grid grid-cols-2 gap-4 text-gray-700">
-                <p>✔ Glass Facades</p>
-                <p>✔ ACP Facades</p>
-                <p>✔ Commercial Facades</p>
-                <p>✔ Architectural Designs</p>
-                <p>✔ Modern Elevations</p>
-                <p>✔ Premium Installation</p>
-              </div>
-
-              <a
-                href="https://wa.me/918106406999"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-10 inline-block rounded-full bg-red-600 px-8 py-4 text-white transition hover:bg-red-700"
-              >
-                Get Free Consultation
-              </a>
-
-            </div>
-
-          </div>
-                    {/* ================= 10. VERTICAL GARDEN ================= */}
+        
+                    {/* ================= 9. VERTICAL GARDEN ================= */}
 
           <div className="grid lg:grid-cols-2 gap-14 items-center py-24 border-t">
 
@@ -658,7 +604,7 @@ export default function Services() {
 
           </div>
 
-          {/* ================= 11. FALSE CEILING ================= */}
+          {/* ================= 10. FALSE CEILING ================= */}
 
           <div className="grid lg:grid-cols-2 gap-14 items-center py-24 border-t">
 
@@ -714,7 +660,7 @@ export default function Services() {
 
           </div>
 
-          {/* ================= 12. DESIGNER WALLPAPERS ================= */}
+          {/* ================= 11. DESIGNER WALLPAPERS ================= */}
 
           <div className="grid lg:grid-cols-2 gap-14 items-center py-24 border-t">
 
@@ -773,67 +719,9 @@ export default function Services() {
             />
 
           </div>
-                    {/* ================= 13. SS RAILINGS ================= */}
-
-          <div className="grid lg:grid-cols-2 gap-14 items-center py-24 border-t">
-
-            <img
-              src="YOUR_SS_RAILINGS_IMAGE"
-              alt="Glass Work & SS Railings"
-              className="h-[500px] w-full rounded-3xl object-cover shadow-2xl transition duration-500 hover:scale-105"
-            />
-
-            <div data-aos="fade-left">
-
-              <p className="uppercase tracking-[5px] text-red-600 font-semibold">
-                13. SS Railings
-              </p>
-
-              <h2 className="mt-4 text-4xl font-bold text-gray-900">
-                Elegant Stainless Steel Railing Solutions
-              </h2>
-
-              <p className="mt-6 text-lg leading-8 text-gray-600">
-                <strong>Sai Lalit Interior & Exterior & Co.</strong> provides
-                premium stainless steel railing solutions that combine safety,
-                durability and modern elegance. Our railings are designed to
-                complement contemporary residential and commercial spaces while
-                ensuring long-lasting performance.
-              </p>
-
-              <p className="mt-5 text-lg leading-8 text-gray-600">
-                We manufacture and install customized SS railings for
-                staircases, balconies, terraces and commercial buildings using
-                high-grade stainless steel with precision finishing and expert
-                workmanship.
-              </p>
-
-              <div className="mt-8 grid grid-cols-2 gap-4 text-gray-700">
-                <p>✔ Staircase Railings</p>
-                <p>✔ Balcony Railings</p>
-                <p>✔ Terrace Railings</p>
-                <p>✔ Glass SS Railings</p>
-                <p>✔ Hand Rail Systems</p>
-                <p>✔ Custom Designs</p>
-              </div>
-
-              <a
-                href="https://wa.me/918106406999"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-10 inline-block rounded-full bg-red-600 px-8 py-4 text-white transition hover:bg-red-700"
-              >
-                Get Free Consultation
-              </a>
-
-            </div>
-
-          </div>
 
 
-    
-
-          {/* ================= 14. ALL INTERIOR & EXTERIOR SOLUTIONS ================= */}
+          {/* ================= 12. ALL INTERIOR & EXTERIOR SOLUTIONS ================= */}
 
           <div className="grid lg:grid-cols-2 gap-14 items-center py-24 border-t">
 
