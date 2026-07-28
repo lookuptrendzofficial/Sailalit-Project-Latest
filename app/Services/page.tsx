@@ -85,7 +85,7 @@ export default function Services() {
           <div className="grid lg:grid-cols-2 gap-14 items-center py-24 border-t">
 
             <img
-              src="https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.01.17.jpeg"
+              src="https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-00.48.36.jpeg"
               alt="Modular Interiors"
               className="h-[500px] w-full rounded-3xl object-cover shadow-2xl transition duration-500 hover:scale-105"
             />
