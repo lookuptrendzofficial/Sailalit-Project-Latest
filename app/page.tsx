@@ -1097,7 +1097,72 @@ return (
             rating: "★★★★★",
             review:
               "Excellent quality and professional service."
-          }
+          },
+  {
+  name: "Rejeti Ramanagouthami",
+  rating: "★★★★★",
+  review: "Rated us 5 stars on Google."
+},
+{
+  name: "Rao Rao",
+  rating: "★★★★★",
+  review: "Rated us 5 stars on Google."
+},
+{
+  name: "Sai Venkatalaxmi",
+  rating: "★★★★★",
+  review: "Rated us 5 stars on Google."
+},
+{
+  name: "Shoban Balaga",
+  rating: "★★★★★",
+  review: "Rated us 5 stars on Google."
+},
+{
+  name: "Kummari Vandana",
+  rating: "★★★★★",
+  review: "Rated us 5 stars on Google."
+},
+{
+  name: "Divya Sam",
+  rating: "★★★★★",
+  review: "Rated us 5 stars on Google."
+},
+{
+  name: "Soumen Dutta",
+  rating: "★★★★★",
+  review: "Rated us 5 stars on Google."
+},
+{
+  name: "Jagadish",
+  rating: "★★★★★",
+  review: "Rated us 5 stars on Google."
+},
+{
+  name: "Naveen Reddy",
+  rating: "★★★★★",
+  review: "Rated us 5 stars on Google."
+},
+{
+  name: "Doogana Mohan Rao",
+  rating: "★★★★★",
+  review: "Rated us 5 stars on Google."
+},
+{
+  name: "Siripuram Lakshmana Rao",
+  rating: "★★★★★",
+  review: "Rated us 5 stars on Google."
+},
+{
+  name: "Sappa Venata Rama Krishna",
+  rating: "★★★★★",
+  review: "Rated us 5 stars on Google."
+},
+  {
+  name: "Satish Kumar",
+  rating: "★★★★☆",
+  review: "Rated us 4 stars on Google."
+}
 
         ].map((item, index) => (
 
