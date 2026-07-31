@@ -956,7 +956,7 @@ return (
 
     <div className="overflow-hidden">
 
-      <div className="review-scroll gap-6">
+      <div className="review-scroll flex gap-6 w-max">
 
         {[
           {
