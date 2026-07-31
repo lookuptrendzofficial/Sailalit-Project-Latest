@@ -918,6 +918,7 @@ return (
   </div>
 </section>
       {/* ================= TESTIMONIALS ================= */}
+{/* ================= TESTIMONIALS ================= */}
 
 <section
   id="testimonials"
@@ -956,7 +957,7 @@ return (
 
     <div className="overflow-hidden">
 
-      <div className="review-scroll flex gap-6 w-max">
+      <div className="review-scroll">
 
         {[
           {
@@ -1015,8 +1016,6 @@ return (
             review:
               "Good experience and polite work. Man of his word, Srinivas garu."
           },
-
-          // Continue in Part 2
             {
             name: "Rohit Padavanil",
             rating: "★★★★★",
@@ -1065,112 +1064,134 @@ return (
             review:
               "A gentleman with great behaviour. It was a pleasure working with him."
           },
-
-          /* Duplicate Reviews for Infinite Scroll */
-
+          {
+            name: "Rejeti Ramanagouthami",
+            rating: "★★★★★",
+            review: "Rated us 5 stars on Google."
+          },
+          {
+            name: "Rao Rao",
+            rating: "★★★★★",
+            review: "Rated us 5 stars on Google."
+          },
+          {
+            name: "Sai Venkatalaxmi",
+            rating: "★★★★★",
+            review: "Rated us 5 stars on Google."
+          },
+          {
+            name: "Shoban Balaga",
+            rating: "★★★★★",
+            review: "Rated us 5 stars on Google."
+          },
+          {
+            name: "Kummari Vandana",
+            rating: "★★★★★",
+            review: "Rated us 5 stars on Google."
+          },
+          {
+            name: "Divya Sam",
+            rating: "★★★★★",
+            review: "Rated us 5 stars on Google."
+          },
+          {
+            name: "Soumen Dutta",
+            rating: "★★★★★",
+            review: "Rated us 5 stars on Google."
+          },
+          {
+            name: "Jagadish",
+            rating: "★★★★★",
+            review: "Rated us 5 stars on Google."
+          },
+          {
+            name: "Naveen Reddy",
+            rating: "★★★★★",
+            review: "Rated us 5 stars on Google."
+          },
+          {
+            name: "Doogana Mohan Rao",
+            rating: "★★★★★",
+            review: "Rated us 5 stars on Google."
+          },
+          {
+            name: "Siripuram Lakshmana Rao",
+            rating: "★★★★★",
+            review: "Rated us 5 stars on Google."
+          },
+          {
+            name: "Sappa Venata Rama Krishna",
+            rating: "★★★★★",
+            review: "Rated us 5 stars on Google."
+          },
+          {
+            name: "Satish Kumar",
+            rating: "★★★★☆",
+            review: "Rated us 4 stars on Google."
+          },
+          ].concat([
           {
             name: "Lalith Chandra Yeddu",
             rating: "★★★★★",
             review:
-              "Best interior well trained labours and friendly workers and the work is excellent with premium imported materials."
+              "Best interior well trained labours and friendly workers and the work is excellent and this is best interior person who made this throughout and the material is imported and top class material."
           },
           {
-            name: "Rohit Padavanil",
+            name: "BYLAPOODI GOWRI",
             rating: "★★★★★",
-            review:
-              "Seamless experience from start to finish. Highly recommended for quality interiors."
+            review: "Excellent quality"
           },
           {
-            name: "Avinash Chinna",
+            name: "Mahesh Vadada",
             rating: "★★★★★",
-            review:
-              "Excellent workmanship and beautiful interior finishing. Highly satisfied."
+            review: "Great work."
           },
           {
-            name: "Vamsi Badireddi",
+            name: "prasad katta",
             rating: "★★★★★",
             review:
-              "Excellent interior designing and aluminium cupboard work."
+              "I am very satisfied and very reasonable price also."
           },
           {
-            name: "Mummana Bharat",
+            name: "Pindi Sunil Kumar",
+            rating: "★★★★★",
+            review: "Good work Srinivas garu."
+          },
+          {
+            name: "Sajeeshmadhavan Pkd",
+            rating: "★★★★★",
+            review: "Excellent quality and good service."
+          },
+          {
+            name: "Nanaji Dadi",
             rating: "★★★★★",
             review:
-              "Excellent quality and professional service."
+              "Very good quality work at a reasonable price."
           },
-  {
-  name: "Rejeti Ramanagouthami",
-  rating: "★★★★★",
-  review: "Rated us 5 stars on Google."
-},
-{
-  name: "Rao Rao",
-  rating: "★★★★★",
-  review: "Rated us 5 stars on Google."
-},
-{
-  name: "Sai Venkatalaxmi",
-  rating: "★★★★★",
-  review: "Rated us 5 stars on Google."
-},
-{
-  name: "Shoban Balaga",
-  rating: "★★★★★",
-  review: "Rated us 5 stars on Google."
-},
-{
-  name: "Kummari Vandana",
-  rating: "★★★★★",
-  review: "Rated us 5 stars on Google."
-},
-{
-  name: "Divya Sam",
-  rating: "★★★★★",
-  review: "Rated us 5 stars on Google."
-},
-{
-  name: "Soumen Dutta",
-  rating: "★★★★★",
-  review: "Rated us 5 stars on Google."
-},
-{
-  name: "Jagadish",
-  rating: "★★★★★",
-  review: "Rated us 5 stars on Google."
-},
-{
-  name: "Naveen Reddy",
-  rating: "★★★★★",
-  review: "Rated us 5 stars on Google."
-},
-{
-  name: "Doogana Mohan Rao",
-  rating: "★★★★★",
-  review: "Rated us 5 stars on Google."
-},
-{
-  name: "Siripuram Lakshmana Rao",
-  rating: "★★★★★",
-  review: "Rated us 5 stars on Google."
-},
-{
-  name: "Sappa Venata Rama Krishna",
-  rating: "★★★★★",
-  review: "Rated us 5 stars on Google."
-},
-  {
-  name: "Satish Kumar",
-  rating: "★★★★☆",
-  review: "Rated us 4 stars on Google."
-}
-
-        ].map((item, index) => (
+          {
+            name: "Bhassckar Bobbhile",
+            rating: "★★★★★",
+            review:
+              "I was completely impressed with their professionalism and work."
+          },
+          {
+            name: "NAVEEN KUMAR",
+            rating: "★★★★★",
+            review:
+              "It's simply awesome. Had a pleasant and innovative work output with this firm."
+          },
+          {
+            name: "Santanu Bhutia",
+            rating: "★★★★★",
+            review:
+              "Good experience and polite work. Man of his word, Srinivas garu."
+          }
+        ]).map((item, index) => (
 
           <div
             key={index}
             className="bg-white rounded-2xl shadow-lg border border-gray-100 p-8 w-[340px] flex-shrink-0 hover:-translate-y-2 transition duration-300"
           >
-
             <div className="text-yellow-500 text-xl mb-4">
               {item.rating}
             </div>
@@ -1180,7 +1201,6 @@ return (
             </p>
 
             <div className="mt-8">
-
               <h4 className="font-bold text-lg text-gray-900">
                 {item.name}
               </h4>
@@ -1188,9 +1208,7 @@ return (
               <p className="text-red-600 text-sm mt-1">
                 Verified Google Customer
               </p>
-
             </div>
-
           </div>
 
         ))}
@@ -1202,6 +1220,10 @@ return (
   </div>
 
 </section>
+          
+
+
+
   {/* ================= FAQ ================= */}
 
 <section id="faq" className="bg-[#faf8f5] py-20 px-6">
