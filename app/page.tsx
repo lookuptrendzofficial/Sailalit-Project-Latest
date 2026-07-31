@@ -1199,21 +1199,6 @@ return (
 
     </div>
 
-    {/* View Reviews Button */}
-
-    <div className="text-center mt-14">
-
-      <a
-        href="https://share.google/arOH558HJPvTPVUNr"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="inline-flex items-center bg-red-600 hover:bg-red-700 transition text-white px-8 py-4 rounded-md font-semibold"
-      >
-        View Google Reviews →
-      </a>
-
-    </div>
-
   </div>
 
 </section>
