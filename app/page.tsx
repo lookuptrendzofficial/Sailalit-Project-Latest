@@ -355,7 +355,7 @@ return (
         <div className="overflow-hidden rounded-[35px] shadow-2xl bg-white">
 
           <img
-            src="https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/Y.-Srinivas-Rao_20260727_151116_0000.png"
+            src="https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/1_20260730_095006_0000.png"
             alt="Y. Srinivasa Rao"
             className="w-full h-[650px] object-contain object-center bg-white p-4"
           />
