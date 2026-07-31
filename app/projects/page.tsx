@@ -351,7 +351,7 @@ export default function ProjectsPage() {
 
         <p className="mt-3 text-gray-200 leading-7 opacity-90">
 
-          Click to explore the complete gallery with premium project photographs.
+          Click to explore
 
         </p>
 
