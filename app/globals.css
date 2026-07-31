@@ -68,17 +68,25 @@ button {
   }
 }
 
-.review-scroll {
-  display: flex;
-  gap: 24px;
-  width: max-content;
-  animation: scrollReviews 35s linear infinite;
+.review-scroll{
+  display:flex;
+  gap:24px;
+  width:max-content;
+  animation:scrollReviews 120s linear infinite;
 }
 
-.review-scroll:hover {
-  animation-play-state: paused;
+.review-scroll:hover{
+  animation-play-state:paused;
 }
 
+@keyframes scrollReviews{
+  from{
+    transform:translateX(0);
+  }
+  to{
+    transform:translateX(-50%);
+  }
+}
 /* ================= SIMPLE FADE ANIMATION ================= */
 
 @keyframes fadeUp {
