@@ -193,9 +193,7 @@ export default function ContactPage() {
 
                   <p className="mt-4 text-gray-600">
 
-                    Old Karasa,
-                    Marripalem,
-                    Visakhapatnam
+                    Vizaynagaram.
 
                   </p>
 
@@ -217,10 +215,13 @@ export default function ContactPage() {
 
                   <p className="mt-4 text-gray-600">
 
-                    Vijayawada
+                    P6RV+439,
+                      Old Karasa,
+                      Marripalem,
+                      Visakhapatnam,
+                      Andhra Pradesh - 530009
                     <br />
 
-                    Hyderabad
 
                   </p>
 
@@ -278,7 +279,7 @@ export default function ContactPage() {
                   <div>
 
                     <h3 className="text-2xl font-bold">
-                      Head Office
+                      Head Office & 
                     </h3>
 
                     <p className="mt-2 text-gray-600 leading-8">
@@ -355,13 +356,7 @@ export default function ContactPage() {
 
                     <p className="mt-2 text-gray-600 leading-8">
 
-                      Vijayawada,
-                      Andhra Pradesh
-
-                      <br />
-
-                      Hyderabad,
-                      Telangana
+                      Vishakapatnam
 
                     </p>
 
