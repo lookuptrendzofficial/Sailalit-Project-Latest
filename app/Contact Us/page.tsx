@@ -284,11 +284,7 @@ export default function ContactPage() {
 
                     <p className="mt-2 text-gray-600 leading-8">
 
-                      P6RV+439,
-                      Old Karasa,
-                      Marripalem,
-                      Visakhapatnam,
-                      Andhra Pradesh - 530009
+                      Vijaynagaram
 
                     </p>
 
@@ -356,7 +352,11 @@ export default function ContactPage() {
 
                     <p className="mt-2 text-gray-600 leading-8">
 
-                      Vishakapatnam
+                      P6RV+439,
+                      Old Karasa,
+                      Marripalem,
+                      Visakhapatnam,
+                      Andhra Pradesh - 530009
 
                     </p>
 
