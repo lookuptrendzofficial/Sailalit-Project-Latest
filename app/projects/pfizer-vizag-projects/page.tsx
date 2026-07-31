@@ -9,7 +9,6 @@ const pfizerImages = [
   "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG_20210910_134702.jpg",
   "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG_20191009_154619-scaled.jpg",
   "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG_20191009_154742-scaled.jpg",
-  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.04.50-1.jpeg",
   "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG_20210908_174623-scaled.jpg",
   "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG_20210907_213652-scaled.jpg",
   "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG_20210416_103844-scaled.jpg",
