@@ -65,19 +65,19 @@ const projects = [
     title: "Pooja Mandir",
     link: "/projects/pooja-mandir",
     images: [
-      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-00.52.31-2-scaled.jpeg",
-      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.22-2.jpeg",
-      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.41-3.jpeg",
-    ],
-  },
+      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/Screenshot_2022_0129_170919.png",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/Screenshot_2022_0129_170804.png",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/Screenshot_2022_0129_170743.png",
+  ],
+      },
 
   {
     title: "Hyderabad Projects",
     link: "/projects/hyderabad-projects",
     images: [
-      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-00.48.44-scaled.jpeg",
-      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.37.jpeg",
-      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.48.jpeg",
+        "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-20.43.39.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-20.43.32.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-20.41.07.jpeg",
     ],
   },
 
@@ -85,9 +85,10 @@ const projects = [
     title: "Elevations",
     link: "/projects/elevations",
     images: [
-      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.37.jpeg",
-      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG-20201213-WA0029.jpg",
-      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.41-3.jpeg",
+        "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.39-2.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.37-1.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-00.48.29.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG_20220429_115936-scaled.jpg",
     ],
   },
 
@@ -96,17 +97,17 @@ const projects = [
     link: "/projects/3d-designs",
     images: [
       "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/Screenshot_2022_1001_091412.png",
-      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.45-2.jpeg",
-      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.48.jpeg",
-    ],
-  },
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/Screenshot_2022_1001_091254.png",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/Screenshot_2022_1001_091238.png",
+  ],
+      },
     {
     title: "Wall Designs",
     link: "/projects/wall-designs",
     images: [
       "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.41-3.jpeg",
-      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.48.jpeg",
-      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.37.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.35-2-1.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.26-1.jpeg",
     ],
   },
 
@@ -114,9 +115,10 @@ const projects = [
     title: "Vertical Gardens",
     link: "/projects/vertical-gardens",
     images: [
-      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.48.jpeg",
-      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.41-3.jpeg",
-      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.22-2.jpeg",
+        "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.48-1.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.47-1.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.47-2.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.47.jpeg",
     ],
   },
 
@@ -124,9 +126,9 @@ const projects = [
     title: "MSB Area",
     link: "/projects/msb-area",
     images: [
-      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG-20220131-WA0066.jpg",
-      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.04.50.jpeg",
-      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.48.jpeg",
+        "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG-20260725-WA0082.jpg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG-20260725-WA0096.jpg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG-20260725-WA0097.jpg",
     ],
   },
 
@@ -134,9 +136,9 @@ const projects = [
     title: "UPVC Cupboards",
     link: "/projects/upvc-cupboards",
     images: [
-      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.01.25.jpeg",
-      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.01.22.jpeg",
-      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.45-2.jpeg",
+        "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.01.32.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.01.25.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-00.45.07-2.jpeg",
     ],
   },
 
@@ -145,28 +147,28 @@ const projects = [
     link: "/projects/wash-basins",
     images: [
       "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.04.54-1.jpeg",
-      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.04.50.jpeg",
-      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.48.jpeg",
-    ],
-  },
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.00.36-scaled.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG-20211222-WA0025.jpg",
+  ],
+      },
 
   {
     title: "Pfizer Vizag Projects",
     link: "/projects/pfizer-vizag-projects",
     images: [
-      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.04.50.jpeg",
-      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG-20220131-WA0066.jpg",
-      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.41-3.jpeg",
-    ],
-  },
+      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG_20210910_134702.jpg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG_20191009_154619-scaled.jpg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG_20191009_154742-scaled.jpg",
+  ],
+      },
 
   {
     title: "SPCL Site",
     link: "/projects/spcl-site",
     images: [
-      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-06-at-02.00.54.jpeg",
-      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-06-at-01.55.39-3.jpeg",
-      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-06-23-at-01.03.48.jpeg",
+      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-06-at-02.00.54-4.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-06-at-02.00.54.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-06-at-02.00.55-2.jpeg",
     ],
   },
 
@@ -174,9 +176,9 @@ const projects = [
     title: "Rajasthan Site",
     link: "/projects/rajasthan-site",
     images: [
-      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-06-at-01.55.39-3.jpeg",
-      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-06-at-02.00.54.jpeg",
-      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/IMG-20220131-WA0066.jpg",
+      "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-06-at-01.55.39.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-06-at-01.55.39-1.jpeg",
+  "https://businessprideawards.lookuptrendz.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-06-at-01.55.39-2.jpeg",
     ],
   },
 ];
