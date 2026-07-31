@@ -571,26 +571,6 @@ export default function ContactPage() {
 
       </div>
 
-      {/* Map */}
-
-      <div className="lg:col-span-2">
-
-        <div className="rounded-[30px] overflow-hidden shadow-2xl border-8 border-white">
-
-          <iframe
-            src="https://share.google/zlWH8tyWlHr7RydNd"
-            width="100%"
-            height="600"
-            style={{ border: 0 }}
-            loading="lazy"
-            allowFullScreen
-            referrerPolicy="no-referrer-when-downgrade"
-          ></iframe>
-
-        </div>
-
-      </div>
-
     </div>
 
   </div>
